@@ -1,0 +1,15 @@
+.ficticia {
+	.ficticia-brand {
+		width: 50%;
+		height:50%;
+	}
+}
+
+@media (min-width: $screen-tablet) {
+  .ficticia {
+      .ficticia-brand {
+          width: 30%;
+          height:30%;
+      }
+    }
+}

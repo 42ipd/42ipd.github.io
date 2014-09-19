@@ -1,0 +1,150 @@
+.main-header {
+	position: fixed;
+	display: block;
+	width: 100%;
+
+	box-shadow: 0 10px 10px transparent;
+	background: $c-white;
+	z-index: 1050;
+	transition: $anim-bounce 0.5s;
+
+	ul {
+		display: inline-block;
+		margin: 0;
+	}
+
+	li { vertical-align: bottom; }
+
+	.right-nav {
+		display: inline;
+        float: right;
+	}
+
+    .navbar {
+        border: 0px;
+
+        margin: 0;
+    }
+
+    .header-link {
+        border: 2px solid #ffcf75;
+        width: 100%;
+        line-height: 1.5;
+        display: inline-block;
+    }
+
+	.navbar-default { background: $c-white; }
+
+    .navbar-collapse {
+		background: $c-white;
+
+        ul {
+            .brand-link { display: none; }
+            li {
+                text-align: center;
+                line-height: 3;
+
+                display: block;
+            }
+        }
+    }
+
+	.en,
+    .pt-br { color: $c-yellow; }
+
+    .navbar-toggle {
+        width: 100%;
+        margin-right: 0;
+
+        background: none !important;
+        border: none;
+        outline: none;
+        padding: 15px;
+
+        .brand-link { float: left; }
+
+        .icon-list-menu {
+            width: 44px;
+            height: 44px;
+            float: right;
+            padding: 8px;
+        }
+    }
+}
+
+.main-header.is-compressed {
+	box-shadow: 0 5px 0 $c-shadow-l2;
+
+	//.header-link { font-size: 20px; }
+}
+
+.brand-link {
+	display: inline-block;
+	width: 48px;
+	height: 48px;
+	margin: 0;
+	padding: 8px;
+
+	background: $c-yellow;
+	transition: $anim-bounce 0.5s ;
+}
+
+.brand { fill: $c-white; }
+
+
+//footer
+
+body { margin: 0 0 150px; }
+
+.main-footer {
+    text-align: center;
+
+    position: absolute;
+    width: 100%;
+    height: 75px;
+    margin-top: 50px;
+    padding: 25px 0;
+    left: 0;
+    bottom: 0;
+
+    background: $c-white;
+    border-top: 2px solid $c-yellow-l2;
+
+    .brand {
+        width: 24px;
+        height: 24px;
+
+        path { fill: $c-yellow; }
+    }
+}
+
+
+@media (min-width: $screen-tablet) {
+    .main-header {
+        padding: 20px;
+
+        .header-link {
+            border: 0px solid #ffcf75;
+            width: auto;
+            line-height: 1;
+            display: inline-block;
+        }
+
+        .navbar-collapse {
+            ul {
+                .brand-link {
+                    margin: 0 15px 0 0;
+                    display: block;
+                }
+
+                li {
+                    text-align: left;
+                    line-height: 1;
+
+                    display: inline-block;
+					vertical-align: middle;
+                }
+            }
+        }
+    }
+}

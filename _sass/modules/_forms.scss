@@ -1,0 +1,73 @@
+// General
+// --------------------------------------------------
+
+form {
+ 	::-webkit-input-placeholder {
+		font-weight: 400;
+		font-style: italic;
+
+		color: $c-orange;
+   	}
+
+	:-moz-placeholder {
+		font-weight: 400;
+		font-style: italic;
+
+		color: $c-orange;
+   }
+
+	::-moz-placeholder {
+		font-weight: 400;
+		font-style: italic;
+
+		color: $c-orange;
+   }
+
+	:-ms-input-placeholder {
+		font-weight: 400;
+		font-style: italic;
+
+		color: $c-orange;
+   }
+
+	input {
+		font-weight: 400;
+		font-style: italic;
+
+		width: 100%;
+		padding: 5px;
+
+		border: none;
+		outline: none;
+	}
+
+	button {
+		background: none;
+		border: none;
+		outline: none;
+	}
+}
+
+
+.blog-search {
+	font-size: 22px;
+
+	margin: 0 0 60px;
+	padding: 10px;
+
+	background: $c-yellow-l2;
+
+	input {
+		background: none;
+
+		color: $c-orange;
+	}
+
+	button {
+		text-align: right;
+
+		padding: 10px;
+
+		color: $c-orange;
+	}
+}

@@ -1,0 +1,308 @@
+// typography variables
+// --------------------------------------------------
+
+$em-space: $font-size-base;
+$en-space: $em-space/2;
+
+// general tag adjustments
+// --------------------------------------------------
+
+body { font-kerning: normal; }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-family-heading;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+a {
+    transition: 0.25s;
+
+    &:hover { text-decoration: none; }
+}
+
+::selection {
+    color: $c-yellow;
+    background: $c-yellow-l2;
+}
+
+::-moz-selection {
+    color: $c-yellow;
+    background: $c-yellow-l2;
+}
+
+// text, lists & quotes
+// --------------------------------------------------
+.textblock {
+    font-size: 20px;
+
+    margin: 0 0 50px;
+
+    color: $c-gray-d2;
+
+    p {
+        font-weight: 300;
+        line-height: 18/20;
+        text-indent: ($em-space * 2);
+
+        margin: 0;
+
+        .french-p & { text-indent: (-$em-space * 2); }
+    }
+
+    ul {
+        margin: 0;
+        padding-left: ($em-space * 2);
+    }
+
+    .subtitle {
+        font-weight: 400;
+        text-indent: 0;
+
+        margin: 10px 0;
+    }
+}
+
+.dropcap {
+    font-family: $font-family-heading;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 1;
+
+    display: inline;
+    float: left;
+    margin-right: 7px;
+    padding: 5px 10px;
+
+    color: $c-yellow-l3;
+    background: $c-yellow;
+}
+
+.first-p { text-indent: 0 !important; }
+
+.quote {
+    font-size: 18px;
+    font-style: italic;
+    text-indent: 0;
+
+    position: relative;
+    margin: ($line-height-computed) ($em-space * 2);
+    padding: $em-space * 2;
+
+    color: $c-gray;
+    border-left: 2px solid $c-yellow-l2;
+
+    &:before {
+        content: "\22";
+
+        position: absolute;
+        top: 15px;
+        left: 15px;
+    }
+
+    &:after {
+        content: "\22";
+
+        position: absolute;
+        left: 15px;
+        bottom: 10px;
+    }
+
+    .dropcap {
+        font-size: 36px;
+
+        color: $c-yellow;
+        background: $c-yellow-l2;
+    }
+}
+
+.quote-author {
+    text-align: center;
+
+    display: block;
+}
+
+.big-quote {
+    font-size: 50px;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    line-height: 1.125em;
+    letter-spacing: -0.025em;
+
+    margin: 100px 0;
+    padding: 50px 0;
+
+    background: $c-yellow-l3;
+
+    p {
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+
+        color: $c-yellow;
+    }
+
+    &:before {
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+    }
+
+    .quote-author {
+        font-family: $font-family-heading;
+        font-style: normal;
+        font-size: 28px;
+        letter-spacing: 0.025em;
+
+        color: $c-yellow;
+    }
+}
+// titles & subtitles
+// --------------------------------------------------
+.subtitle {
+    font-family: $font-family-sans-serif;
+    font-style: italic;
+    text-transform: none;
+
+    display: block;
+    margin: 10px 0;
+
+    color: $c-gray;
+}
+
+.headline {
+    font-size: 70px;
+    font-weight: 900;
+
+    margin: 0 0 30px;
+
+    color: $c-black;
+
+    .subtitle {
+        font-size: 28px;
+        line-height: (28/20);
+
+        margin-top: 0;
+    }
+}
+
+.section-title {
+    font-size: 42px;
+
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+
+    color: $c-black;
+    border-bottom: 5px solid $c-yellow-l2;
+
+    .subtitle {
+        font-size: 21px;
+        line-height: (21/20);
+    }
+}
+
+.paragraph-title {
+    font-size: 28px;
+
+    margin-top: 30px;
+
+    color: $c-gray-d2;
+
+    &:first-child {  margin-top: 0; }
+
+    .subtitle {
+        font-size: 14px;
+        line-height: (14/20);
+
+        margin-bottom: 20px;
+    }
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+
+    color: $c-black;
+}
+
+.tech-specs {
+    .title {
+        font-size: 22px;
+
+        margin: 0;
+        letter-spacing: 1px;
+    }
+}
+
+.project {
+    .section-title {
+        font-size: 18px;
+        letter-spacing: 0.1em;
+
+        color: $c-gray;
+
+        border-bottom: 2px solid $c-orange-l2;
+    }
+}
+
+.contact {
+    text-align: center;
+
+    a, p {
+        font-size: 20px;
+
+        color: $c-gray-d2;
+    }
+
+    .paragraph-title { color: $c-black; }
+}
+
+// links
+// --------------------------------------------------
+.header-link {
+    font-family: $font-family-heading;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 0.75;
+    letter-spacing: 0.0125em;
+
+    margin: 0 10px 0 0;
+
+    color: $c-yellow-l1;
+
+    &:hover { color: $c-yellow; }
+
+    &.is-active {
+        color: $c-yellow;
+
+        &:hover { color: $c-yellow-l1; }
+    }
+}
+
+// Components
+// --------------------------------------------------
+.pagination {
+    border-radius: 0;
+
+    li a {
+        color: $c-gray-l1;
+        border: none;
+
+        margin-left: 3px;
+
+        &:hover {
+            color: $c-yellow;
+            background: $c-yellow-l2;
+        }
+    }
+
+    li span {
+
+        color: $c-yellow;
+        background: $c-yellow-l2;
+
+    }
+}

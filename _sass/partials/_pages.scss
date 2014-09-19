@@ -1,0 +1,68 @@
+// front page
+// --------------------------------------------------
+
+.page-wrapper {
+    top: 150px;
+}
+
+.front-page {
+	.page-wrapper { padding-top: 0; }
+}
+
+.work {
+
+}
+
+.about {
+
+}
+
+.blog {
+
+}
+
+.project {
+	.tech-specs {
+		margin: 0 0 30px;
+		padding: 15px 15px 25px;
+
+		background: $c-gray-l3;
+
+		.title { color: $c-yellow;}
+
+		h4 {
+			font-size: 16px;
+			letter-spacing: 0.5px;
+
+			margin: 15px 0 5px;
+
+			color: $c-gray-d1;
+		}
+
+		p, span {
+			margin: 0;
+
+			color: $c-gray;
+		}
+
+		.card-icons {
+			margin: 5px 0 0;
+
+			.icon {
+				font-size: 22px;
+
+				color: $c-yellow;
+			}
+		}
+	}
+}
+
+.contact {
+	.map-frame {
+		width: 100%;
+		height: 400px;
+		margin: 0 auto 30px;
+	}
+
+    address h2 { margin: 0; }
+}

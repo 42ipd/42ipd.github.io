@@ -1,0 +1,42 @@
+<header class="main-header">
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-header">
+          <span class="sr-only">Toggle navigation</span>
+            <span>
+              <div class="brand-content">
+                <span  class="brand-link "><img class="inject-these-svgs" src="{{ site.url }}/public/images/brand.svg"></span>
+                <img class="icon-list-menu" src="{{ site.url }}/public/images/list-icon.png">
+              </div>
+            </span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="nav-header">
+
+          <ul class="list-unstyled list-inline">
+            <li><a href="{{ site.url }}" title="{{ site.title }}" class="brand-link"><img class="inject-these-svgs" src="{{ site.url }}/public/images/brand.svg"></a></li>
+
+            <li><a href="{{ site.url }}/sobre" class="header-link"{% if page.url == page.url %}class="active"{% endif %}>Sobre</a></li>
+            <li><a href="{{ site.url }}/projetos" class="header-link"{% if page.url == page.url %}class="active"{% endif %}>Projetos</a></li>
+            <li><a href="{{ site.url }}/blog" class="header-link"{% if page.url == page.url %}class="active"{% endif %}>Blog</a></li>
+            <li><a href="{{ site.url }}/contato" class="header-link"{% if page.url == page.url %}class="active"{% endif %}>Contato</a></li>
+          </ul>
+
+          <div class="right-nav">
+            {% assign posts=site.posts | where:"name", page.name | sort: 'path' %}
+            <ul class="list-unstyled list-inline">
+            {% for post in posts %}
+                <li class="lang">
+                    <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
+                </li>
+            {% endfor %}
+            </ul>
+
+            <a class='icon social-icon' href="{{ site.facebook }}" target='_blank' ><img alt="<?php echo $social['title'] ?>" src="<?php echo $social['image'] ?>"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>

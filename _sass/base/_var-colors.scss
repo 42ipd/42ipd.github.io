@@ -1,0 +1,154 @@
+//
+// Variables
+// --------------------------------------------------
+
+// Global values
+// --------------------------------------------------
+
+// Grays
+// -------------------------
+
+$gray-darker:            lighten(#000, 13.5%) !default; // #222
+$gray-dark:              lighten(#000, 20%) !default;   // #333
+$gray:                   lighten(#000, 33.5%) !default; // #555
+$gray-light:             lighten(#000, 82.5%) !default;   // #999
+$gray-lighter:           lighten(#000, 93.5%) !default; // #eee
+
+// Custom Colors
+// -------------------------
+
+//Grays
+$c-white: #FFF;
+$c-gray-l3: #f5f5f5;
+$c-gray-l2: #e5e5e5;
+$c-gray-l1: #cccccc;
+$c-gray: #9b9b9b;
+$c-gray-d1: #818181;
+$c-gray-d2: #606060;
+$c-gray-d3: #414141;
+$c-black: #000;
+
+
+// Primary Colors
+// -------------------------
+
+//Dark green
+$c-dark-green-l3: #e1efee;
+$c-dark-green-l2: #b7d9d6;
+$c-dark-green-l1: #75b5af;
+$c-dark-green: #006f65;
+$c-dark-green-d1: #005d54;
+$c-dark-green-d2: #004640;
+$c-dark-green-d3: #00302d;
+
+//Green
+$c-green-l3: #e1f8f0;
+$c-green-l2: #b7edda;
+$c-green-l1: #75dcb8;
+$c-green: #00b976;
+$c-green-d1: #009a63;
+$c-green-d2: #00734a;
+$c-green-d3: #004d33;
+
+//Yellow
+$c-yellow-l3: #fff5e1;
+$c-yellow-l2: #ffe7b7;
+$c-yellow-l1: #ffcf75;
+$c-yellow: #ffa004;
+$c-yellow-d1: #d48602;
+$c-yellow-d2: #9c6402;
+$c-yellow-d3: #684400;
+
+//Orange
+$c-orange-l3: #ffede1;
+$c-orange-l2: #ffd4b7;
+$c-orange-l1: #ffaa75;
+$c-orange: #ff5b02;
+$c-orange-d1: #d44d02;
+$c-orange-d2: #9c3a00;
+$c-orange-d3: #682800;
+
+
+// Secondary Colors
+// -------------------------
+
+//Dark blue
+$c-dark-blue-l2: #b7d2ed;
+$c-dark-blue-l1: #74a7da;
+$c-dark-blue: #0056b7;
+$c-dark-blue-d1: #004999;
+$c-dark-blue-d2: #003771;
+
+//Blue
+$c-blue-l2: #b7eff3;
+$c-blue-l1: #75dfe9;
+$c-blue: #00c0d4;
+$c-blue-d1: #009fb0;
+$c-blue-d2: #007782;
+
+//Magenta
+$c-magenta-l2: #f2b7d1;
+$c-magenta-l1: #e775a6;
+$c-magenta: #ce0054;
+$c-magenta-d1: #ab0047;
+$c-magenta-d2: #7f0036;
+
+//Purple
+$c-purple-l2: #deb7ce;
+$c-purple-l1: #bd75a0;
+$c-purple: #7f004b;
+$c-purple-d1: #6a003f;
+$c-purple-d2: #500030;
+
+
+// Custom Shadows
+// -------------------------
+
+$c-shadow-l2: rgba(0, 0, 0, 0.1);
+$c-shadow-l1: rgba(0, 0, 0, 0.25);
+$c-shadow: rgba(0, 0, 0, 0.5);
+$c-shadow-d1: rgba(0, 0, 0, 0.75);
+$c-shadow-d2: rgba(0, 0, 0, 0.9);
+
+// Custom Lights
+// -------------------------
+
+$c-light-l2: rgba(255, 255, 255, 0.1);
+$c-light-l1: rgba(255, 255, 255, 0.25);
+$c-light: rgba(255, 255, 255, 0.5);
+$c-light-d1: rgba(255, 255, 255, 0.75);
+$c-light-d2: rgba(255, 255, 255, 0.9);
+
+// Text-colors
+// -------------------------
+
+$c-default-text: $c-gray-d2;
+$c-default-link: $c-orange;
+
+// Brand colors
+// -------------------------
+
+$brand-primary:         $c-yellow !default;
+$brand-success:         $c-green !default;
+$brand-warning:         $c-magenta !default;
+$brand-danger:          $c-orange !default;
+$brand-info:            $c-gray !default;
+
+// $brand-primary:         #428bca !default;
+// $brand-success:         #5cb85c !default;
+// $brand-warning:         #f0ad4e !default;
+// $brand-danger:          #d9534f !default;
+// $brand-info:            #5bc0de !default;
+
+
+// Scaffolding
+// -------------------------
+
+$body-bg:               #fff !default;
+$text-color:            $gray-dark !default;
+
+// Links
+// -------------------------
+
+$link-color:            $brand-primary !default;
+$link-hover-color:      darken($link-color, 15%) !default;

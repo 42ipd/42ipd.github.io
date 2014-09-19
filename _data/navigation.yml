@@ -1,0 +1,8 @@
+pt-br:
+  home:
+    title: 42i
+    url: /
+en:
+  home:
+    title: 42i
+    url: /home/

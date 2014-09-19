@@ -1,0 +1,53 @@
+# Site settings
+title: 42i
+email: contato@42i.com.br
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://localhost:4000" # the base hostname & protocol for your site
+github_username:  42i-lab
+permalink: /:title/
+facebook: https://www.facebook.com/somosa42i
+phone: +55 11 3337-5448
+address: Rua General Jardim, 645, sala 62
+
+# Build settings
+markdown: kramdown
+
+# Language settings
+defaults:
+  -
+    scope:
+      path:  _posts/pt-br
+    values:
+      lang: pt-br
+      layout: default
+  -
+    scope:
+      path: _posts/en
+    values:
+      lang: en
+  -
+    scope:
+      path: _posts/pt-br/pages
+    values:
+      type: pages
+  -
+    scope:
+      path: _posts/en/pages
+    values:
+      type: pages
+  -
+    scope:
+      path: _posts/pt-br/projects
+    values:
+      type: posts
+      layout: project
+  -
+    scope:
+      path: _posts/en/projects
+    values:
+      type: posts
+      layout: project
