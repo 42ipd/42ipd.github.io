@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>42i</title>
+    <description></description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 23 Sep 2014 12:25:17 -0300</pubDate>
+    <lastBuildDate>Tue, 23 Sep 2014 12:25:17 -0300</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Apps categories</title>
+        <description>
+</description>
+        <pubDate>Mon, 22 Sep 2014 16:10:02 -0300</pubDate>
+        <link>http://localhost:4000/apps/</link>
+        <guid isPermaLink="true">http://localhost:4000/apps/</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Ecossistema de Aplicativos</title>
+        <description>&lt;p&gt;Quando falamos de aplicativos voltados para aparelhos móveis hoje, podemos os dividir em duas macro categorias:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Aplicativos disponíveis nas lojas dos sistemas (PlayStore, AppStore, Windows Store, etc);&lt;/li&gt;
+  &lt;li&gt;Aplicativos disponíveis nos navegadores (web apps);&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Começaremos pelos aplicativos disponíveis em navegadores, pois os usaremos para comparação quando formos falar dos aplicativos disponíveis em lojas.&lt;/p&gt;
+
+&lt;h3 id=&quot;aplicativos-disponveis-nos-navegadores&quot;&gt;APLICATIVOS DISPONÍVEIS NOS NAVEGADORES&lt;/h3&gt;
+&lt;p&gt;Tradicionalmente, aplicativos eram considerados peças de software feitos para rodar em um determinado sistema operacional (iOS, Android, etc). Esses aplicativos, normalmente, devem ser programados em uma linguagem específica para aquele sistema, tornando o reaproveitamento de código nulo. Na prática, isso significa um novo projeto para cada sistema que surgir.&lt;/p&gt;
+
+&lt;p&gt;Porém a medida que os sistemas foram evoluindo e seus navegadores se tornaram mais potentes, passou a ser possível usar tecnologias ligadas ao desenvolvimento de sites para criar interfaces que se comportam de forma similar aos aplicativos nativos, inclusive possibilitando “instalar” (na prática é favoritar o site como ícone) o web app direto em seu aparelho.&lt;/p&gt;
+
+&lt;h5 id=&quot;as-principais-diferenas-entre-um-site-tradicional-e-um-web-app-so&quot;&gt;As principais diferenças entre um site tradicional e um web app são:&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Web apps podem ser usados offline;&lt;/li&gt;
+  &lt;li&gt;Web apps podem usar recursos como geolocalização e câmera do celular;&lt;/li&gt;
+  &lt;li&gt;Web apps têm interfaces similares às de um app nativo;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;as-principais-diferenas-entre-um-web-app-e-um-aplicativo&quot;&gt;As principais diferenças entre um web app e um aplicativo:&lt;/h5&gt;
+
+&lt;p&gt;Web apps têm uma performance inferior à de um aplicativo nativo (animações sofisticadas são mais truncadas, não é possível montar aplicativos com componentes gráficos pesados, como 3D, de forma fluida);&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Web apps não são baixados das lojas dos sistemas, devem ser favoritados como ícone;&lt;/li&gt;
+  &lt;li&gt;Web apps podem ser atualizados sem que haja uma atualização feita pelas lojas dos aplicativos;&lt;/li&gt;
+  &lt;li&gt;Web apps funcionam em todos os aparelhos com navegadores modernos;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;aplicativos-disponveis-nas-lojas-do-sistema&quot;&gt;APLICATIVOS DISPONÍVEIS NAS LOJAS DO SISTEMA&lt;/h3&gt;
+
+&lt;h5 id=&quot;esses-aplicativos-podem-ser-dividos-em-trs-categorias&quot;&gt;Esses aplicativos podem ser dividos em três categorias:&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Aplicativos híbridos I&lt;/li&gt;
+  &lt;li&gt;Aplicativos híbridos II&lt;/li&gt;
+  &lt;li&gt;Aplicativos nativos&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Antes de discorrer sobre as particularidades de cada uma delas, vale mencionar o porquê de haver dois tipos de aplicativos híbridos: o primeiro é muito parecido com um web app, porém com alguns features nativos, o segundo está mais para o lado dos apps nativos do que dos web apps.&lt;/p&gt;
+
+&lt;h3 id=&quot;aplicativos-hbridos-i&quot;&gt;APLICATIVOS HÍBRIDOS I&lt;/h3&gt;
+&lt;p&gt;Estes são bem similares aos Web Apps, inclusive no que se diz respeito à tecnologia, ambos são desenvolvidos com tecnologias de web (HTML5, CSS3, JavaScript).&lt;/p&gt;
+
+&lt;h5 id=&quot;as-grandes-vantagens-do-aplicativo-hbrido-i-so&quot;&gt;As grandes vantagens do aplicativo híbrido I são:&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;O aplicativo poderá ser disponibilizado em loja;&lt;/li&gt;
+  &lt;li&gt;O aplicativo tem acesso a partes do hardware do aparelho, possibilitando melhoras de performance de componentes do aparelho, como por exemplo o acelerômetro e tarefas de segundo plano;&lt;/li&gt;
+  &lt;li&gt;O aplicativo tem acesso ao recebimento de push notifications;&lt;/li&gt;
+  &lt;li&gt;Base de código comum para diversos sistemas operacionais;&lt;/li&gt;
+  &lt;li&gt;Em aplicativos com transições simples, a perda de performance é bastante amenizada;&lt;/li&gt;
+  &lt;li&gt;Menor tempo de desenvolvimento;&lt;/li&gt;
+  &lt;li&gt;Desvantagens em relação aos aplicativos nativos&lt;/li&gt;
+  &lt;li&gt;Performance bastante inferior;&lt;/li&gt;
+  &lt;li&gt;Menor controle sobre o aparelho e recursos de hardware e sistema;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;aplicativos-hbridos-ii&quot;&gt;APLICATIVOS HÍBRIDOS II&lt;/h3&gt;
+&lt;p&gt;Estes estão mais próximos aos aplicativos nativos em relação à performance.&lt;/p&gt;
+
+&lt;h5 id=&quot;as-grandes-vantagens-dos-aplicativos-hbridos-ii-so&quot;&gt;As grandes vantagens dos aplicativos híbridos II são:&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Performance mais próxima aos aplicativos nativos, a diferença é imperceptível em alguns casos;&lt;/li&gt;
+  &lt;li&gt;Base de código comum para Android e iOS;&lt;/li&gt;
+  &lt;li&gt;Acesso a quase todo o hardware do aparelho;&lt;/li&gt;
+  &lt;li&gt;Acesso a push notifications;&lt;/li&gt;
+  &lt;li&gt;Menor tempo de desenvolvimento em relação ao aplicativo nativo, caso este seja desenvolvido para mais de uma plataforma;&lt;/li&gt;
+  &lt;li&gt;Desvantagens em relação aos aplicativos nativos;&lt;/li&gt;
+  &lt;li&gt;Menor controle sobre o hardware do aparelho, o que leva a alguns gargalos de memória;&lt;/li&gt;
+  &lt;li&gt;Aplicações que dependem de 3D, animações pesadas ou tarefas intensas de processamento não são viáveis;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;aplicativos-nativos&quot;&gt;APLICATIVOS NATIVOS&lt;/h3&gt;
+&lt;p&gt;Esta é sempre a opção, caso haja tanto tempo hábil quanto recursos o suficiente para o desenvolvimento, pois resultará na melhor experiência possível para o usuário.&lt;/p&gt;
+
+&lt;h5 id=&quot;as-grandes-vantagens-dos-aplicativos-nativos-so&quot;&gt;As grandes vantagens dos aplicativos nativos são:&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Acesso à todos o hardware do aparelho, possibilitando ajuste fino relacionado à otimização e performance;&lt;/li&gt;
+  &lt;li&gt;Aplicativo mais rápido, animações mais fluidas;&lt;/li&gt;
+  &lt;li&gt;Acesso a push notifications;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;desvantagens-em-relao-s-demais-opes&quot;&gt;Desvantagens em relação às demais opções:&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Maior custo e tempo de desenvolvimento&lt;/li&gt;
+  &lt;li&gt;Base de código atrelada ao sistema operacional&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 22 Sep 2014 16:10:02 -0300</pubDate>
+        <link>http://localhost:4000/blog/ecossistema de aplicativos</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/ecossistema de aplicativos</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Blog</title>
+        <description>
+</description>
+        <pubDate>Mon, 22 Sep 2014 00:00:00 -0300</pubDate>
+        <link>http://localhost:4000/blog/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Blog</title>
+        <description>
+</description>
+        <pubDate>Mon, 22 Sep 2014 00:00:00 -0300</pubDate>
+        <link>http://localhost:4000/blog/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Projects</title>
+        <description>
+</description>
+        <pubDate>Fri, 19 Sep 2014 00:00:00 -0300</pubDate>
+        <link>http://localhost:4000/projects/</link>
+        <guid isPermaLink="true">http://localhost:4000/projects/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Projects</title>
+        <description>
+</description>
+        <pubDate>Fri, 19 Sep 2014 00:00:00 -0300</pubDate>
+        <link>http://localhost:4000/projects/</link>
+        <guid isPermaLink="true">http://localhost:4000/projects/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Index</title>
+        <description>
+</description>
+        <pubDate>Fri, 19 Sep 2014 00:00:00 -0300</pubDate>
+        <link>http://localhost:4000/index/</link>
+        <guid isPermaLink="true">http://localhost:4000/index/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Index</title>
+        <description>
+</description>
+        <pubDate>Fri, 19 Sep 2014 00:00:00 -0300</pubDate>
+        <link>http://localhost:4000/index/</link>
+        <guid isPermaLink="true">http://localhost:4000/index/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Contact</title>
+        <description>
+</description>
+        <pubDate>Fri, 19 Sep 2014 00:00:00 -0300</pubDate>
+        <link>http://localhost:4000/contact/</link>
+        <guid isPermaLink="true">http://localhost:4000/contact/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Contact</title>
+        <description>
+</description>
+        <pubDate>Fri, 19 Sep 2014 00:00:00 -0300</pubDate>
+        <link>http://localhost:4000/contact/</link>
+        <guid isPermaLink="true">http://localhost:4000/contact/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

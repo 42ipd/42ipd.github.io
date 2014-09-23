@@ -1,0 +1,72 @@
+---
+layout: default
+---
+
+<section class="project">
+  <div class="page-wrapper">
+    <div class="container-fluid project-cover">
+      <div class="project-cover-info">
+        <div class="aligner">
+          <div class="front-holder">
+            <img src="{{ site.imgurl}}/{{ page.project-img }}" alt="">
+          </div>
+        </div>
+      </div>
+      <img src="{{ site.imgurl}}/{{ page.project-thumb }}" alt="">
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3">
+
+          <div class="tech-specs">
+            <h3 class="title">{{ site.data.project.[page.lang].tech-specs }}</h3>
+            <h4>{{ page..data.project.[page.lang].project-link }}</h4>
+            <a href="{{ page.project-link }}" title="" target="_blank" >{{ page.project }}</a>
+
+            <h4>{{ site.data.project.[page.lang].client }}</h4>
+            <span>{{ page.client }}</span>
+
+            <h4>{{ site.data.project.[page.lang].year }}</h4>
+            <div class="bar-separation">
+            {{ page.year }}
+            </div>
+
+            <h4>{{ site.data.project.[page.lang].project-type }}</h4>
+            <span>{{ page.project-type }}</span>
+
+            <h4>{{ site.data.project.[page.lang].platforms }}</h4>
+            <div class="card-icons">
+              {% for icon in page.icons %}
+
+              <span class="icon icon-1 icon-{{ page.icon }}" data-toggle="tooltip" data-placement="bottom" title="{{ page.icon }}"></span>
+
+              {% endfor %}
+            </div>
+
+            <h4>{{ page.{{ site.data.project.[page.lang].techs }} }}</h4>
+              <div class="comma-separation">
+                {% for icon in page.icons %}
+
+                <span>{{ page.techs }}</span>
+
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-9">
+            <h1 class="headline">
+              {{ page.title }}
+              <p class="subtitle">{{ page.subtitle }}</p>
+            </h1>
+
+            <div class="textblock">
+              <p class="first-p">{{ page.intro }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,17 +1,14 @@
 # Site settings
-title: 42i
-email: contato@42i.com.br
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://localhost:4000" # the base hostname & protocol for your site
-github_username:  42i-lab
+url:  "http://localhost:4000" # the base hostname & protocol for your site
+imgurl: "http://localhost:4000/public/images"
+
 permalink: /:title/
-facebook: https://www.facebook.com/somosa42i
-phone: +55 11 3337-5448
-address: Rua General Jardim, 645, sala 62
+
+paginate_path: "blog/page:num"
+paginate: 10
+destination: "blog/page"
+
 
 # Build settings
 markdown: kramdown
@@ -20,34 +17,21 @@ markdown: kramdown
 defaults:
   -
     scope:
-      path:  _posts/pt-br
+      path:  "_posts/pt-br"
     values:
-      lang: pt-br
-      layout: default
+      lang: "pt-br"
   -
     scope:
-      path: _posts/en
+      path: "_posts/en"
     values:
-      lang: en
+      lang: "en"
   -
     scope:
-      path: _posts/pt-br/pages
+      path: "_posts/pt-br/pages"
     values:
-      type: pages
+      type: "pages"
   -
     scope:
-      path: _posts/en/pages
+      path: "_posts/en/pages"
     values:
-      type: pages
-  -
-    scope:
-      path: _posts/pt-br/projects
-    values:
-      type: posts
-      layout: project
-  -
-    scope:
-      path: _posts/en/projects
-    values:
-      type: posts
-      layout: project
+      type: "pages"

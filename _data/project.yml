@@ -1,0 +1,18 @@
+pt-br:
+  tech-specs: "Ficha-Técnica"
+  project-link: "Link do projeto"
+  client: "Cliente"
+  year: "Ano"
+  project-type: "Tipo"
+  platforms: "Plataformas"
+  techs: "Tecnologias"
+
+
+en:
+  tech-specs: "Tech-Specs"
+  project-link: "Projects link"
+  client: "Client"
+  year: "Year"
+  project-type: "Type"
+  platforms: "Platforms"
+  techs: "Techs"

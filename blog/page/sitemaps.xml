@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+    <url>
+      <loc>http://localhost:4000/apps/</loc>
+      
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/apps/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/blog/ecossistema de aplicativos" />
+      
+      <lastmod>2014-09-22T16:10:02-03:00</lastmod>
+      <changefreq>weekly</changefreq>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/ecossistema de aplicativos</loc>
+      
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/apps/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/blog/ecossistema de aplicativos" />
+      
+      <lastmod>2014-09-22T16:10:02-03:00</lastmod>
+      <changefreq>weekly</changefreq>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/</loc>
+      
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/blog/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/blog/" />
+      
+      <lastmod>2014-09-22T00:00:00-03:00</lastmod>
+      <changefreq>weekly</changefreq>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/</loc>
+      
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/blog/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/blog/" />
+      
+      <lastmod>2014-09-22T00:00:00-03:00</lastmod>
+      <changefreq>weekly</changefreq>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/projects/</loc>
+      
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/projects/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/projects/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/index/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/index/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/contact/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/contact/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/about/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/about/" />
+      
+      <lastmod>2014-09-19T00:00:00-03:00</lastmod>
+      <changefreq>weekly</changefreq>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/projects/</loc>
+      
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/projects/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/projects/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/index/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/index/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/contact/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/contact/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/about/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/about/" />
+      
+      <lastmod>2014-09-19T00:00:00-03:00</lastmod>
+      <changefreq>weekly</changefreq>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/index/</loc>
+      
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/projects/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/projects/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/index/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/index/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/contact/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/contact/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/about/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/about/" />
+      
+      <lastmod>2014-09-19T00:00:00-03:00</lastmod>
+      <changefreq>weekly</changefreq>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/index/</loc>
+      
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/projects/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/projects/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/index/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/index/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/contact/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/contact/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/about/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/about/" />
+      
+      <lastmod>2014-09-19T00:00:00-03:00</lastmod>
+      <changefreq>weekly</changefreq>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/contact/</loc>
+      
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/projects/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/projects/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/index/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/index/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/contact/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/contact/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/about/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/about/" />
+      
+      <lastmod>2014-09-19T00:00:00-03:00</lastmod>
+      <changefreq>weekly</changefreq>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/contact/</loc>
+      
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/projects/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/projects/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/index/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/index/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/contact/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/contact/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/about/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/about/" />
+      
+      <lastmod>2014-09-19T00:00:00-03:00</lastmod>
+      <changefreq>weekly</changefreq>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/about/</loc>
+      
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/projects/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/projects/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/index/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/index/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/contact/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/contact/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/about/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/about/" />
+      
+      <lastmod>2014-09-19T00:00:00-03:00</lastmod>
+      <changefreq>weekly</changefreq>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/about/</loc>
+      
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/projects/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/projects/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/index/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/index/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/contact/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/contact/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/about/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/about/" />
+      
+      <lastmod>2014-09-19T00:00:00-03:00</lastmod>
+      <changefreq>weekly</changefreq>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/netmiles/</loc>
+      
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/netmiles/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/netmiles/" />
+      
+      <lastmod>2014-09-18T16:10:02-03:00</lastmod>
+      <changefreq>weekly</changefreq>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/netmiles/</loc>
+      
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/netmiles/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/netmiles/" />
+      
+      <lastmod>2014-09-18T16:10:02-03:00</lastmod>
+      <changefreq>weekly</changefreq>
+    </url>
+  
+</urlset>

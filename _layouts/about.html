@@ -1,45 +1,33 @@
-<!DOCTYPE html>
-<html>
+---
+layout: default
+---
 
-  {% include head.html %}
+<section class="about">
+  <div class="page-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="textblock">
+            <h2 class="paragraph-title">{{ site.data.about.[page.lang].title-1 }}</h2>
+            <p class=first-p>{{ site.data.about.[page.lang].text-1 }}</p>
+          </div>
 
-  <body>
+          <div class="textblock">
+            <h2 class="paragraph-title">{{ site.data.about.[page.lang].title-2 }}</h2>
+            <p class=first-p>{{ site.data.about.[page.lang].text-2 }}</p>
+          </div>
 
-    {% include header.html %}
+          <div class="textblock">
+            <h2 class="paragraph-title">{{ site.data.about.[page.lang].title-3 }}</h2>
+            <p class=first-p>{{ site.data.about.[page.lang].text-3 }}</p>
+          </div>
 
-    <section class="about">
-      <div class="page-wrapper">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-              <div class="textblock">
-                <h2 class="paragraph-title">{{ page.title-1 }}</h2>
-                <p class=first-p>{{ page.text-1 }}</p>
-              </div>
-
-              <div class="textblock">
-                <h2 class="paragraph-title">{{ page.title-2 }}</h2>
-                <p class=first-p>{{ page.text-2 }}</p>
-              </div>
-
-              <div class="textblock">
-                <h2 class="paragraph-title">{{ page.title-3 }}</h2>
-                <p class=first-p>{{ page.text-3 }}</p>
-              </div>
-
-              <div class="textblock">
-                <h2 class="paragraph-title">{{ page.title-4 }}</h2>
-                <p class=first-p>{{ page.text-4 }}</p>
-              </div>
-            </div>
+          <div class="textblock">
+            <h2 class="paragraph-title">{{ site.data.about.[page.lang].title-4 }}</h2>
+            <p class=first-p>{{ site.data.about.[page.lang].text-4 }}</p>
           </div>
         </div>
       </div>
-    </section>
-
-    {% include footer.html %}
-    {% include tail.html %}
-
-  </body>
-
-</html>
+    </div>
+  </div>
+</section>

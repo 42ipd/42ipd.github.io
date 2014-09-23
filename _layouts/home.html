@@ -5,53 +5,52 @@
 
   <body>
 
-    {% include header.html %}
-
     <section class="front-page">
-    <div class="page-wrapper">
+      <div class="page-wrapper">
         <div class="container">
-            <a href="{{ site.url }}" class="brand-frame"><img class="inject-these-svgs" src="{{ site.url }}/public/images/brand.svg"></a>
+          <a href="{{ site.data.navigation.[page.lang].home.url }}" class="brand-frame"><img class="inject-these-svgs" src="{{ site.imgurl }}/brand.svg"></a>
 
-            <div class="home-links">
-                <a class="big-link" href="{{ site.url }}/{{ page.about }}">
-                    <span class="link-title">{{ page.about }}</span>
-                    <div class="link-subtitles">
-                        <span class="link-sub-1">{{ page.about-sub-1 }}</span>
-                        <span class="link-sub-2">{{ page.about-sub-2 }}</span>
-                        <span class="link-sub-3">{{ page.about-sub-3 }}</span>
-                    </div>
-                </a>
+          <div class="home-links">
+            <a class="big-link" href="{{ site.url }}{{ site.data.navigation.[page.lang].about.url }}">
+              <span class="link-title">{{ site.data.navigation.[page.lang].about.title }}</span>
+              <div class="link-subtitles">
+                <span class="link-sub-1">{{ site.data.home.[page.lang].about-sub-1 }}</span>
+                <span class="link-sub-2">{{ site.data.home.[page.lang].about-sub-2 }}</span>
+                <span class="link-sub-3">{{ site.data.home.[page.lang].about-sub-3 }}</span>
+              </div>
+            </a>
 
-                <a class="big-link" href="{{ site.url }}/{{ page.projects }}">
-                    <span class="link-title">{{ page.projects }}</span>
-                    <div class="link-subtitles">
-                        <span class="link-sub-1">{{ page.projects-sub-1 }}</span>
-                        <span class="link-sub-2">{{ page.projects-sub-2 }}</span>
-                        <span class="link-sub-3">{{ page.projects-sub-3 }}</span>
-                    </div>
-                </a>
+            <a class="big-link" href="{{ site.url }}{{ site.data.navigation.[page.lang].projects.url }}">
+              <span class="link-title">{{ site.data.navigation.[page.lang].projects.title }}</span>
+              <div class="link-subtitles">
+                <span class="link-sub-1">{{ site.data.home.[page.lang].projects-sub-1 }}</span>
+                <span class="link-sub-2">{{ site.data.home.[page.lang].projects-sub-2 }}</span>
+                <span class="link-sub-3">{{ site.data.home.[page.lang].projects-sub-3 }}</span>
+              </div>
+            </a>
 
-                <a class="big-link" href="{{ site.url }}/{{ page.blog }}">
-                    <span class="link-title">{{ page.blog }}</span>
-                    <div class="link-subtitles">
-                        <span class="link-sub-1">{{ page.blog-sub-1 }}</span>
-                        <span class="link-sub-2">{{ page.blog-sub-2 }}</span>
-                        <span class="link-sub-3">{{ page.blog-sub-3 }}</span>
-                    </div>
-                </a>
+            <a class="big-link" href="{{ site.url }}{{ site.data.navigation.[page.lang].blog.url }}">
+              <span class="link-title">{{ site.data.navigation.[page.lang].blog.title }}</span>
+              <div class="link-subtitles">
+                <span class="link-sub-1">{{ site.data.home.[page.lang].blog-sub-1 }}</span>
+                <span class="link-sub-2">{{ site.data.home.[page.lang].blog-sub-2 }}</span>
+                <span class="link-sub-3">{{ site.data.home.[page.lang].blog-sub-3 }}</span>
+              </div>
+            </a>
 
-                <a class="big-link" href="{{ site.url }}/{{ page.contact }}">
-                    <span class="link-title">{{ page.contact }}</span>
-                    <div class="link-subtitles">
-                        <span class="link-sub-1">{{ page.contact-sub-1 }}</span>
-                        <span class="link-sub-2">{{ page.contact-sub-2 }}</span>
-                        <span class="link-sub-3">{{ page.contact-sub-3 }}</span>
-                    </div>
-                </a>
-            </div>
+            <a class="big-link" href="{{ site.url }}{{ site.data.navigation.[page.lang].contact.url }}">
+              <span class="link-title">{{ site.data.navigation.[page.lang].contact.title }}</span>
+              <div class="link-subtitles">
+                <span class="link-sub-1">{{ site.data.home.[page.lang].contact-sub-1 }}</span>
+                <span class="link-sub-2">{{ site.data.home.[page.lang].contact-sub-2 }}</span>
+                <span class="link-sub-3">{{ site.data.home.[page.lang].contact-sub-3 }}</span>
+              </div>
+            </a>
+
+          </div>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
     {% include footer.html %}
     {% include tail.html %}

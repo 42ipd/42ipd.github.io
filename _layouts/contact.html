@@ -1,43 +1,31 @@
-<!DOCTYPE html>
-<html>
+---
+layout: default
+---
 
-  {% include head.html %}
-
-  <body>
-
-    {% include header.html %}
-
-    <section class="contact">
-      <div class="page-wrapper">
-        <div class="container">
-          <ul class="list-unstyled">
-            <div id="map-canvas" class="map-frame"></div>
-            <li>
-              <address>
-                <h2 class="paragraph-title">{{ page.address }}</h2>
-                <p>{{ site.address }}</p>
-              </address>
-            </li>
-            <li>
-              <address>
-                <h2 class="paragraph-title">{{ page.phone }}</h2>
-                <a href="11 <?php echo $phone; ?>" title="<?php echo $phone; ?>">{{ site.phone }}</p>
-              </address>
-            </li>
-            <li>
-              <address>
-                <h2 class="paragraph-title">{{ page.email }}</h2>
-                <a href="mailto:<?php echo $email; ?>" title="<?php echo $email; ?>">{{ site.email }}</a>
-              </address>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    {% include footer.html %}
-    {% include tail.html %}
-
-  </body>
-
-</html>
+<section class="contact">
+  <div class="page-wrapper">
+    <div class="container">
+      <ul class="list-unstyled">
+        <div id="map-canvas" class="map-frame"></div>
+        <li>
+          <address>
+            <h2 class="paragraph-title">{{ site.data.contact.[page.lang].address }}</h2>
+            <p>{{ site.data.strings.address }}</p>
+          </address>
+        </li>
+        <li>
+          <address>
+            <h2 class="paragraph-title">{{ site.data.contact.[page.lang].phone }}</h2>
+            <a href="tel:{{ site.data.strings.phone }}" title="{{ site.data.strings.phone }}">{{ site.data.strings.phone }}</p>
+          </address>
+        </li>
+        <li>
+          <address>
+            <h2 class="paragraph-title">{{ site.data.contact.[page.lang].email }}</h2>
+            <a href="mailto:{{ site.data.strings.email }}" title="{{ site.data.strings.email }}">{{ site.data.strings.email }}</a>
+          </address>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>

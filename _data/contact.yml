@@ -1,0 +1,11 @@
+pt-br:
+  title: "Contato"
+  address: "Endereço"
+  phone: "Telefone"
+  email: "Email"
+
+en:
+  title: "Contact"
+  address: "Address"
+  phone: "Phone"
+  email: "Email"

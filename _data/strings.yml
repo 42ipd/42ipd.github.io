@@ -1,6 +1,21 @@
+title: 42i
+email: contato@42i.com.br
+facebook: https://www.facebook.com/somosa42i
+phone: +55 11 3337-5448
+address: Rua General Jardim, 645, sala 62
+github_username:  42i-lab
+
+
 pt-br:
-  description: >
-    Descrição do site
+  title: 42i - Produtora Digital Independente
+
+  description: Descrição do site
+
+  search: Busca
+
 en:
-  description: >
-    Site's description
+  title: 42i - Independent Digital Producer
+
+  description: Site's description
+
+  search: Search
