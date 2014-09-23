@@ -7,19 +7,19 @@
       
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/apps/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/blog/ecossistema de aplicativos" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/apps/" />
       
       <lastmod>2014-09-22T16:10:02-03:00</lastmod>
       <changefreq>weekly</changefreq>
     </url>
   
     <url>
-      <loc>http://localhost:4000/blog/ecossistema de aplicativos</loc>
+      <loc>http://localhost:4000/apps/</loc>
       
       
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/apps/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/blog/ecossistema de aplicativos" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/apps/" />
       
       <lastmod>2014-09-22T16:10:02-03:00</lastmod>
       <changefreq>weekly</changefreq>
@@ -31,43 +31,43 @@
       
         <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/blog/" />
       
-        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/blog/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/journal/" />
       
       <lastmod>2014-09-22T00:00:00-03:00</lastmod>
       <changefreq>weekly</changefreq>
     </url>
   
     <url>
-      <loc>http://localhost:4000/blog/</loc>
+      <loc>http://localhost:4000/journal/</loc>
       
       
         <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/blog/" />
       
-        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/blog/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/journal/" />
       
       <lastmod>2014-09-22T00:00:00-03:00</lastmod>
       <changefreq>weekly</changefreq>
     </url>
   
     <url>
-      <loc>http://localhost:4000/projects/</loc>
+      <loc>http://localhost:4000/projetos/</loc>
       
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/projects/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/projetos/" />
       
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/projects/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/index/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/" />
       
-        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/index/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/home/" />
       
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/contact/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/contact/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/contato/" />
       
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/about/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/about/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/sobre/" />
       
       <lastmod>2014-09-19T00:00:00-03:00</lastmod>
       <changefreq>weekly</changefreq>
@@ -77,93 +77,69 @@
       <loc>http://localhost:4000/projects/</loc>
       
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/projects/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/projetos/" />
       
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/projects/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/index/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/" />
       
-        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/index/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/home/" />
       
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/contact/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/contact/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/contato/" />
       
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/about/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/about/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/sobre/" />
       
       <lastmod>2014-09-19T00:00:00-03:00</lastmod>
       <changefreq>weekly</changefreq>
     </url>
   
     <url>
-      <loc>http://localhost:4000/index/</loc>
+      <loc>http://localhost:4000/</loc>
       
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/projects/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/projetos/" />
       
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/projects/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/index/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/" />
       
-        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/index/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/home/" />
       
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/contact/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/contact/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/contato/" />
       
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/about/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/about/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/sobre/" />
       
       <lastmod>2014-09-19T00:00:00-03:00</lastmod>
       <changefreq>weekly</changefreq>
     </url>
   
     <url>
-      <loc>http://localhost:4000/index/</loc>
+      <loc>http://localhost:4000/home/</loc>
       
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/projects/" />
-      
-        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/projects/" />
-      
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/index/" />
-      
-        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/index/" />
-      
-        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/contact/" />
-      
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/contact/" />
-      
-        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/about/" />
-      
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/about/" />
-      
-      <lastmod>2014-09-19T00:00:00-03:00</lastmod>
-      <changefreq>weekly</changefreq>
-    </url>
-  
-    <url>
-      <loc>http://localhost:4000/contact/</loc>
-      
-      
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/projects/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/projetos/" />
       
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/projects/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/index/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/" />
       
-        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/index/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/home/" />
       
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/contact/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/contact/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/contato/" />
       
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/about/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/about/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/sobre/" />
       
       <lastmod>2014-09-19T00:00:00-03:00</lastmod>
       <changefreq>weekly</changefreq>
@@ -173,21 +149,45 @@
       <loc>http://localhost:4000/contact/</loc>
       
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/projects/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/projetos/" />
       
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/projects/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/index/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/" />
       
-        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/index/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/home/" />
       
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/contact/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/contact/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/contato/" />
       
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/about/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/about/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/sobre/" />
+      
+      <lastmod>2014-09-19T00:00:00-03:00</lastmod>
+      <changefreq>weekly</changefreq>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/contato/</loc>
+      
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/projetos/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/projects/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/home/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/contact/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/contato/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/about/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/sobre/" />
       
       <lastmod>2014-09-19T00:00:00-03:00</lastmod>
       <changefreq>weekly</changefreq>
@@ -197,45 +197,45 @@
       <loc>http://localhost:4000/about/</loc>
       
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/projects/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/projetos/" />
       
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/projects/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/index/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/" />
       
-        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/index/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/home/" />
       
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/contact/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/contact/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/contato/" />
       
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/about/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/about/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/sobre/" />
       
       <lastmod>2014-09-19T00:00:00-03:00</lastmod>
       <changefreq>weekly</changefreq>
     </url>
   
     <url>
-      <loc>http://localhost:4000/about/</loc>
+      <loc>http://localhost:4000/sobre/</loc>
       
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/projects/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/projetos/" />
       
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/projects/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/index/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/" />
       
-        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/index/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/home/" />
       
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/contact/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/contact/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/contato/" />
       
         <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/about/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/about/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:4000/sobre/" />
       
       <lastmod>2014-09-19T00:00:00-03:00</lastmod>
       <changefreq>weekly</changefreq>

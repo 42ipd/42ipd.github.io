@@ -18,19 +18,21 @@
           <ul class="list-unstyled list-inline">
             <li><a href="{{ site.url }}" title="{{ site.data.strings.title }}" class="brand-link"><img class="inject-these-svgs" src="{{ site.imgurl }}/brand.svg"></a></li>
 
-            {% for page in links %}
-            {% if page.name != 'index' %}
-              <li><a href="{{ page.url }}" class="header-link" title="{{ page.title }}">{{ page.title }}</a></li>
+            {% for menu in site.data.navigation[page.lang] %}
+
+            {% if menu[1].title != '42i' %}
+              <li><a href="{{ menu[1].url }}" class="header-link" title="{{ menu[1].title }}">{{ menu[1].title }}</a></li>
             {% endif %}
+
             {% endfor %}
           </ul>
 
           <div class="right-nav">
-          {% assign language=site.posts | where:"name", page.name | sort: 'path' %}
             <ul class="list-unstyled list-inline">
-            {% for post in language %}
-                <li class="lang">
-                    <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
+              {% assign language = site.posts | where:"name", page.name | sort: 'path' %}
+              {% for post in language %}
+              <li class="lang">
+                <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
                 </li>
             {% endfor %}
             </ul>

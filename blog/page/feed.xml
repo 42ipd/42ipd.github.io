@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>42i</title>
-    <description></description>
+    <description>Descrição do site</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 23 Sep 2014 12:25:17 -0300</pubDate>
-    <lastBuildDate>Tue, 23 Sep 2014 12:25:17 -0300</lastBuildDate>
+    <pubDate>Tue, 23 Sep 2014 14:39:36 -0300</pubDate>
+    <lastBuildDate>Tue, 23 Sep 2014 14:39:36 -0300</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -120,8 +120,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Mon, 22 Sep 2014 16:10:02 -0300</pubDate>
-        <link>http://localhost:4000/blog/ecossistema de aplicativos</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/ecossistema de aplicativos</guid>
+        <link>http://localhost:4000/apps/</link>
+        <guid isPermaLink="true">http://localhost:4000/apps/</guid>
         
         
         <category>blog</category>
@@ -129,7 +129,7 @@
       </item>
     
       <item>
-        <title>Blog</title>
+        <title>blog</title>
         <description>
 </description>
         <pubDate>Mon, 22 Sep 2014 00:00:00 -0300</pubDate>
@@ -140,29 +140,29 @@
       </item>
     
       <item>
-        <title>Blog</title>
+        <title>journal</title>
         <description>
 </description>
         <pubDate>Mon, 22 Sep 2014 00:00:00 -0300</pubDate>
-        <link>http://localhost:4000/blog/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/</guid>
+        <link>http://localhost:4000/journal/</link>
+        <guid isPermaLink="true">http://localhost:4000/journal/</guid>
         
         
       </item>
     
       <item>
-        <title>Projects</title>
+        <title>projetos</title>
         <description>
 </description>
         <pubDate>Fri, 19 Sep 2014 00:00:00 -0300</pubDate>
-        <link>http://localhost:4000/projects/</link>
-        <guid isPermaLink="true">http://localhost:4000/projects/</guid>
+        <link>http://localhost:4000/projetos/</link>
+        <guid isPermaLink="true">http://localhost:4000/projetos/</guid>
         
         
       </item>
     
       <item>
-        <title>Projects</title>
+        <title>projects</title>
         <description>
 </description>
         <pubDate>Fri, 19 Sep 2014 00:00:00 -0300</pubDate>
@@ -177,8 +177,8 @@
         <description>
 </description>
         <pubDate>Fri, 19 Sep 2014 00:00:00 -0300</pubDate>
-        <link>http://localhost:4000/index/</link>
-        <guid isPermaLink="true">http://localhost:4000/index/</guid>
+        <link>http://localhost:4000/</link>
+        <guid isPermaLink="true">http://localhost:4000/</guid>
         
         
       </item>
@@ -188,14 +188,14 @@
         <description>
 </description>
         <pubDate>Fri, 19 Sep 2014 00:00:00 -0300</pubDate>
-        <link>http://localhost:4000/index/</link>
-        <guid isPermaLink="true">http://localhost:4000/index/</guid>
+        <link>http://localhost:4000/home/</link>
+        <guid isPermaLink="true">http://localhost:4000/home/</guid>
         
         
       </item>
     
       <item>
-        <title>Contact</title>
+        <title>contact</title>
         <description>
 </description>
         <pubDate>Fri, 19 Sep 2014 00:00:00 -0300</pubDate>
@@ -206,12 +206,12 @@
       </item>
     
       <item>
-        <title>Contact</title>
+        <title>contato</title>
         <description>
 </description>
         <pubDate>Fri, 19 Sep 2014 00:00:00 -0300</pubDate>
-        <link>http://localhost:4000/contact/</link>
-        <guid isPermaLink="true">http://localhost:4000/contact/</guid>
+        <link>http://localhost:4000/contato/</link>
+        <guid isPermaLink="true">http://localhost:4000/contato/</guid>
         
         
       </item>

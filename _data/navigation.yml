@@ -1,41 +1,41 @@
 pt-br:
   home:
     title: 42i
-    url: /
+    url: "/"
 
   about:
     title: Sobre
-    url: /sobre/
+    url: "/sobre/"
 
   projects:
     title: Projetos
-    url: /projetos/
+    url: "/projetos/"
 
   blog:
     title: Blog
-    url: /blog/
+    url: "/blog/"
 
   contact:
     title: Contato
-    url: /contato/
+    url: "/contato/"
 
 en:
   home:
     title: 42i
-    url: /home/
+    url: "/home/"
 
   about:
     title: About
-    url: /about/
+    url: "/about/"
 
   projects:
     title: Projects
-    url: /projects/
+    url: "/projects/"
 
   blog:
     title: Journal
-    url: /journal/
+    url: "/journal/"
 
   contact:
     title: Contact
-    url: /contact/
+    url: "/contact/"

@@ -9,17 +9,18 @@ paginate_path: "blog/page:num"
 paginate: 10
 destination: "blog/page"
 
-
 # Build settings
 markdown: kramdown
+highlighter: pygments
 
 # Language settings
 defaults:
   -
     scope:
-      path:  "_posts/pt-br"
+      path:  ""
     values:
       lang: "pt-br"
+      layout: default
   -
     scope:
       path: "_posts/en"
