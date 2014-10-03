@@ -8,75 +8,54 @@
 	z-index: 1050;
 	transition: $anim-bounce 0.5s;
 
-	ul {
+	&__menu {
+
+	}
+
+	&__list {
+		list-style-type: none;
+
 		display: inline-block;
 		margin: 0;
+        padding: 0;
 	}
 
-	li { vertical-align: bottom; }
+	&__item {
+		display: inline-block;
+		vertical-align: bottom;
+	}
 
-	.right-nav {
+	&__right {
 		display: inline;
-        float: right;
+		float: right;
 	}
 
-    .navbar {
-        border: 0px;
-
-        margin: 0;
-    }
-
-    .header-link {
+    &__item-link {
         border: 2px solid #ffcf75;
         width: 100%;
         line-height: 1.5;
         display: inline-block;
     }
 
-	.navbar-default { background: $c-white; }
+    &__content {
+        border: 0px;
 
-    .navbar-collapse {
-		background: $c-white;
+        margin: 0;
 
-        ul {
-            .brand-link { display: none; }
-            li {
-                text-align: center;
-                line-height: 3;
-
-                display: block;
-            }
-        }
+        background: $c-white;
     }
 
-	.en,
-    .pt-br { color: $c-yellow; }
+	&__language--en,
+    &__language--pt-br { color: $c-yellow; }
 
-    .navbar-toggle {
-        width: 100%;
-        margin-right: 0;
+	&--compressed {
+		box-shadow: 0 5px 0 $c-shadow-l2;
 
-        background: none !important;
-        border: none;
-        outline: none;
-        padding: 15px;
-
-        .brand-link { float: left; }
-
-        .icon-list-menu {
-            width: 44px;
-            height: 44px;
-            float: right;
-            padding: 8px;
-        }
-    }
+		//.header-link { font-size: 20px; }
+	}
 }
 
-.main-header.is-compressed {
-	box-shadow: 0 5px 0 $c-shadow-l2;
 
-	//.header-link { font-size: 20px; }
-}
 
 .brand-link {
 	display: inline-block;
@@ -94,7 +73,7 @@
 
 //footer
 
-body { margin: 0 0 150px; }
+.body { margin: 0 0 150px; }
 
 .main-footer {
     text-align: center;

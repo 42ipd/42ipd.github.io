@@ -1,6 +1,5 @@
 /* global SVGInjector*/
 (function($, SVGInjector){
-
     //SVG Injector
 
     // Elements to inject
@@ -55,34 +54,20 @@
 
      $(window).scroll(function(){
         if (document.body.scrollTop < 50 && isMenuFixed) {
-            if ($('.main-header').hasClass('is-compressed')) {
-                $('.main-header').removeClass('is-compressed');
+            if ($('.js-main-header').hasClass('main-header--compressed')) {
+                $('.js-main-header').removeClass('main-header--compressed');
                 isMenuFixed = false;
             }
         } else if (document.body.scrollTop > 50 && !isMenuFixed) {
-            if (!$('.main-header').hasClass('is-compressed')) {
-                $('.main-header').addClass('is-compressed');
+            if (!$('.js-main-header').hasClass('main-header--compressed')) {
+                $('.js-main-header').addClass('main-header--compressed');
                 isMenuFixed = true;
             }
         }
     });
 
-    // // build tween
-    // var tween = new TimelineMax ()
-    //   .add([
-    //     TweenMax.fromTo("#parallaxText .layer1", 1, {scale: 3, autoAlpha: 0.05, left: 300}, {left: -350, ease: Linear.easeNone}),
-    //     TweenMax.fromTo("#parallaxText .layer2", 1, {scale: 2, autoAlpha: 0.3, left: 150}, {left: -175, ease: Linear.easeNone})
-    //   ]);
 
-    // // build scene
-    // var scene = new ScrollScene({triggerElement: "#trigger2", duration: $(window).width()})
-    //         .setTween(tween)
-    //         .addTo(controller);
-
-    // // show indicators (requires debug extension)
-    // scene.addIndicators();
-
-$('.card-icons .icon').tooltip();
+    $('.js-tooltip-icon').tooltip();
 
     //map
     var map;

@@ -1,46 +1,31 @@
-<header class="main-header">
-  <nav class="navbar navbar-default" role="navigation">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-header">
-          <span class="sr-only">Toggle navigation</span>
-            <span>
-              <div class="brand-content">
-                <span  class="brand-link "><img class="inject-these-svgs" src="{{ site.imgurl }}/brand.svg"></span>
-                <img class="icon-list-menu" src="{{ site.imgurl }}/list-icon.png">
-              </div>
-            </span>
-          </button>
-        </div>
-        <div class="navbar-collapse collapse" id="nav-header">
-          {% assign links = site.posts | where:"lang", page.lang | where:"type", "pages" | sort: 'weight' %}
+<header class="main-header js-main-header">
+  <div class="container-fluid">
+    <div class="main-header__menu">
+      {% assign links = site.posts | where:"lang", page.lang | where:"type", "pages" | sort: 'weight' %}
 
-          <ul class="list-unstyled list-inline">
-            <li><a href="{{ site.url }}" title="{{ site.data.strings.title }}" class="brand-link"><img class="inject-these-svgs" src="{{ site.imgurl }}/brand.svg"></a></li>
+      <ul class="main-header__list">
+        <li class="main-header__item"><a href="{{ site.url }}" title="{{ site.data.strings.title }}" class="brand-link"><img class="inject-these-svgs" src="{{ site.imgurl }}/brand.svg"></a></li>
 
-            {% for menu in site.data.navigation[page.lang] %}
+        {% for menu in site.data.navigation[page.lang] %}
+        {% if menu[1].title != '42i' %}
+          <li class="main-header__item"><a  class="main-header__item-link" href="{{ menu[1].url }}" class="header-link" title="{{ menu[1].title }}">{{ menu[1].title }}</a></li>
+        {% endif %}
+        {% endfor %}
+      </ul>
 
-            {% if menu[1].title != '42i' %}
-              <li><a href="{{ menu[1].url }}" class="header-link" title="{{ menu[1].title }}">{{ menu[1].title }}</a></li>
-            {% endif %}
+      <div class="main-header__right">
+        <ul class="list-unstyled list-inline">
+          {% assign language = site.posts | where:"name", page.name | sort: 'path' %}
+          {% for post in language %}
+          <li class="main-header__languages">
+            <a href="{{ post.url }}" class="main-header__language--{{ post.lang }}">{{ post.lang }}</a>
+            </li>
+        {% endfor %}
+        </ul>
 
-            {% endfor %}
-          </ul>
-
-          <div class="right-nav">
-            <ul class="list-unstyled list-inline">
-              {% assign language = site.posts | where:"name", page.name | sort: 'path' %}
-              {% for post in language %}
-              <li class="lang">
-                <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
-                </li>
-            {% endfor %}
-            </ul>
-
-            <a class='icon social-icon' href="{{ site.data.strings.facebook }}" target='_blank' ><img alt="{{ site.data.strings.facebook }}" src="{{ site.imgurl }}/facebook.png"></a>
-          </div>
-        </div>
+        <a class='main-header__icon icon icon--facebook' href="{{ site.data.strings.facebook }}" target='_blank' ></a>
       </div>
     </div>
-  </nav>
+  </div>
+
 </header>
