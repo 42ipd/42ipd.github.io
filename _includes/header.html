@@ -1,31 +1,36 @@
 <header class="header js-header">
-  <div class="container-fluid">
-    <div class="header__menu">
-      {% assign links = site.posts | where:"lang", page.lang | where:"type", "pages" | sort: 'weight' %}
+  <div class="header__menu">
 
-      <ul class="header__list">
-        <li class="header__item"><a href="{{ site.url }}" title="{{ site.data.strings.title }}" class="brand-link"><img class="inject-these-svgs" src="{{ site.imgurl }}/brand.svg"></a></li>
+    {% assign links = site.posts | where:"lang", page.lang | where:"type", "pages" | sort: 'weight' %}
 
-        {% for menu in site.data.navigation[page.lang] %}
-        {% if menu[1].title != '42i' %}
-          <li class="header__item"><a  class="header__item-link" href="{{ site.url }}/{{ menu[1].title | slugify }}" class="header-link" title="{{ menu[1].title }}">{{ menu[1].title }}</a></li>
-        {% endif %}
-        {% endfor %}
-      </ul>
+    <ul class="header__list">
+      <li class="header__item">
+        <a class="header__brand" href="{{ site.url }}" title="{{ site.data.strings.title }}"><img class="inject-these-svgs" src="{{ site.imgurl }}/brand.svg"></a>
+      </li>
 
-      <div class="header__right">
-        <ul class="list-unstyled list-inline">
-          {% assign language = site.posts | where:"name", page.name | sort: 'path' %}
-          {% for post in language %}
-          <li class="header__languages">
-            <a href="{{ post.url }}" class="header__language--{{ post.lang }}">{{ post.lang }}</a>
-          </li>
-          {% endfor %}
-        </ul>
+      {% for menu in site.data.navigation[page.lang] %}
+      {% if menu[1].title != '42i' %}
+      <li class="header__item">
+        <a class="header__item-link" href="{{ site.url }}/{{ menu[1].title | slugify }}" class="header-link" title="{{ menu[1].title }}">{{ menu[1].title }}</a>
+      </li>
+      {% endif %}
+      {% endfor %}
+    </ul>
 
-        <a class='header__icon icon icon--facebook' href="{{ site.data.strings.facebook }}" target='_blank' ></a>
-      </div>
-    </div>
+    <ul class="header__list header__list--right languages">
+      {% assign language = site.posts | where:"name", page.name | sort: 'path' %}
+
+      {% for post in language %}
+      <li class="header__item">
+        <a class="header__item-link languages__item-link languages__item-link--{{ post.lang }}" href="{{ post.url }}">{{ post.lang }}</a>
+      </li>
+      {% endfor %}
+
+      <li class="header__item">
+        <a class="header__item-link header__icon icon icon--facebook" href="{{ site.data.strings.facebook }}" target='_blank' ></a>
+      </li>
+    </ul>
+
+
   </div>
-
 </header>

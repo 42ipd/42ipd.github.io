@@ -23,25 +23,25 @@
 $('.big-quote').css('height', $(window).height()/2);
 
 //header-resize
-$('.js-page-wrapper').css('padding-top', $('.header').height());
+$('.js-page-wrapper').css('padding-top', $('.header').outerHeight());
 
 $(window).resize(function(){
-  $('.js-page-wrapper').css('padding-top', $('.header').height());
+  $('.js-page-wrapper').css('padding-top', $('.header').outerHeight());
 });
 
 
 // Compressed Header
 var isMenuFixed = false;
 
- $(window).scroll(function(){
+$(window).scroll(function(){
     if (document.body.scrollTop < 50 && isMenuFixed) {
-        if ($('.js-main-header').hasClass('main-header--compressed')) {
-            $('.js-main-header').removeClass('main-header--compressed');
+        if ($('.js-header').hasClass('header--compressed')) {
+            $('.js-header').removeClass('header--compressed');
             isMenuFixed = false;
         }
     } else if (document.body.scrollTop > 50 && !isMenuFixed) {
-        if (!$('.js-main-header').hasClass('main-header--compressed')) {
-            $('.js-main-header').addClass('main-header--compressed');
+        if (!$('.js-header').hasClass('header--compressed')) {
+            $('.js-header').addClass('header--compressed');
             isMenuFixed = true;
         }
     }
@@ -50,27 +50,6 @@ var isMenuFixed = false;
 
 // Tooltip
 $('.js-tooltip-icon').tooltip();
-
-
-
-// $( window ).resize(function() {
-// // $('.project-cover').css('height', $(window).height() - $('.main-header.is-compressed').height());
-// });
-//
-// var imageWidth, wrapperWidth, imageHeight, wrapperHeight, overlap, overlap2, container = $('.project-cover');
-//
-// function centerImage() {
-//     imageHeight = container.find('img').height();
-//     wrapperHeight = container.height();
-//     imageWidth = container.find('img').width();
-//     wrapperWidth = container.width();
-//     overlap = (wrapperHeight - imageHeight) / 2;
-//     overlap2 = (wrapperWidth - imageWidth) / 2;
-//     container.find('img').css('margin-top', overlap);
-//     container.find('img').css('margin-left', overlap2);
-// }
-//
-// $(window).on("load resize", centerImage);
 
 // Google Map Styles
 var map;
