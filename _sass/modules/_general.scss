@@ -17,20 +17,6 @@ html {
 
 // brand related
 // --------------------------------------------------
-.brand-wrapper {
-    display: inline-block;
-    float: left;
-    width: 64px;
-    height: 64px;
-    margin: 0;
-}
-
-.brand {
-    width: 100%;
-
-    fill: $c-yellow;
-}
-
 .aligner {
 	text-align: center;
 
@@ -92,24 +78,10 @@ html {
 
 }
 
-.right-nav {
-    float: right;
-    margin-top: 8px;
-}
-
 .blog-search {
     margin-top: 100px;
 }
 
-.social-icon {
-
-   img {
-        width: 35px;
-        height: 35px;
-   }
-
-   &:hover { opacity: 0.6; }
-}
 
 @media (min-width: $screen-tablet) {
     .project-cover { height: 782px; }

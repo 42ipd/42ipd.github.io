@@ -3,48 +3,30 @@ layout: default
 ---
 
 <div class="container">
-  <!-- Blog Search -->
-  <form class="blog-search">
-    <div class="row">
-      <div class="col-xs-9 col-lg-11">
-        <input type="text" placeholder="{{ site.data.strings.[page.lang].search }}...">
-      </div>
-      <div class="col-xs-3 col-lg-1">
-        <button class="icon icon-search"></button>
-      </div>
-    </div>
-  </form>
-
 
   <!-- Blog List -->
-  <ul class="post-stub-list list-unstyled">
+  <ul class="posts__list">
     {% assign posts = site.posts | where:"lang", page.lang | where:"category", "blog" %}
 
     {% for post in posts %}
-    <li>
-      <a href="{{ post.url }}" class="post-stub">
-        <div class="row">
-          <div class="col-xs-12 col-sm-10 post-area row">
-            <div class="col-xs-3 col-sm-2 thumb-content">
-              {{ post.thumb }}
-            </div>
-            <div class="col-xs-9 col-sm-10">
-              <h5 class="post-title">{{ post.title }}</h5>
-              <p class="post-subtitle">{{ post.subtitle }}</p>
-            </div>
-          </div>
+    <li class="posts__item post-stub">
+      <a href="{{ post.url }}" class="post-stub__capsule">
+        <div class="post-stub__thumb">{{ post.thumb }}</div>
 
-          <div class="col-xs-12 col-sm-2 post-credits-content row">
-            <div class="col-xs-offset-3 col-xs-9 col-sm-12 post-credits">
-              <h5>por</h5>
-              <span>{{ post.author }}</span>
-              <h5>data</h5>
-              <span>{{ post.date | date: "%d/%m/%Y" }}</span>
-            </div>
-          </div>
+        <div class="post-stub__description"></div>
+          <h5 class="post-stub__title">{{ post.title }}</h5>
+          <p class="post-stub__subtitle">{{ post.subtitle }}</p>
+        </div>
+
+        <div class="post-stub__credits">
+          <h5 class="post-stub__text">{{ site.data.strings.[page.lang].blog.by }}</h5>
+          <span class="post-stub__author">{{ post.author }}</span>
+          <h5 class="post-stub__text">{{ site.data.strings.[page.lang].blog.date }}</h5>
+          <span class="post-stub__date">{{ post.date | date: "%d/%m/%Y" }}</span>
         </div>
       </a>
     </li>
     {% endfor %}
+
   </ul>
 </div>

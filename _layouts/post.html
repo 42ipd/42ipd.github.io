@@ -3,13 +3,25 @@ layout: default
 ---
 
 <div class="container">
-  <div class="img-full-width">
-    <img src="{{ site.imgurl }}/{{ post.img }}" alt="">
+
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+
+      <div class="img-full-width">
+        <img src="{{ site.imgurl }}/{{ post.img }}" alt="">
+      </div>
+
+      <div class="textblock">
+        <h1 class="headline">
+          {{ post.title }}
+          <small class="subtitle">{{ post.subtitle }}</small>
+        </h1>
+
+        {{ content }}
+
+      </div>
+
+    </div>
   </div>
 
-  <h1 class="headline">
-    {{ post.title }}
-    <small class="subtitle">{{ post.subtitle }}</small>
-  </h1>
-    {{ content }}
 </div>

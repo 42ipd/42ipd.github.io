@@ -1,13 +1,18 @@
-.post-stub-list li {
-    margin: 0;
-    padding: 30px 0;
+.posts {
+    &__list {
 
-    border-bottom: 2px solid $c-yellow-l2;
+    }
 
-    &:last-child {
-        margin: 0;
+    &__item {
+        padding: 30px 0;
 
-        border-bottom: none;
+        border-bottom: 2px solid $c-yellow-l2;
+
+        &:last-child {
+            margin: 0;
+
+            border-bottom: none;
+        }
     }
 }
 
@@ -18,93 +23,26 @@
     display:  block;
     height: auto;
     margin: 0;
-    padding: 0;
 
     overflow: hidden;
     transition: $anim-bounce 0.5s 0.1s;
+}
 
+
+&__capsule {
     &:hover {
-		.post-title { color: $c-yellow; }
-
-		.post-subtitle { color: $c-yellow-l1; }
-
-		.post-credits { color: $c-yellow-l1; }
-	}
-}
-
-.post-title {
-	font-family: $font-family-heading;
-	font-size: 25px;
-	font-weight: 600;
-	line-height: 1;
-	text-transform: uppercase;
-    letter-spacing: 0;
-
-	margin: 0 0 5px;
-
-	color: $c-black;
-	transition: ease 0.25s;
-
-
-}
-
-.post-subtitle {
-	font-size: 16px;
-	font-style: italic;
-
-	margin: 0;
-
-	color: $c-gray-d1;
-	transition: ease 0.25s;
-}
-
-.post-credits {
-	text-align: left;
-
-	color: $c-gray-d1;
-	transition: ease 0.25s;
-
-	h5 {
-		margin: 5px 0 2px;
-
-		color: $c-gray-l1;
-
-		&:first-child { margin: 0 0 2px; }
-	}
-}
-
-.post-credits-content {
-    span,
-    h5 { display: inline-block; }
-}
-
-.thumb-content {
-    img {
-        width: 100%;
-        height: auto;
+        .post-stub__title { color: $c-yellow; }
+        .post-stub__subtitle { color: $c-yellow-l1; }
+        .post-stub__credits { color: $c-yellow-l1; }
     }
 }
 
-@media (min-width: $screen-tablet) {
-    .post-credits-content {
-        float: left;
-        span,
-        h5 { display: block; }
-    }
+&__thumb {}
+&__description {}
+&__title {}
+&__subtitle {}
 
-    .post-credits { text-align: right; }
-
-    .post-area {
-        float: right;
-
-        padding-left: 0;
-    }
-
-    .post-title { font-size: 35px; }
-
-    .post-subtitle {
-        font-size: 20px;
-
-        color: $c-gray-l1;
-    }
-}
+&__credits {}
+&__text {}
+&__author {}
+&__date {}

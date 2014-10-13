@@ -10,7 +10,15 @@ pt-br:
   description: Descrição do site
   search: Busca
 
+  blog:
+    by: por
+    date: data
+
 en:
   title: 42i - Independent Digital Producer
   description: Site's description
   search: Search
+
+  blog:
+    by: by
+    date: date
