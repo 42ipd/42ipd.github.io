@@ -43,15 +43,13 @@ layout: default
               {% endfor %}
             </div>
 
-            <!-- <h4>{{ page.{{ site.data.project.[page.lang].techs }} }}</h4>
+            <h4>{{ site.data.project.[page.lang].techs }}</h4>
               <div class="comma-separation">
-                {% for icon in icons %}
-
-                <span>{{ page.techs }}</span>
-
+                {% for tech in page.techs %}
+                <span>{{ tech.tech-name }}</span>
                 {% endfor %}
               </div>
-            </div> -->
+            </div>
           </div>
 
           <div class="col-sm-9">
