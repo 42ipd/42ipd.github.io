@@ -49,18 +49,6 @@ layout: default
         </li>
         {% endfor %}
       </ul>
-
-      <div class="aligner">
-        <ul class="pagination">
-          {% if paginator.previous_page %}
-          <li><a href="/page{{ paginator.previous_page }}">&laquo;</a></li>
-          {% endif %}
-          <li><span>Page: {{ paginator.page }} of {{ paginator.total_pages }}</span></li>
-          {% if paginator.next_page %}
-          <li><a href="/page{{ paginator.next_page }}">&raquo;</a></li>
-          {% endif %}
-        </ul>
-      </div>
     </div>
   </div>
 </section>

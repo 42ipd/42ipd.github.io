@@ -1,38 +1,48 @@
 # Site settings
-baseurl: "" # the subpath of your site, e.g. /blog/
-url:  "http://localhost:4000" # the base hostname & protocol for your site
-imgurl: "http://localhost:4000/public/images"
+baseurl:     "" # the subpath of your site, e.g. /blog/
+url:         "http://localhost:4000" # the base hostname & protocol for your site
+imgurl:      "http://localhost:4000/public/images"
 
-permalink: /:title/
+destination: ./_site
+search:      true
+permalink:   /:title/
 
-paginate_path: "blog/page:num"
-paginate: 10
-destination: "blog/page"
 
 # Build settings
 markdown: kramdown
 highlighter: pygments
 
+# Analytics and webmaster tools stuff goes here
+google_analytics: ""
+google_verify: ""
+
 # Language settings
 defaults:
   -
     scope:
-      path:  ""
+      path:  "_posts/pt-br"
     values:
       lang: "pt-br"
       layout: default
+
   -
     scope:
       path: "_posts/en"
     values:
       lang: "en"
+      layout: default
+
   -
     scope:
       path: "_posts/pt-br/pages"
     values:
       type: "pages"
+      layout: default
+
+
   -
     scope:
       path: "_posts/en/pages"
     values:
       type: "pages"
+      layout: default

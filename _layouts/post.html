@@ -3,14 +3,15 @@ layout: default
 ---
 
 <article class="post">
-  <div class="page-wrapper">
-    <div class="container">
-      <div class="img-full-width"><img src="{{ site.imgurl }}/{{ post.img }}" alt=""></div>
-      <h1 class="headline">
-        {{ post.title }}
-        <small class="subtitle">{{ post.subtitle }}</small>
-      </h1>
-        {{ content }}
+  <div class="container">
+    <div class="img-full-width">
+      <img src="{{ site.imgurl }}/{{ post.img }}" alt="">
     </div>
+
+    <h1 class="headline">
+      {{ post.title }}
+      <small class="subtitle">{{ post.subtitle }}</small>
+    </h1>
+      {{ content }}
   </div>
 </article>
