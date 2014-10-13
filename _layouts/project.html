@@ -21,7 +21,7 @@ layout: default
 
           <div class="tech-specs">
             <h3 class="title">{{ site.data.project.[page.lang].tech-specs }}</h3>
-            <h4>{{ page..data.project.[page.lang].project-link }}</h4>
+            <h4>{{ site.data.project.[page.lang].project-link }}</h4>
             <a href="{{ page.project-link }}" title="" target="_blank" >{{ page.project }}</a>
 
             <h4>{{ site.data.project.[page.lang].client }}</h4>
@@ -36,23 +36,22 @@ layout: default
             <span>{{ page.project-type }}</span>
 
             <h4>{{ site.data.project.[page.lang].platforms }}</h4>
+
             <div class="card-icons">
               {% for icon in page.icons %}
-
-              <span class="icon icon-1 icon-{{ page.icon }}" data-toggle="tooltip" data-placement="bottom" title="{{ page.icon }}"></span>
-
+              <span class="icon icon-{{ icon.icon-name }}" data-toggle="tooltip" data-placement="bottom" title="{{ icon.icon-name }}"></span>
               {% endfor %}
             </div>
 
-            <h4>{{ page.{{ site.data.project.[page.lang].techs }} }}</h4>
+            <!-- <h4>{{ page.{{ site.data.project.[page.lang].techs }} }}</h4>
               <div class="comma-separation">
-                {% for icon in page.icons %}
+                {% for icon in icons %}
 
                 <span>{{ page.techs }}</span>
 
                 {% endfor %}
               </div>
-            </div>
+            </div> -->
           </div>
 
           <div class="col-sm-9">
