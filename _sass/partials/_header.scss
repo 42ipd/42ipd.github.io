@@ -1,4 +1,5 @@
 $header-cont-height: 48px;
+$header-cont-height-comp: 36px;
 
 .header {
 	font-family: $font-family-heading;
@@ -25,6 +26,12 @@ $header-cont-height: 48px;
         padding: 0;
 
 		&--right { float: right; }
+
+		&--compressed {
+			line-height: $header-cont-height-comp;
+
+			height: $header-cont-height-comp;
+		}
 	}
 
 	&__item {
@@ -43,10 +50,16 @@ $header-cont-height: 48px;
 		height: $header-cont-height;
 		padding: 0 0 0 10px;
 
-		color: $c-yellow;
+		color: $c-yellow-l1;
 		transition: $anim-bounce 0.25s;
 
-		&:hover { color: $c-orange; }
+		&:hover { color: $c-yellow; }
+
+		&--compressed {
+			line-height: $header-cont-height-comp;
+
+			height: $header-cont-height-comp;
+		}
 	}
 
 	&__brand {
@@ -59,6 +72,12 @@ $header-cont-height: 48px;
 		fill: $c-white;
 		background: $c-yellow;
 		transition: $anim-bounce 0.25s ;
+
+		&--compressed {
+			width: $header-cont-height-comp;
+			height: $header-cont-height-comp;
+			padding: 6px;
+		}
 	}
 
 	&__icon { font-size: 18px; }
@@ -67,7 +86,6 @@ $header-cont-height: 48px;
 		padding: 10px 15px;
 
 		box-shadow: 0 5px 0 $c-shadow-l2;
-		background: $c-light-d2;
 	}
 }
 
@@ -82,34 +100,4 @@ $header-cont-height: 48px;
 		&--en:lang(en),
 		&--pt-br:lang(pt-br){ color: $c-yellow; }
 	}
-}
-
-@media (min-width: $screen-tablet) {
-    .main-header {
-        padding: 20px;
-
-        .header-link {
-            border: 0px solid #ffcf75;
-            width: auto;
-            line-height: 1;
-            display: inline-block;
-        }
-
-        .navbar-collapse {
-            ul {
-                .brand-link {
-                    margin: 0 15px 0 0;
-                    display: block;
-                }
-
-                li {
-                    text-align: left;
-                    line-height: 1;
-
-                    display: inline-block;
-					vertical-align: middle;
-                }
-            }
-        }
-    }
 }

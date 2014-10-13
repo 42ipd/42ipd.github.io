@@ -37,11 +37,17 @@ $(window).scroll(function(){
     if (document.body.scrollTop < 50 && isMenuFixed) {
         if ($('.js-header').hasClass('header--compressed')) {
             $('.js-header').removeClass('header--compressed');
+            $('.js-header__brand').removeClass('header__brand--compressed');
+            $('.js-header__list').removeClass('header__list--compressed');
+            $('.js-header__item-link').removeClass('header__item-link--compressed');
             isMenuFixed = false;
         }
     } else if (document.body.scrollTop > 50 && !isMenuFixed) {
         if (!$('.js-header').hasClass('header--compressed')) {
             $('.js-header').addClass('header--compressed');
+            $('.js-header__brand').addClass('header__brand--compressed');
+            $('.js-header__list').addClass('header__list--compressed');
+            $('.js-header__item-link').addClass('header__item-link--compressed');
             isMenuFixed = true;
         }
     }

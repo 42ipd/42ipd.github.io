@@ -3,31 +3,31 @@
 
     {% assign links = site.posts | where:"lang", page.lang | where:"type", "pages" | sort: 'weight' %}
 
-    <ul class="header__list">
+    <ul class="js-header__list header__list">
       <li class="header__item">
-        <a class="header__brand" href="{{ site.url }}" title="{{ site.data.strings.title }}"><img class="inject-these-svgs" src="{{ site.imgurl }}/brand.svg"></a>
+        <a class="js-header__brand header__brand" href="{{ site.url }}" title="{{ site.data.strings.title }}"><img class="inject-these-svgs" src="{{ site.imgurl }}/brand.svg"></a>
       </li>
 
       {% for menu in site.data.navigation[page.lang] %}
       {% if menu[1].title != '42i' %}
-      <li class="header__item">
-        <a class="header__item-link" href="{{ site.url }}/{{ menu[1].title | slugify }}" class="header-link" title="{{ menu[1].title }}">{{ menu[1].title }}</a>
+      <li class="js-header__list header__item">
+        <a class="js-header__item-link header__item-link" href="{{ site.url }}/{{ menu[1].title | slugify }}" class="header-link" title="{{ menu[1].title }}">{{ menu[1].title }}</a>
       </li>
       {% endif %}
       {% endfor %}
     </ul>
 
-    <ul class="header__list header__list--right languages">
+    <ul class="js-header__list header__list header__list--right languages">
       {% assign language = site.posts | where:"name", page.name | sort: 'path' %}
 
       {% for post in language %}
       <li class="header__item">
-        <a class="header__item-link languages__item-link languages__item-link--{{ post.lang }}" href="{{ post.url }}">{{ post.lang }}</a>
+        <a class="js-header__item-link header__item-link languages__item-link languages__item-link--{{ post.lang }}" href="{{ post.url }}">{{ post.lang }}</a>
       </li>
       {% endfor %}
 
       <li class="header__item">
-        <a class="header__item-link header__icon icon icon--facebook" href="{{ site.data.strings.facebook }}" target='_blank' ></a>
+        <a class="js-header__item-link header__item-link header__icon icon icon--facebook" href="{{ site.data.strings.facebook }}" target='_blank' ></a>
       </li>
     </ul>
 
