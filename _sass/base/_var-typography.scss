@@ -40,37 +40,3 @@ $headings-font-family:    $font-family-base !default;
 $headings-font-weight:    500 !default;
 $headings-line-height:    1.1 !default;
 $headings-color:          inherit !default;
-
-// Iconography
-// -------------------------
-
-$icon-font-path:          "fonts/icomoon/" !default;
-$icon-font-name:          'icomoon' !default;
-
-// Code
-// ------------------------
-$code-color:                  #c7254e !default;
-$code-bg:                     #f9f2f4 !default;
-
-$pre-bg:                      #f5f5f5 !default;
-$pre-color:                   $gray-dark !default;
-$pre-border-color:            #ccc !default;
-$pre-scrollable-max-height:   340px !default;
-
-// Type
-// ------------------------
-$text-muted:                  $gray-light !default;
-$abbr-border-color:           $gray-light !default;
-$headings-small-color:        $gray-light !default;
-$blockquote-small-color:      $gray-light !default;
-$blockquote-border-color:     $gray-lighter !default;
-$page-header-border-color:    $gray-lighter !default;
-
-// Miscellaneous
-// -------------------------
-
-// Hr border color
-$hr-border:                   $gray-lighter !default;
-
-// Horizontal forms & lists
-$component-offset-horizontal: 180px !default;

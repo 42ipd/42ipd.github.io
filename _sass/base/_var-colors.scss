@@ -1,22 +1,3 @@
-//
-// Variables
-// --------------------------------------------------
-
-// Global values
-// --------------------------------------------------
-
-// Grays
-// -------------------------
-
-$gray-darker:            lighten(#000, 13.5%) !default; // #222
-$gray-dark:              lighten(#000, 20%) !default;   // #333
-$gray:                   lighten(#000, 33.5%) !default; // #555
-$gray-light:             lighten(#000, 82.5%) !default;   // #999
-$gray-lighter:           lighten(#000, 93.5%) !default; // #eee
-
-// Custom Colors
-// -------------------------
-
 //Grays
 $c-white: #FFF;
 $c-gray-l3: #f5f5f5;
@@ -101,7 +82,7 @@ $c-purple-d1: #6a003f;
 $c-purple-d2: #500030;
 
 
-// Custom Shadows
+// Custom Shadows & Lights
 // -------------------------
 
 $c-shadow-l2: rgba(0, 0, 0, 0.1);
@@ -110,45 +91,8 @@ $c-shadow: rgba(0, 0, 0, 0.5);
 $c-shadow-d1: rgba(0, 0, 0, 0.75);
 $c-shadow-d2: rgba(0, 0, 0, 0.9);
 
-// Custom Lights
-// -------------------------
-
 $c-light-l2: rgba(255, 255, 255, 0.1);
 $c-light-l1: rgba(255, 255, 255, 0.25);
 $c-light: rgba(255, 255, 255, 0.5);
 $c-light-d1: rgba(255, 255, 255, 0.75);
 $c-light-d2: rgba(255, 255, 255, 0.9);
-
-// Text-colors
-// -------------------------
-
-$c-default-text: $c-gray-d2;
-$c-default-link: $c-orange;
-
-// Brand colors
-// -------------------------
-
-$brand-primary:         $c-yellow !default;
-$brand-success:         $c-green !default;
-$brand-warning:         $c-magenta !default;
-$brand-danger:          $c-orange !default;
-$brand-info:            $c-gray !default;
-
-// $brand-primary:         #428bca !default;
-// $brand-success:         #5cb85c !default;
-// $brand-warning:         #f0ad4e !default;
-// $brand-danger:          #d9534f !default;
-// $brand-info:            #5bc0de !default;
-
-
-// Scaffolding
-// -------------------------
-
-$body-bg:               #fff !default;
-$text-color:            $gray-dark !default;
-
-// Links
-// -------------------------
-
-$link-color:            $brand-primary !default;
-$link-hover-color:      darken($link-color, 15%) !default;

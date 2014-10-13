@@ -3,25 +3,23 @@ layout: default
 ---
 
 <div class="container">
-  <ul class="list-unstyled">
-    <div id="map-canvas" class="map-frame"></div>
-    <li>
-      <address>
-        <h2 class="paragraph-title">{{ site.data.contact.[page.lang].address }}</h2>
-        <p>{{ site.data.strings.address }}</p>
-      </address>
-    </li>
-    <li>
-      <address>
-        <h2 class="paragraph-title">{{ site.data.contact.[page.lang].phone }}</h2>
-        <a href="tel:{{ site.data.strings.phone }}" title="{{ site.data.strings.phone }}">{{ site.data.strings.phone }}</p>
-      </address>
-    </li>
-    <li>
-      <address>
-        <h2 class="paragraph-title">{{ site.data.contact.[page.lang].email }}</h2>
-        <a href="mailto:{{ site.data.strings.email }}" title="{{ site.data.strings.email }}">{{ site.data.strings.email }}</a>
-      </address>
-    </li>
-  </ul>
+  <div id="js-map-canvas" class="map-frame"></div>
+
+  <address class="address">
+    <ul class="address__list">
+      <li class="address__item">
+        <h2 class="address__title">{{ site.data.contact.[page.lang].address }}</h2>
+        <p class="address__text">{{ site.data.strings.address }}</p>
+      </li>
+      <li class="address__item">
+        <h2 class="address__title">{{ site.data.contact.[page.lang].phone }}</h2>
+        <a class="address__text address__text--link" href="tel:{{ site.data.strings.phone }}" title="{{ site.data.strings.phone }}">{{ site.data.strings.phone }}</a>
+      </li>
+      <li class="address__item">
+        <h2 class="address__title">{{ site.data.contact.[page.lang].email }}</h2>
+        <a class="address__text address__text--link" href="mailto:{{ site.data.strings.email }}" title="{{ site.data.strings.email }}">{{ site.data.strings.email }}</a>
+      </li>
+    </ul>
+  </address>
+
 </div>

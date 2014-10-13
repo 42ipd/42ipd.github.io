@@ -148,7 +148,7 @@ function initialize() {
     mapTypeId: MY_MAPTYPE_ID
   };
 
-  map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+  map = new google.maps.Map(document.getElementById('js-map-canvas'), mapOptions);
 
   var styledMapOptions = {
     name: 'Custom Style'
