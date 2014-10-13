@@ -35,6 +35,7 @@ $header-cont-height: 48px;
 	}
 
 	&__item-link {
+		font-size: 16px;
 		text-transform: uppercase;
 		line-height: $header-cont-height;
 
@@ -57,13 +58,16 @@ $header-cont-height: 48px;
 
 		fill: $c-white;
 		background: $c-yellow;
-		transition: $anim-bounce 0.5s ;
+		transition: $anim-bounce 0.25s ;
 	}
 
-	&--compressed {
-		box-shadow: 0 5px 0 $c-shadow-l2;
+	&__icon { font-size: 18px; }
 
-		//.header-link { font-size: 20px; }
+	&--compressed {
+		padding: 10px 15px;
+
+		box-shadow: 0 5px 0 $c-shadow-l2;
+		background: $c-light-d2;
 	}
 }
 

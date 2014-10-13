@@ -34,21 +34,24 @@ a {
 // text, lists & quotes
 // --------------------------------------------------
 .textblock {
-    font-size: 20px;
     font-family: $font-family-sans-serif;
 
     margin: 0 0 50px;
 
     color: $c-gray-d2;
 
+    h2 {
+        font-size: 28px;
+
+        margin: 0 0 20px;
+    }
+
     p {
+        font-size: 20px;
         font-weight: 300;
-        line-height: 18/20;
-        text-indent: ($em-space * 2);
+        line-height: 16/20;
 
-        margin: 0;
-
-        .french-p & { text-indent: (-$em-space * 2); }
+        margin: 0 0 45px;
     }
 
     ul {
@@ -66,17 +69,18 @@ a {
 
 .dropcap {
     font-family: $font-family-heading;
-    font-size: 44px;
+    font-size: 28px;
     font-weight: 600;
     line-height: 1;
 
     display: inline;
     float: left;
-    margin-right: 7px;
-    padding: 5px 10px;
+    margin-right: 8px;
+    padding: 8px 10px;
 
-    color: $c-yellow-l3;
-    background: $c-yellow;
+    color: $c-yellow;
+    background: $c-yellow-l3;
+    // border: 1px solid $c-gray-l2;
 }
 
 .first-p { text-indent: 0 !important; }

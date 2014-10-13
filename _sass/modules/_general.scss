@@ -11,6 +11,10 @@ html {
 @media (min-width: $screen-md-min) { .container-big { width: $container-md + 150px; } }
 @media (min-width: $screen-lg-min) { .container-big { width: $container-lg + 200px; } }
 
+.section {
+    padding-top: 42px;
+}
+
 // brand related
 // --------------------------------------------------
 .brand-wrapper {
