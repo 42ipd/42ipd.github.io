@@ -179,7 +179,7 @@
             color: $c-gray-d1;
         }
 
-        p {
+        p, span {
             font-size: 18px;
             font-family: $font-family-sans-serif;
             font-weight: 300;
@@ -187,6 +187,23 @@
             margin: 0 0 20px;
 
             color: $c-black;
+        }
+
+        small {
+            font-size: 14px;
+            font-family: $font-family-sans-serif;
+            font-weight: 300;
+        }
+
+        a {
+            font-size: 18px;
+            font-family: $font-family-sans-serif;
+            font-weight: 300;
+
+            color: $c-yellow;
+            transition: ease 0.25s;
+
+            &:hover { color: $c-yellow-d1; }
         }
 
         ul {
@@ -212,7 +229,6 @@
             }
 
         }
-
     }
 }
 

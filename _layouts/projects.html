@@ -4,32 +4,33 @@ layout: default
 
 <div class="container">
   <!-- Projects list -->
-  <ul class="card-list">
+  <ul class="projects__list">
     {% assign posts = site.posts | where:"lang", page.lang | where:"category", "project" %}
 
     {% for post in posts %}
-      <li>
-        <a href="{{ post.url }}" title="" class="card">
-          <div class="card-cover">
-            <div class="card-info">
-              <h2 class="card-title">{{ post.title }}</h2>
-              <h3 class="card-subtitle">{{ post.subtitle }}</h3>
-              <div class="card-icons">
-                {% for icon in post.icons %}
+    <li class="projects__item project-card">
+      <a class="project-card__capsule" href="{{ post.url }}" title="">
+        <div class="project-card__cover">
+          <div class="project-card__info">
+            <h2 class="project-card__title">{{ post.title }}</h2>
+            <h3 class="project-card__subtitle">{{ post.subtitle }}</h3>
+            <div class="project-card__icon-group">
+              {% for icon in post.icons %}
 
-                <span class="icon js-tooltip-icon icon--{{ post.icon }}" data-toggle="tooltip" data-placement="bottom" title="{{ post.icon }}"></span>
+              <span class="project-card__icon project-card__icon--{{ forloop.index }} icon icon--{{ icon.icon-name }}" title="{{ icon.icon-name }}">{{ post.icon }}</span>
 
-                {% endfor %}
-              </div>
+              {% endfor %}
             </div>
           </div>
+        </div>
 
-          <div class="card-bg">
-            <span class="card-frame"></span>
-            <img src="{{ site.imgurl }}/projects/{{ post.project-img }}" alt="">
-          </div>
-        </a>
-      </li>
+        <div class="project-card__bg">
+          <span class="project-card__frame"></span>
+          <img class="project-card__frame-image" src="{{ site.imgurl }}/projects/{{ post.project-thumb }}" alt="">
+        </div>
+      </a>
+    </li>
     {% endfor %}
+
   </ul>
 </div>

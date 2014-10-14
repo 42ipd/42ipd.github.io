@@ -2,63 +2,58 @@
 layout: default
 ---
 
-<div class="container-fluid project-cover">
-  <div class="project-cover-info">
+<div class="container-fluid">
+  <div class="cover">
     <div class="aligner">
-      <div class="front-holder">
-        <img src="{{ site.imgurl}}/projects/{{ page.project-img }}" alt="">
+      <h1 class="cover__title">{{ page.title }}</h1>
+
+      <div class="cover__image-clipper">
+        <img class="cover__image" src="{{ site.imgurl}}/projects/{{ page.project-img }}" alt="">
       </div>
     </div>
   </div>
-  <img src="{{ site.imgurl}}/projects/{{ page.project-thumb }}" alt="">
 </div>
 
 <div class="container">
   <div class="row">
-
     <div class="col-sm-3">
       <div class="tech-specs">
-        <h3 class="title">{{ site.data.project.[page.lang].tech-specs }}</h3>
-        <h4>{{ site.data.project.[page.lang].project-link }}</h4>
-        <a href="{{ page.project-link }}" title="" target="_blank" >{{ page.project }}</a>
+        <h3 class="tech-specs__title">{{ site.data.project.[page.lang].tech-specs }}</h3>
+        <h4 class="tech-specs__title tech-specs__title--small">{{ site.data.project.[page.lang].project-link }}</h4>
+        <a class="tech-specs__text" href="{{ page.project-link }}" title="{{ page.project }}" target="_blank" >{{ page.project }}</a>
 
-        <h4>{{ site.data.project.[page.lang].client }}</h4>
-        <span>{{ page.client }}</span>
+        <h4 class="tech-specs__title tech-specs__title--small">{{ site.data.project.[page.lang].client }}</h4>
+        <span class="tech-specs__text">{{ page.client }}</span>
 
-        <h4>{{ site.data.project.[page.lang].year }}</h4>
-        <div class="bar-separation">
-        {{ page.year }}
-        </div>
+        <h4 class="tech-specs__title tech-specs__title--small">{{ site.data.project.[page.lang].year }}</h4>
+        <span class="tech-specs__text">{{ page.year }}</span>
 
-        <h4>{{ site.data.project.[page.lang].project-type }}</h4>
-        <span>{{ page.project-type }}</span>
+        <h4 class="tech-specs__title tech-specs__title--small">{{ site.data.project.[page.lang].project-type }}</h4>
+        <span class="tech-specs__text">{{ page.project-type }}</span>
 
-        <h4>{{ site.data.project.[page.lang].platforms }}</h4>
-
-        <div class="card-icons">
+        <h4 class="tech-specs__title tech-specs__title--small">{{ site.data.project.[page.lang].platforms }}</h4>
+        <div class="tech-specs__icon-group">
           {% for icon in page.icons %}
-          <span class="icon icon-{{ icon.icon-name }}" data-toggle="tooltip" data-placement="bottom" title="{{ icon.icon-name }}"></span>
+          <span class="tech-specs__icon icon icon--{{ icon.icon-name }}" title="{{ icon.icon-name }}"></span>
           {% endfor %}
         </div>
 
-        <h4>{{ site.data.project.[page.lang].techs }}</h4>
-          <div class="comma-separation">
-            {% for tech in page.techs %}
-            <span>{{ tech.tech-name }}</span>
-            {% endfor %}
-          </div>
+        <h4 class="tech-specs__title tech-specs__title--small">{{ site.data.project.[page.lang].techs }}</h4>
+        <div class="tech-specs__text-group tech-specs__text-group--comma-separation">
+          {% for tech in page.techs %}
+          <span class="tech-specs__text">{{ tech.tech-name }}</span>
+          {% endfor %}
         </div>
       </div>
     </div>
 
     <div class="col-sm-9">
-      <h1 class="headline">
-        {{ page.title }}
-        <p class="subtitle">{{ page.subtitle }}</p>
-      </h1>
+      <h1 class="project__title">{{ page.title }}</h1>
+      <p class="project__subtitle">{{ page.subtitle }}</p>
 
-      <div class="textblock">
-        <p class="first-p">{{ page.intro }}</p>
+      <p class="project__text project__text--intro">{{ page.intro }}</p>
+
+      <div class="project__content">
 
         {{ content }}
 

@@ -46,22 +46,6 @@ html {
 
 .headline { font-size: 40px !important; }
 
-.comma-separation {
-    span {
-        text-transform: uppercase;
-
-        &:after {
-            content: ","
-        }
-        &:last-child {
-            &:after {
-                content: ""
-            }
-        }
-    }
-
-}
-
 .bar-separation {
     span {
         text-transform: uppercase;
