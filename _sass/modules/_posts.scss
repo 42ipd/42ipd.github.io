@@ -26,23 +26,92 @@
 
     overflow: hidden;
     transition: $anim-bounce 0.5s 0.1s;
-}
+
+    &__capsule {
+        &:hover {
+            .post-stub__title { color: $c-yellow; }
+            .post-stub__subtitle { color: $c-yellow-l1; }
+            .post-stub__credits { color: $c-yellow-l1; }
+        }
+    }
+
+    &__title {
+        font-family: $font-family-heading;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 1;
+        text-transform: uppercase;
+        letter-spacing: 0;
+
+        margin: 0 0 5px;
+
+        color: $c-black;
+        transition: ease 0.25s;
+    }
+
+    &__subtitle {
+        font-size: 16px;
+        font-family: $font-family-sans-serif;
+        font-style: italic;
+
+        margin: 0;
+
+        color: $c-gray-d1;
+        transition: ease 0.25s;
+    }
+
+    &__thumb {
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    &__description {}
 
 
-&__capsule {
-    &:hover {
-        .post-stub__title { color: $c-yellow; }
-        .post-stub__subtitle { color: $c-yellow-l1; }
-        .post-stub__credits { color: $c-yellow-l1; }
+    &__credits {
+        text-align: left;
+
+    	color: $c-gray-d1;
+    	transition: ease 0.25s;
+    }
+
+    &__text {
+        display: inline-block;
+        margin: 5px 0 2px;
+
+		color: $c-gray-l1;
+
+		&:first-child { margin: 0 0 2px; }
+    }
+
+    &__author,
+    &__date {
+        font-family: $font-family-sans-serif;
+
+        display: inline-block;
     }
 }
 
-&__thumb {}
-&__description {}
-&__title {}
-&__subtitle {}
+@media (min-width: $screen-tablet) {
+    .post-stub {
+        &__title { font-size: 35px; }
 
-&__credits {}
-&__text {}
-&__author {}
-&__date {}
+        &__subtitle {
+            font-size: 20px;
+
+            color: $c-gray-l1;
+        }
+
+        &__credits {
+            text-align: right;
+        }
+
+        &__description {
+            float: right;
+
+            padding-left: 0;
+        }
+    }
+}
