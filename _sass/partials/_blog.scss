@@ -28,6 +28,8 @@
     transition: $anim-bounce 0.5s 0.1s;
 
     &__capsule {
+        @include clearfix();
+
         &:hover {
             .post-stub__title { color: $c-yellow; }
             .post-stub__subtitle { color: $c-yellow-l1; }
@@ -67,11 +69,17 @@
         }
     }
 
-    &__description {}
+    &__description {
+        display: inline-block;
+    }
 
 
     &__credits {
         text-align: left;
+
+        display: inline-block;
+        float: left;
+        margin: 0 20px 0 0;
 
     	color: $c-gray-d1;
     	transition: ease 0.25s;
@@ -109,9 +117,12 @@
         }
 
         &__description {
-            float: right;
-
             padding-left: 0;
         }
+
+        &__text { display: block; }
+
+        &__author,
+        &__date { display: block; }
     }
 }
