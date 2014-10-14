@@ -1,31 +1,31 @@
 pt-br:
   home:
-    title: 42i
+    title: "42i"
 
   about:
-    title: Sobre
+    title: "Sobre"
 
   projects:
-    title: Projetos
+    title: "Projetos"
 
   blog:
-    title: Blog
+    title: "Blog"
 
   contact:
-    title: Contato
+    title: "Contato"
 
 en:
   home:
-    title: 42i
+    title: "42i"
 
   about:
-    title: About
+    title: "About"
 
   projects:
-    title: Projects
+    title: "Projects"
 
   blog:
-    title: Journal
+    title: "Journal"
 
   contact:
-    title: Contact
+    title: "Contact"

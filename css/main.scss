@@ -21,6 +21,9 @@
 // Core CSS
 @import "../public/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/grid";
 
+// Utility classes
+@import "../public/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/responsive-utilities";
+
 /* // Core CSS
 
 @import "../public/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/scaffolding";
@@ -61,7 +64,6 @@
 
 // Utility classes
 @import "../public/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/utilities";
-@import "../public/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/responsive-utilities";
 // endbower */
 
 @import "modules/general",

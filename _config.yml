@@ -39,7 +39,6 @@ defaults:
       type: "pages"
       layout: default
 
-
   -
     scope:
       path: "_posts/en/pages"

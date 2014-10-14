@@ -1,27 +1,27 @@
 pt-br:
-  about-sub-1: Quem somos?
-  about-sub-2: O que somos?
-  about-sub-3: O que queremos?
-  projects-sub-1: O que?
-  projects-sub-2: Como?
-  projects-sub-3: Pra quem?
-  blog-sub-1: Quem?
-  blog-sub-2: Quando?
-  blog-sub-3: Onde?
-  contact-sub-1: Onde estamos?
-  contact-sub-2: Podemos ajudar?
-  contact-sub-3: Email ou telefone?
+  about-sub-1: "Quem somos?"
+  about-sub-2: "O que somos?"
+  about-sub-3: "O que queremos?"
+  projects-sub-1: "O que?"
+  projects-sub-2: "Como?"
+  projects-sub-3: "Pra quem?"
+  blog-sub-1: "Quem?"
+  blog-sub-2: "Quando?"
+  blog-sub-3: "Onde?"
+  contact-sub-1: "Onde estamos?"
+  contact-sub-2: "Podemos ajudar?"
+  contact-sub-3: "Email ou telefone?"
 
 en:
-  about-sub-1: Who are we?
-  about-sub-2: What are we?
-  about-sub-3: What we want?
-  projects-sub-1: What?
-  projects-sub-2: How?
-  projects-sub-3: Who?
-  blog-sub-1: When?
-  blog-sub-2: Where?
-  blog-sub-3: Who?
-  contact-sub-1: Directions?
-  contact-sub-2: Can we help?
-  contact-sub-3: Email or phone?
+  about-sub-1: "Who are we?"
+  about-sub-2: "What are we?"
+  about-sub-3: "What we want?"
+  projects-sub-1: "What?"
+  projects-sub-2: "How?"
+  projects-sub-3: "Who?"
+  blog-sub-1: "When?"
+  blog-sub-2: "Where?"
+  blog-sub-3: "Who?"
+  contact-sub-1: "Directions?"
+  contact-sub-2: "Can we help?"
+  contact-sub-3: "Email or phone?"

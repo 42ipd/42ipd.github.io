@@ -3,35 +3,41 @@ layout: default
 ---
 
 <div class="container">
-  <div class="row">
-    <div class="col-md-10 col-md-offset-1">
 
-      <!-- Blog List -->
-      <ul class="posts__list">
-        {% assign posts = site.posts | where:"lang", page.lang | where:"category", "blog" %}
+  <!-- Blog List -->
+  <ul class="posts__list">
+    {% assign posts = site.posts | where:"lang", page.lang | where:"category", "blog" %}
 
-        {% for post in posts %}
-        <li class="posts__item post-stub">
-          <a href="{{ post.url }}" class="post-stub__capsule">
-            <div class="post-stub__thumb">{{ post.thumb }}</div>
-
-            <div class="post-stub__description">
-              <h5 class="post-stub__title">{{ post.title }}</h5>
-              <p class="post-stub__subtitle">{{ post.subtitle }}</p>
-            </div>
-
+    {% for post in posts %}
+    <li class="posts__item post-stub">
+      <a href="{{ post.url }}" class="post-stub__capsule">
+        <div class="row">
+          <div class="col-xs-12 col-sm-2 ">
             <div class="post-stub__credits">
               <h5 class="post-stub__text">{{ site.data.strings.[page.lang].blog.by }}</h5>
               <span class="post-stub__author">{{ post.author }}</span>
               <h5 class="post-stub__text">{{ site.data.strings.[page.lang].blog.date }}</h5>
               <span class="post-stub__date">{{ post.date | date: "%d/%m/%Y" }}</span>
             </div>
-          </a>
-        </li>
-        {% endfor %}
+          </div>
 
-      </ul>
+          <div class="hidden-xs col-xs-12 col-sm-2">
+            <div class="post-stub__thumb-clipper">
+              <img class="post-stub__thumb" src="{{ site.imgurl }}/blog/{{ post.thumb }}" alt="">
+            </div>
+          </div>
 
-    </div>
-  </div>
+          <div class="col-xs-12 col-sm-8">
+            <div class="post-stub__description">
+              <h5 class="post-stub__title">{{ post.title }}</h5>
+              <p class="post-stub__subtitle">{{ post.subtitle }}</p>
+            </div>
+          </div>
+
+        </div>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+
 </div>
