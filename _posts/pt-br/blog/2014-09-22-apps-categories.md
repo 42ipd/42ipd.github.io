@@ -12,7 +12,7 @@ author: "Tales Cione"
 thumb: "2014-09-22-apps/42ipintado.jpg"
 ---
 
-Quando falamos de aplicativos voltados para aparelhos móveis hoje, podemos os dividir em duas macro categorias:
+<span class="dropcap">Q</span>uando falamos de aplicativos voltados para aparelhos móveis hoje, podemos os dividir em duas macro categorias:
 
 * Aplicativos disponíveis nas lojas dos sistemas (PlayStore, AppStore, Windows Store, etc);
 * Aplicativos disponíveis nos navegadores (web apps);

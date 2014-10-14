@@ -7,15 +7,14 @@ layout: default
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
 
-      <div class="img-full-width">
-        <img src="{{ site.imgurl }}/blog/{{ page.img }}" alt="">
+      <div class="post__image-clipper">
+        <img class="post__image" src="{{ site.imgurl }}/blog/{{ page.img }}" alt="">
       </div>
 
-      <div class="textblock">
-        <h1 class="headline">
-          {{ page.title }}
-          <small class="subtitle">{{ page.subtitle }}</small>
-        </h1>
+      <h1 class="post__title">{{ page.title }}</h1>
+      <span class="post__subtitle">{{ page.subtitle }}</span>
+
+      <div class="post__content">
 
         {{ content }}
 
