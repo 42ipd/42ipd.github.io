@@ -9,7 +9,7 @@ $-footer-height: 75px;
     width: 100%;
     height: $-footer-height;
     margin-top: 50px;
-    padding: 25px 0;
+    padding: 25px;
     bottom: 0;
     left: 0;
 
@@ -17,13 +17,49 @@ $-footer-height: 75px;
     border-top: 2px solid $c-yellow-l2;
 
     &__brand {
-        display: block;
-        display: block;
+        display: inline-block;
+        float: left;
         width: 24px;
         height: 24px;
         margin: 0 auto;
 
         path { fill: $c-yellow; }
+    }
+
+    &__list {
+        list-style-type: none;
+
+        display: inline-block;
+        float: right;
+        margin: 0;
+        padding: 0;
+    }
+
+    &__item {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    &__item-link {
+        color: $c-yellow-l1;
+    }
+
+    &__icon {
+        font-size: 22px;
+    }
+
+    &__languages {
+        font-family: $font-family-heading;
+        text-transform: uppercase;
+
+        display: inline-block;
+
+        &__item-link {
+            margin: 0 5px 0 0;
+
+            &--en:lang(en),
+            &--pt-br:lang(pt-br){ color: $c-yellow; }
+        }
     }
 }
 
@@ -37,5 +73,14 @@ $-footer-height: 75px;
 
         display: block;
         height: $-footer-height;
+    }
+}
+
+
+@media (min-width: $screen-tablet) {
+    .footer {
+        &__brand { float: none; }
+
+        &__list { display: none; }
     }
 }

@@ -17,14 +17,16 @@
       {% endfor %}
     </ul>
 
-    <ul class="js-header__list header__list header__list--right languages">
-      {% assign language = site.posts | where:"name", page.name | sort: 'path' %}
+    <ul class="js-header__list header__list header__list--right">
+      <div class="languages">
+        {% assign language = site.posts | where:"name", page.name | sort: 'path' %}
 
-      {% for post in language %}
-      <li class="header__item">
-        <a class="js-header__item-link header__item-link languages__item-link languages__item-link--{{ post.lang }}" href="{{ post.url }}">{{ post.lang }}</a>
-      </li>
-      {% endfor %}
+        {% for post in language %}
+        <li class="header__item">
+          <a class="js-header__item-link header__item-link languages__item-link languages__item-link--{{ post.lang }}" href="{{ post.url }}">{{ post.lang }}</a>
+        </li>
+        {% endfor %}
+      </div>
 
       <li class="header__item">
         <a class="js-header__item-link header__item-link header__icon icon icon--facebook" href="{{ site.data.strings.facebook }}" target='_blank' ></a>

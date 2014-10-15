@@ -24,9 +24,12 @@ $('.big-quote').css('height', $(window).height()/2);
 
 //header-resize
 $('.js-page-wrapper').css('padding-top', $('.header').outerHeight());
+$('.js-section').css('padding-top', $('.header').outerHeight());
+
 
 $(window).resize(function(){
   $('.js-page-wrapper').css('padding-top', $('.header').outerHeight());
+  $('.js-section').css('padding-top', $('.header').outerHeight());
 });
 
 

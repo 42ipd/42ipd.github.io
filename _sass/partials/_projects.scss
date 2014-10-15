@@ -1,5 +1,6 @@
 .projects {
     &__list {
+        margin: 0;
         padding: 0;
     }
 }
@@ -16,8 +17,6 @@
 
         border-bottom: none;
     }
-
-    &:first-child { margin-top: 100px; }
 
     &__capsule {
         text-align: center;
@@ -39,7 +38,7 @@
 
         position: relative;
         display: block;
-        margin: 10px 0 10px;
+        margin: 50px 0 0;
 
         color: $c-black;
         transform: translate3d(0, 0, 0);
@@ -65,7 +64,7 @@
     &__icon-group {
         display: block;
         height: auto;
-        margin-top: 25px;
+        margin-top: 10px;
 
         transition: ease 0.25s;
     }
@@ -142,13 +141,19 @@
 
         &__bg { height: 220px; }
 
-        &__title { font-size: 46px; }
+        &__title {
+            font-size: 46px;
+
+            margin: 10px 0 10px;
+        }
 
         &__subtitle { font-size: 18px; }
 
         &__info { padding: 10px; }
 
         &__cover { padding: 20px; }
+
+        &__icon-group { margin-top: 25px; }
     }
 }
 

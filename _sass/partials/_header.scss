@@ -25,7 +25,10 @@ $header-cont-height-comp: 36px;
 		margin: 0;
         padding: 0;
 
-		&--right { float: right; }
+		&--right {
+			display: none;
+			float: right;
+		}
 
 		&--compressed {
 			line-height: $header-cont-height-comp;
@@ -42,7 +45,7 @@ $header-cont-height-comp: 36px;
 	}
 
 	&__item-link {
-		font-size: 16px;
+		font-size: 14px;
 		text-transform: uppercase;
 		line-height: $header-cont-height;
 
@@ -90,6 +93,9 @@ $header-cont-height-comp: 36px;
 }
 
 .languages {
+	display: inline-block;
+	float: left;
+
 	&__item-link {
 		text-transform: uppercase;
 
@@ -99,5 +105,13 @@ $header-cont-height-comp: 36px;
 
 		&--en:lang(en),
 		&--pt-br:lang(pt-br){ color: $c-yellow; }
+	}
+}
+
+@media (min-width: $screen-tablet) {
+	.header {
+		&__list--right { display: inline-block; }
+
+		&__item-link { font-size: 16px; }
 	}
 }
