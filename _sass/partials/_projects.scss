@@ -1,3 +1,9 @@
+.projects {
+    &__list {
+        padding: 0;
+    }
+}
+
 .project-card {
     margin: 0 0 30px;
     padding: 0 0 30px;
@@ -23,7 +29,7 @@
         padding: 0;
 
         overflow: hidden;
-        transition: $anim-bounce 0.5s 0.1s;
+        transition: $anim-bounce 0.25s 0.1s;
     }
 
     &__title {
@@ -31,40 +37,52 @@
         line-height: 1;
         letter-spacing: 0;
 
-        margin: 20px 0 10px;
+        position: relative;
+        display: block;
+        margin: 10px 0 10px;
 
         color: $c-black;
-        transition: $anim-bounce 0.5s;
+        transform: translate3d(0, 0, 0);
+        transition: $anim-bounce 0.25s;
     }
 
     &__subtitle {
-        font-size: 14px;
-        font-weight: 400;
-        letter-spacing: 0;
+        font-size: 18px;
+        font-family: $font-family-sans-serif;
+        font-style: italic;
+        font-weight: 300;
+        letter-spacing: 0.025em;
 
+        position: relative;
+        display: block;
         margin: 0;
 
         color: $c-gray;
-        transition: $anim-bounce 0.5s;
+        transform: translate3d(0, 0, 0);
+        transition: $anim-bounce 0.25s;
     }
 
     &__icon-group {
+        display: block;
         height: auto;
         margin-top: 25px;
 
-        transition: ease 0.5s;
+        transition: ease 0.25s;
     }
 
     &__icon {
         font-size: 24px;
 
-        margin: 0 5px;
+        position: relative;
+        display: inline-block;
+        margin: 0 3px;
 
-        color: $c-yellow-l1;
+        color: $c-yellow;
+        transform: translate3d(0, 0, 0);
 
-        &--1 { transition: ease 0.25s 0.1s; }
-        &--2 { transition: ease 0.25s 0.15s; }
-        &--3 { transition: ease 0.25s 0.2s; }
+        &--1 { transition: ease 0.15s 0.1s; }
+        &--2 { transition: ease 0.15s 0.15s; }
+        &--3 { transition: ease 0.15s 0.2s; }
     }
 
     &__cover {
@@ -83,7 +101,7 @@
         padding: 0px;
 
         z-index: 300;
-        transition: ease 0.75s;
+        transition: ease 0.25s;
     }
 
     &__bg {
@@ -109,7 +127,7 @@
 
         opacity: 0.9;
         background: $c-white;
-        transition: ease 0.75s;
+        transition: ease 0.25s;
     }
 
     &__frame-image {
@@ -142,29 +160,30 @@
             .project-card__title {
                 letter-spacing: 0.125em;
 
-                margin: 0 0 10px;
-
                 color: $c-yellow;
+                transform: translate3d(0, 10px, 0);
             }
 
             .project-card__subtitle {
-                letter-spacing: 0.25em;
+                letter-spacing: 0.125em;
 
                 color: $c-orange-l1;
+                transform: translate3d(0, 0, 0);
             }
 
-            .project-card__frame { opacity: 0.75; }
+            .project-card__frame { opacity: 0.25; }
 
             .project-card__info { background: $c-light-d2; }
 
             .project-card__icon-group { margin-top: 15px; }
 
             .project-card__icon {
-                font-size: 24px;
+                font-size: 28px;
 
                 margin: 0 7px;
 
-                color: $c-yellow-l1;
+                color: $c-yellow;
+                transform: translate3d(0, -5px, 0);
             }
         }
 
@@ -174,7 +193,7 @@
 
         &__title { font-size: 52px; }
 
-        &__icon { color: transparent; }
+        &__icon { color: $c-gray-l1; }
 
         &__info { padding: 30px; }
 

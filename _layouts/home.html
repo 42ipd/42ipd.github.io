@@ -1,56 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ page.lang }}">
 
   {% include head.html %}
 
-  <body>
+  <body class="body">
 
-    <section class="section section--{{ page.title | slugify }}">
-      <div class="page-wrapper">
-        <div class="container">
-          <a href="{{ site.data.navigation.[page.lang].home.url }}" class="brand-frame"><img class="inject-these-svgs" src="{{ site.imgurl }}/brand.svg"></a>
+    {% include header.html %}
 
-          <div class="home-links">
-            <a class="big-link" href="{{ site.url }}/{{ site.data.navigation.[page.lang].about.title | slugify }}">
-              <span class="link-title">{{ site.data.navigation.[page.lang].about.title }}</span>
-              <div class="link-subtitles">
-                <span class="link-sub-1">{{ site.data.home.[page.lang].about-sub-1 }}</span>
-                <span class="link-sub-2">{{ site.data.home.[page.lang].about-sub-2 }}</span>
-                <span class="link-sub-3">{{ site.data.home.[page.lang].about-sub-3 }}</span>
-              </div>
-            </a>
+    <div class="js-page-wrapper page-wrapper page-wrapper--{{ page.title | slugify }}">
+      <section class="section section--{{ page.title | slugify }}">
 
-            <a class="big-link" href="{{ site.url }}/{{ site.data.navigation.[page.lang].projects.title | slugify }}">
-              <span class="link-title">{{ site.data.navigation.[page.lang].projects.title }}</span>
-              <div class="link-subtitles">
-                <span class="link-sub-1">{{ site.data.home.[page.lang].projects-sub-1 }}</span>
-                <span class="link-sub-2">{{ site.data.home.[page.lang].projects-sub-2 }}</span>
-                <span class="link-sub-3">{{ site.data.home.[page.lang].projects-sub-3 }}</span>
-              </div>
-            </a>
+      <div class="js-home-cover home-cover">
 
-            <a class="big-link" href="{{ site.url }}/{{ site.data.navigation.[page.lang].blog.title | slugify }}">
-              <span class="link-title">{{ site.data.navigation.[page.lang].blog.title }}</span>
-              <div class="link-subtitles">
-                <span class="link-sub-1">{{ site.data.home.[page.lang].blog-sub-1 }}</span>
-                <span class="link-sub-2">{{ site.data.home.[page.lang].blog-sub-2 }}</span>
-                <span class="link-sub-3">{{ site.data.home.[page.lang].blog-sub-3 }}</span>
-              </div>
-            </a>
+        <div class="home-cover__aligner">
+          <h1 class="home-cover__title">{{ page.highlight }}</h1>
+          <span class="home-cover__subtitle">{{ page.subtitle }}</span>
+        </div>
 
-            <a class="big-link" href="{{ site.url }}/{{ site.data.navigation.[page.lang].contact.title | slugify }}">
-              <span class="link-title">{{ site.data.navigation.[page.lang].contact.title }}</span>
-              <div class="link-subtitles">
-                <span class="link-sub-1">{{ site.data.home.[page.lang].contact-sub-1 }}</span>
-                <span class="link-sub-2">{{ site.data.home.[page.lang].contact-sub-2 }}</span>
-                <span class="link-sub-3">{{ site.data.home.[page.lang].contact-sub-3 }}</span>
-              </div>
-            </a>
-
-          </div>
+        <div class="home-cover__image-clipper">
+          <img class="home-cover__image" src="{{ site.imgurl }}/{{ page.bg-image }}" alt="">
         </div>
       </div>
-    </section>
+
+      </section>
+    </div>
 
     {% include footer.html %}
     {% include tail.html %}

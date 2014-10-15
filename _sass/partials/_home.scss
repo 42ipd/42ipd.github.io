@@ -1,245 +1,78 @@
-.home-links.front-page {
-	text-align: left;
+.section--index { padding: 0; }
 
-	padding: 50px 80px;
-}
-
-.brand-frame {
+.home-cover {
+	position: relative;
 	display: block;
-	width: 135px;
-	height: 135px;
-	margin-top: 80px;
-	padding: 15px;
+	width: 100%;
 
-	background: $c-yellow;
+	overflow: hidden;
 
-	.brand { fill: $c-white; }
+	&__aligner {
+		text-align: center;
 
-	.iconic-injected-svg {
+		position: absolute;
+		display: block;
 		width: 100%;
-		height: auto;
+		padding: 0 30px;
+		top: 35%;
+
+		z-index: 10;
 	}
-}
 
-.link-sub-1 { transition: $anim-bounce 0.35s 0.3s; }
-.link-sub-2 { transition: $anim-bounce 0.35s 0.2s; }
-.link-sub-3 { transition: $anim-bounce 0.35s 0.1s; }
+	&__title {
+		font-size: 28px;
+		line-height: 32px;
 
-.link-title {
-    font-family: $font-family-heading;
-    font-size: 40px;
-    font-weight: 600;
-    text-transform: uppercase;
-    line-height: 1;
-    letter-spacing: -0.05em;
-}
+		margin: 0;
 
-.link-subtitles {
-    font-family: $font-family-sans-serif;
-    font-size: 20px;
-    font-weight: 300;
-    font-style: italic;
-    text-align: left;
+		color: $c-white;
+		text-shadow: -3px 3px 0 $c-shadow-l1;
 
-    transition: 0.75s;
-}
+		&--lowercase { text-transform: lowercase; }
+	}
 
-.home-links { margin-top: 16px; }
+	&__subtitle {
+		font-size: 24px;
+		font-family: $font-family-sans-serif;
+		font-style: italic;
 
+		margin: 0;
 
-@media (min-width: $screen-tablet) {
-    .home-links {
-        position: relative;
-        width: auto;
-        margin: 120px auto 100px;
-    }
+		color: $c-white;
+		text-shadow: -2px 2px 0 $c-shadow-l1;
+	}
 
-    .big-link {
-        position: relative;
-        display: block;
-        width: auto;
+	&__image-clipper {
+		text-align: center;
 
-        transform: translateX(0);
-        transition: 0.15s;
-        padding-bottom: 1.2em;
-
-        .link-title {
-            margin-bottom: -34px;
-            padding-bottom: 30px;
-        }
-
-        .link-subtitles { height: 30px; }
-
-        text-decoration: none;
-
-        .link-title {
-			letter-spacing: -0.05em;
-
-            padding-right: 5px;
-            margin-left: -10px;
-            margin-bottom: -34px;
-            padding-bottom: 30px;
-
-            color: $c-yellow;
-        }
-
-        .link-subtitles { height: 30px; }
-
-        .link-sub-1,
-        .link-sub-2,
-        .link-sub-3 { opacity: 1; }
-
-        .link-sub-1 { transition: $anim-bounce 0.35s 0.1s; }
-        .link-sub-2 { transition: $anim-bounce 0.35s 0.2s; }
-        .link-sub-3 { transition: $anim-bounce 0.35s 0.3s; }
-    }
-
-    .link-title {
-        font-family: $font-family-heading;
-        font-size: 100px;
-        font-weight: 600;
-        text-transform: uppercase;
-        line-height: 0.78;
-        letter-spacing: -0.05em;
-
-        position: relative;
-        display: inline-block;
-        margin: 0 0 10px -15px;
-        padding-left: 0px;
-
-        overflow: hidden;
-        color: $c-yellow-l1;
-        border-left: 7px solid transparent;
-
-        transform: translateX(0);
-        transition: $anim-bounce 0.5s;
-    }
-
-    .link-subtitles {
-        font-family: $font-family-sans-serif;
-        font-size: 28px;
-        font-weight: 300;
-        font-style: italic;
-        text-align: left;
-
-        position: relative;
-        height: 0px;
-        width: 100%;
-        bottom: 0px;
-
-        transition: 0.75s;
-    }
-
-    .link-sub-1,
-    .link-sub-2,
-    .link-sub-3 {
-        position: relative;
-        display: inline-block;
-
-        color: $c-yellow-l1;
-
-        transform: translateX(-0%);
-        opacity: 0;
-    }
-}
-
-@media (min-width: $screen-desktop) {
-	.big-link {
 		position: relative;
 		display: block;
-		width: auto;
-
-		transform: translateX(0);
-		transition: 0.15s;
-        padding-bottom: 1.2em;
-
-        .link-title {
-            margin-bottom: -34px;
-            padding-bottom: 30px;
-        }
-
-        .link-subtitles { height: 30px; }
-
-        .link-sub-1,
-        .link-sub-2,
-        .link-sub-3 { opacity: 0; }
-
-		&:hover {
-			text-decoration: none;
-
-			.link-title {
-				letter-spacing: 0;
-
-				padding-left: 15px;
-				padding-right: 5px;
-                margin-left: -10px;
-                margin-bottom: -34px;
-                padding-bottom: 30px;
-
-				color: $c-yellow;
-				border-left: 7px solid $c-yellow-l1;
-
-				transform: translateX(10px);
-			}
-
-            .link-subtitles { height: 30px; }
-
-			.link-sub-1,
-			.link-sub-2,
-			.link-sub-3 { opacity: 1; }
-
-            .link-sub-1 { transition: $anim-bounce 0.35s 0.1s; }
-            .link-sub-2 { transition: $anim-bounce 0.35s 0.2s; }
-            .link-sub-3 { transition: $anim-bounce 0.35s 0.3s; }
-		}
-	}
-
-	.link-title {
-		font-family: $font-family-heading;
-		font-size: 100px;
-		font-weight: 600;
-		text-transform: uppercase;
-		line-height: 0.68;
-		letter-spacing: -0.05em;
-
-		position: relative;
-		display: inline-block;
-		margin: 0 0 10px -15px;
-		padding-left: 0px;
-
-		overflow: hidden;
-		color: $c-yellow-l1;
-		border-left: 7px solid transparent;
-
-		transform: translateX(0);
-		transition: $anim-bounce 0.5s;
-	}
-
-	.link-subtitles {
-		font-family: $font-family-sans-serif;
-		font-size: 28px;
-		font-weight: 300;
-		font-style: italic;
-		text-align: left;
-
-		position: relative;
-        height: 0px;
 		width: 100%;
-		bottom: 0px;
-
-		transition: 0.75s;
+		min-height: 100%;
 	}
 
-	.link-sub-1,
-	.link-sub-2,
-	.link-sub-3 {
+	&__image {
 		position: relative;
-		display: inline-block;
-        left: 24px;
+		min-width: 100%;
+		min-height: 100%;
+		margin-left: -200%;
+		left: 100%;
+	}
+}
 
-		color: $c-yellow-l1;
+@media (min-width: $screen-tablet) {
+	.home-cover {
+		&__aligner {
+			padding: 0 10%;
+			top: 42%;
+		}
 
-		transform: translateX(-0%);
-		opacity: 0;
+		&__title {
+			font-size: 48px;
+
+			line-height: 48px;
+		}
+
+		&__subtitle { font-size: 24px; }
 	}
 }

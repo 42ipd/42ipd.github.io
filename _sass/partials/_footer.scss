@@ -30,7 +30,7 @@ $-footer-height: 75px;
 //sticky-footer
 .page-wrapper {
     min-height: 100%;
-    margin-bottom: $-footer-height;
+    margin-bottom: - $-footer-height;
 
     &::after {
         content: "";

@@ -54,8 +54,13 @@ $(window).scroll(function(){
 });
 
 
-// Tooltip
-$('.js-tooltip-icon').tooltip();
+// home image
+$('.js-home-cover').outerHeight($(window).outerHeight() - $('.header').outerHeight() - $('footer').outerHeight());
+
+$(window).resize(function() {
+    $('.js-home-cover').outerHeight($(window).outerHeight() - $('.header').outerHeight() - $('.footer').outerHeight());
+});
+
 
 // Google Map Styles
 var map;
