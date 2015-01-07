@@ -18,30 +18,40 @@ google_verify: ""
 
 # Language settings
 defaults:
-  -
-    scope:
+  - scope:
       path:  "_posts/pt-br"
     values:
       lang: "pt-br"
       layout: default
 
-  -
-    scope:
+  - scope:
       path: "_posts/en"
     values:
       lang: "en"
       layout: default
 
-  -
-    scope:
+  - scope:
       path: "_posts/pt-br/pages"
     values:
       type: "pages"
       layout: default
 
-  -
-    scope:
+  - scope:
       path: "_posts/en/pages"
     values:
       type: "pages"
+      layout: default
+
+  - scope:
+      path: "_projects/pt-br/projects"
+    values:
+      type: "projects"
+      lang: "pt-br"
+      layout: default
+
+  - scope:
+      path: "_projects/en/projects"
+    values:
+      type: "projects"
+      lang: "en"
       layout: default
