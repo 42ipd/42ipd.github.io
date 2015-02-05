@@ -23,7 +23,7 @@
     margin: 0;
 
     overflow: hidden;
-    transition: $anim-bounce 0.5s 0.1s;
+    transition: color $anim-bounce 0.5s 0.1s;
 
     &__capsule {
         @include clearfix();
@@ -46,7 +46,7 @@
         margin: 0;
 
         color: $c-black;
-        transition: ease 0.25s;
+        transition: color ease 0.25s;
     }
 
     &__subtitle {
@@ -201,7 +201,7 @@
             font-weight: 300;
 
             color: $c-yellow;
-            transition: ease 0.25s;
+            transition: color ease 0.25s;
 
             &:hover { color: $c-yellow-d1; }
         }

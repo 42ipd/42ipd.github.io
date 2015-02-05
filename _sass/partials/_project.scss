@@ -97,7 +97,7 @@
             font-weight: 300;
 
             color: $c-yellow;
-            transition: ease 0.25s;
+            transition: color ease 0.25s;
 
             &:hover { color: $c-yellow-d1; }
         }

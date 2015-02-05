@@ -28,7 +28,6 @@
         padding: 0;
 
         overflow: hidden;
-        transition: $anim-bounce 0.25s 0.1s;
     }
 
     &__title {
@@ -42,7 +41,9 @@
 
         color: $c-black;
         transform: translate3d(0, 0, 0);
-        transition: $anim-bounce 0.25s;
+        transition: letter-spacing $anim-bounce 0.25s 0.1s,
+                    color $anim-bounce 0.25s 0.1s,
+                    transform $anim-bounce 0.25s 0.1s;
     }
 
     &__subtitle {
@@ -58,7 +59,9 @@
 
         color: $c-gray;
         transform: translate3d(0, 0, 0);
-        transition: $anim-bounce 0.25s;
+        transition: letter-spacing $anim-bounce 0.25s 0.1s,
+                    color $anim-bounce 0.25s 0.1s,
+                    transform $anim-bounce 0.25s 0.1s;
     }
 
     &__icon-group {
@@ -66,7 +69,7 @@
         height: auto;
         margin-top: 10px;
 
-        transition: ease 0.25s;
+        transition: margin ease 0.25s;
     }
 
     &__icon {
@@ -79,10 +82,34 @@
         color: $c-yellow;
         transform: translate3d(0, 0, 0);
 
-        &--1 { transition: ease 0.15s 0.1s; }
-        &--2 { transition: ease 0.15s 0.15s; }
-        &--3 { transition: ease 0.15s 0.2s; }
-    }
+        --
+        font-size: 28px;
+
+        margin: 0 7px;
+
+        color: $c-yellow;
+        transform: translate3d(0, -5px, 0);
+        --
+
+        &--1 {
+          transition: font-size ease 0.15s 0.1s,
+                      margin ease 0.15s 0.1s,
+                      color ease 0.15s 0.1s,
+                      transform ease 0.15s 0.1s;
+       }
+        &--2 {
+          transition: font-size ease 0.15s 0.15s,
+                      margin ease 0.15s 0.15s,
+                      color ease 0.15s 0.15s,
+                      transform ease 0.15s 0.15s;
+        }
+        &--3 {
+          transition: font-size ease 0.15s 0.2s,
+                      margin ease 0.15s 0.2s,
+                      color ease 0.15s 0.2s,
+                      transform ease 0.15s 0.2s;
+        }
+      }
 
     &__cover {
         position: relative;
@@ -100,7 +127,7 @@
         padding: 0px;
 
         z-index: 300;
-        transition: ease 0.25s;
+        transition: background ease 0.25s;
     }
 
     &__bg {
@@ -126,7 +153,7 @@
 
         opacity: 0.9;
         background: $c-white;
-        transition: ease 0.25s;
+        transition: opacity ease 0.25s;
     }
 
     &__frame-image {

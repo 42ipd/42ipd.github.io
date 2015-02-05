@@ -32,7 +32,7 @@
         color: $c-gray-d3;
 
         &--link {
-            transition: ease 0.25s;
+            transition: color ease 0.25s;
 
             &:hover { color: $c-yellow; }
         }
