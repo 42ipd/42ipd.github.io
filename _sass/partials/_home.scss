@@ -60,7 +60,7 @@
 	}
 }
 
-@media (min-width: $screen-tablet) {
+@media (min-width: $media-query-tablet) {
 	.home-cover {
 		&__aligner {
 			padding: 0 10%;

@@ -1,0 +1,71 @@
+// General Utils
+// --------------------------------------------------
+
+.aligner {
+    text-align: center;
+
+    display: block;
+
+    &--left { text-align: left; }
+    &--right { text-align: right; }
+}
+
+.vertical-align {
+    &:before {
+        content: '';
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+    }
+
+    &__child {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    &--top {
+        &__child { vertical-align: top; }
+    }
+
+    &--bottom {
+        &__child { vertical-align: bottom; }
+    }
+}
+
+.hidden { display: none !important; }
+
+.pull-left {
+  display: inline-block;
+  float: left !important;
+}
+
+.pull-right {
+  display: inline-block;
+  float: right !important;
+}
+
+.clearfix { @include clearfix(); }
+
+// Image utils
+// --------------------------------------------------
+.img-clipper {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.img-full-width {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.img-thumb {
+  width: 100px;
+
+  img { width: 100%; }
+}

@@ -15,28 +15,62 @@
     font-style: normal;
 }
 
-$font-family-heading:     'effra', Helvetica, Arial, "sans serif";
-
 $font-family-sans-serif:  'foco', Helvetica, Arial, "sans serif";
 $font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
 $font-family-monospace:   Monaco, Menlo, Consolas, "Courier New", monospace !default;
 $font-family-base:        $font-family-sans-serif !default;
 
-$font-size-base:          14px !default;
-$font-size-large:         ceil($font-size-base * 1.25) !default; // ~18px
-$font-size-small:         ceil($font-size-base * 0.85) !default; // ~12px
+$font-family-heading:     'effra', Helvetica, Arial, "sans serif";
+$font-family-text:        $font-family-sans-serif;
 
-$font-size-h1:            floor($font-size-base * 2.6) !default; // ~36px
-$font-size-h2:            floor($font-size-base * 2.15) !default; // ~30px
-$font-size-h3:            ceil($font-size-base * 1.7) !default; // ~24px
-$font-size-h4:            ceil($font-size-base * 1.25) !default; // ~18px
-$font-size-h5:            $font-size-base !default;
-$font-size-h6:            ceil($font-size-base * 0.85) !default; // ~12px
+$font-size-base: 14px;
 
-$line-height-base:        1.428571429 !default; // 20/14
-$line-height-computed:    floor($font-size-base * $line-height-base) !default; // ~20px
+$font-size-headline: 24px;
+$font-size-title: 18px;
+$font-size-subtitle: 16px;
+$font-size-link: 14px;
+$font-size-text: $font-size-base;
+$font-size-table: 13px;
+$font-size-sublink: 13px;
+$font-size-legend: 13px;
+$font-size-small: 9px;
 
-$headings-font-family:    $font-family-base !default;
-$headings-font-weight:    500 !default;
-$headings-line-height:    1.1 !default;
-$headings-color:          inherit !default;
+$font-lh-headline: $font-size-headline * 1.4;
+$font-lh-title: $font-size-title * 1.4;
+$font-lh-subtitle: $font-size-subtitle * 1.4;
+$font-lh-link: $font-size-link * 1.4;
+$font-lh-text: $font-size-text * 1.4;
+$font-lh-table: $font-size-table * 1.4;
+$font-lh-sublink: $font-size-sublink * 1.4;
+$font-lh-legend: $font-size-legend * 1.4;
+$font-lh-small: $font-size-small * 1.4;
+
+
+// Hr border color
+$hr: 1px $c-orange solid;
+$hr-big: 1px $c-gray-d3 solid;
+
+
+// typography variables
+// --------------------------------------------------
+
+$em-space: $font-size-base;
+$en-space: $em-space/2;
+
+// general tag adjustments
+// --------------------------------------------------
+
+body { font-kerning: normal; }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-family-heading;
+    font-weight: 600;
+}
+
+p, span, small { font-family: $font-family-text; }
+
+button {
+  border: none;
+  box-shadow: none;
+  outline: none;
+}

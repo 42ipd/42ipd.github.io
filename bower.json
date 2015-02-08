@@ -25,6 +25,6 @@
   "dependencies": {
     "jquery": "~2.1.1",
     "svg-injector": "~1.1.0",
-    "bootstrap-sass-official": "~3.2.0+2"
+    "normalize.css": "~3.0.2"
   }
 }

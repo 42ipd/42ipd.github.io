@@ -108,7 +108,7 @@ $header-cont-height-comp: 36px;
 	}
 }
 
-@media (min-width: $screen-tablet) {
+@media (min-width: $media-query-tablet) {
 	.header {
 		&__list--right { display: inline-block; }
 

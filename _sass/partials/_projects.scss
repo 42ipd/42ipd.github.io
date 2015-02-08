@@ -82,15 +82,6 @@
         color: $c-yellow;
         transform: translate3d(0, 0, 0);
 
-        --
-        font-size: 28px;
-
-        margin: 0 7px;
-
-        color: $c-yellow;
-        transform: translate3d(0, -5px, 0);
-        --
-
         &--1 {
           transition: font-size ease 0.15s 0.1s,
                       margin ease 0.15s 0.1s,
@@ -162,7 +153,7 @@
     }
 }
 
-@media (min-width: $screen-tablet) {
+@media (min-width: $media-query-tablet) {
     .project-card {
         &__capsule { height: 220px; }
 
@@ -184,7 +175,7 @@
     }
 }
 
-@media (min-width: $screen-desktop) {
+@media (min-width: $media-query-desktop) {
     .project-card {
         &:hover {
             text-decoration: none;

@@ -77,7 +77,7 @@ $-footer-height: 75px;
 }
 
 
-@media (min-width: $screen-tablet) {
+@media (min-width: $media-query-tablet) {
     .footer {
         &__brand { float: none; }
 

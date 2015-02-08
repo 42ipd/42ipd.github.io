@@ -232,7 +232,7 @@
     }
 }
 
-@media (min-width: $screen-tablet) {
+@media (min-width: $media-query-tablet) {
     .post-stub {
         &__title {
             font-size: 35px;

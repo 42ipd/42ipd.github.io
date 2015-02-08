@@ -96,3 +96,14 @@ $c-light-l1: rgba(255, 255, 255, 0.25);
 $c-light: rgba(255, 255, 255, 0.5);
 $c-light-d1: rgba(255, 255, 255, 0.75);
 $c-light-d2: rgba(255, 255, 255, 0.9);
+
+
+::selection {
+    color: $c-white;
+    background: $c-orange;
+}
+
+::-moz-selection {
+    color: $c-white;
+    background: $c-orange;
+}

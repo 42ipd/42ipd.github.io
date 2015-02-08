@@ -1,0 +1,48 @@
+@mixin vendorize($property, $value) {
+  -webkit-#{$property}: $value;
+  -moz-#{$property}: $value;
+  -ms-#{$property}: $value;
+  -o-#{$property}: $value;
+  #{$property}: $value;
+}
+
+@mixin placeholder($color) {
+  ::-webkit-input-placeholder { color: $color; }
+  :-moz-placeholder { color: $color; }
+  ::-moz-placeholder { color: $color; }
+  :-ms-input-placeholder { color: $color; }
+}
+
+@mixin clearfix() {
+    &:before,
+    &:after {
+        content: " "; // 1
+        display: table; // 2
+    }
+
+    &:after { clear: both; }
+}
+
+@mixin hoverActiveFocus() {
+  &:hover, &:active, &:focus {
+    @content;
+  }
+}
+
+@mixin breakpoint($point) {
+  @if $point == media20 { @media (min-width: 20em) { @content; } }
+  @else if $point == media30 { @media (min-width: 30em) { @content; } }
+  @else if $point == media45 { @media (min-width: 45em) { @content; } }
+  @else if $point == media60 { @media (min-width: 60em) { @content; } }
+  @else if $point == media80 { @media (min-width: 80em) { @content; } }
+}
+
+@mixin highPixelDensity() {
+  @media print,
+  (-o-min-device-pixel-ratio: 5/4),
+  (-webkit-min-device-pixel-ratio: 1.25),
+  (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+    @content;
+  }
+}
