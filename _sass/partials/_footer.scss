@@ -1,7 +1,6 @@
 // contextual variables
 $-footer-height: 75px;
 
-
 .footer {
     text-align: center;
 
@@ -66,13 +65,12 @@ $-footer-height: 75px;
 //sticky-footer
 .page-wrapper {
     min-height: 100%;
-    margin-bottom: - $-footer-height;
+    margin-bottom: $-footer-height;
 
     &::after {
         content: "";
 
         display: block;
-        height: $-footer-height;
     }
 }
 
