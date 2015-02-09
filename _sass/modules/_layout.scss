@@ -1,0 +1,13 @@
+.page-wrapper {
+  &--project {
+    padding: 0 !important;
+  }
+}
+
+.section {
+  padding: $gutter*2 0 0;
+
+  &--project {
+    padding: 0;
+  }
+}

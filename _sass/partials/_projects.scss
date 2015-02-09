@@ -35,11 +35,10 @@
         border: $hr-neg;
         transform: scale3d(1, 1, 1);
         transition: transform $anim-bounce 0.5s;
-        z-index: $z-mid;
+        z-index: $z-mid-back;
     }
 
     &:hover{
-
       .project-card {
         &__image {
           opacity: 0.25;
@@ -81,7 +80,7 @@
       height: 70px;
       bottom: 0;
 
-      z-index: $z-mid-front;
+      z-index: $z-mid;
       background: $c-white;
       transition: height ease 0.25s;
     }
@@ -103,7 +102,7 @@
     }
 
     &__subtitle {
-      font-size: $font-size-subtitle;
+      font-size: $font-size-legend;
       font-style: italic;
       text-align: center;
 

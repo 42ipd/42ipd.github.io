@@ -41,30 +41,93 @@ a {
 // text, lists & quotes
 // --------------------------------------------------
 .textblock {
-    font-family: $font-family-sans-serif;
+    font-family: $font-family-text;
 
     margin: 0 0 50px;
 
     color: $c-gray-d2;
 
-    h2 {
-        font-size: 28px;
+    h1, h2 {
+        font-size: $font-size-title;
+        line-height: $lh-title;
 
         margin: 0 0 20px;
+
+        color: $c-black;
     }
 
-    p {
-        font-size: 20px;
-        font-weight: 300;
-        line-height: 16/20;
+    h3 {
+        font-size: $font-size-title-medium;
+        line-height: $lh-title;
 
-        margin: 0 0 45px;
+        margin: 0;
+
+        color: $c-yellow;
+    }
+
+    h4, h5, h6 {
+        font-size: $font-size-title-small;
+        font-family: $font-family-text;
+        font-weight: 600;
+        line-height: $lh-title;
+
+        margin: 0;
+
+        color: $c-gray;
+    }
+
+    p, span {
+        font-size: $font-size-text;
+        font-weight: 300;
+        line-height: $lh-text;
+
+        margin: 0 0 20px;
+
+        color: $c-black;
+
+        br { line-height: $lh-text * 1.5; }
+    }
+
+    small {
+        font-size: $font-size-legend;
+        font-family: $font-family-text;
+        line-height: $lh-legend;
+        font-weight: 300;
+    }
+
+    a {
+        font-size: $font-size-text;
+        font-family: $font-family-text;
+        font-weight: 300;
+
+        color: $c-yellow;
+        transition: color ease 0.25s;
+
+        @include hoverActiveFocus { color: $c-yellow-d1; }
     }
 
     ul {
-        margin: 0;
-        padding-left: ($em-space * 2);
+        font-size: $font-size-text;
+        font-family: $font-family-text;
+        font-weight: 300;
+        line-height: $lh-text;
+        font-style: italic;
+        list-style-type: none;
+
+        margin: 0 0 20px;
+        padding-left: $em-space * 2;
+
+        color: $c-black;
     }
+
+    li:before {
+        content: "•";
+
+        margin: 0 $em-space 0 0;
+
+        color: $c-yellow;
+    }
+
 
     .subtitle {
         font-weight: 400;
@@ -72,60 +135,27 @@ a {
 
         margin: 10px 0;
     }
-}
-
-.dropcap {
-    font-family: $font-family-heading;
-    font-size: 28px;
-    font-weight: 600;
-    line-height: 1;
-
-    display: inline;
-    float: left;
-    margin-right: 8px;
-    padding: 8px 10px;
-
-    color: $c-yellow;
-    background: $c-yellow-l3;
-    // border: 1px solid $c-gray-l2;
-}
-
-.first-p { text-indent: 0 !important; }
-
-.quote {
-    font-size: 18px;
-    font-style: italic;
-    text-indent: 0;
-
-    position: relative;
-    padding: $em-space * 2;
-
-    color: $c-gray;
-    border-left: 2px solid $c-yellow-l2;
-
-    &:before {
-        content: "\22";
-
-        position: absolute;
-        top: 15px;
-        left: 15px;
-    }
-
-    &:after {
-        content: "\22";
-
-        position: absolute;
-        left: 15px;
-        bottom: 10px;
-    }
 
     .dropcap {
-        font-size: 36px;
+        font-family: $font-family-heading;
+        font-size: $font-size-dropcap;
+        font-weight: 600;
+        line-height: $lh-dropcap;
+
+        display: inline;
+        float: left;
+        margin: 0 8px 0 0;
+        padding: 8px 10px;
 
         color: $c-yellow;
-        background: $c-yellow-l2;
+        background: $c-yellow-l3;
+        // border: 1px solid $c-gray-l2;
     }
+
 }
+
+
+.first-p { text-indent: 0 !important; }
 
 .quote-author {
     text-align: center;
@@ -169,6 +199,7 @@ a {
         color: $c-yellow;
     }
 }
+
 // titles & subtitles
 // --------------------------------------------------
 .subtitle {

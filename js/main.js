@@ -20,23 +20,32 @@
     });
 }(jQuery, SVGInjector));
 
-$('.big-quote').css('height', $(window).height()/2);
-
 //header-resize
 $('.js-page-wrapper').css('padding-top', $('.header').outerHeight());
-$('.js-section').css('padding-top', $('.header').outerHeight());
+$('.js-home-cover').outerHeight($(window).outerHeight() - $('.header').outerHeight() - $('.footer').outerHeight());
+$('.js-project-cover').outerHeight($(window).outerHeight());
+$('.js-project-cover-img').outerHeight($(window).outerHeight());
 
 
 $(window).resize(function(){
   $('.js-page-wrapper').css('padding-top', $('.header').outerHeight());
-  $('.js-section').css('padding-top', $('.header').outerHeight());
+  $('.js-home-cover').outerHeight($(window).outerHeight() - $('.header').outerHeight() - $('.footer').outerHeight());
+  $('.js-project-cover').outerHeight($(window).outerHeight());
+  $('.js-project-cover-img').outerHeight($(window).outerHeight());
 });
 
 
 // Compressed Header
 var isMenuFixed = false;
+var isProjectScroll = false;
+var $techSpecs = $('.js-tech-specs'),
+    techSpecsInitialTop = $techSpecs.offset().top;
 
-$(window).scroll(function(){
+$(window).scroll(function(e){
+    e.preventDefault();
+
+    var scroll = $(window).scrollTop();
+
     if (document.body.scrollTop < 50 && isMenuFixed) {
         if ($('.js-header').hasClass('header--compressed')) {
             $('.js-header').removeClass('header--compressed');
@@ -54,15 +63,27 @@ $(window).scroll(function(){
             isMenuFixed = true;
         }
     }
+
+    if (document.body.scrollTop < 50 && isProjectScroll) {
+        if ($('.js-project-cover').hasClass('cover--scrolled')) {
+            $('.js-project-cover').removeClass('cover--scrolled');
+            isProjectScroll = false;
+        }
+    } else if (document.body.scrollTop > 50 && !isProjectScroll) {
+        if (!$('.js-project-cover').hasClass('cover--scrolled')) {
+            $('.js-project-cover').addClass('cover--scrolled');
+            isProjectScroll = true;
+        }
+    }
+
+    if (scroll >= techSpecsInitialTop - $('.js-header').outerHeight()) {
+        $techSpecs.addClass('tech-specs--fixed');
+    } else {
+        $techSpecs.removeClass('tech-specs--fixed');
+    }
 });
 
 
-// home image
-$('.js-home-cover').outerHeight($(window).outerHeight() - $('.header').outerHeight() - $('footer').outerHeight());
-
-$(window).resize(function() {
-    $('.js-home-cover').outerHeight($(window).outerHeight() - $('.header').outerHeight() - $('.footer').outerHeight());
-});
 
 
 // Google Map Styles

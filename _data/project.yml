@@ -6,6 +6,7 @@ pt-br:
   project-type: "Tipo"
   platforms: "Plataformas"
   techs: "Tecnologias"
+  support: "Suporte"
 
 en:
   tech-specs: "Tech-Specs"
@@ -14,4 +15,4 @@ en:
   year: "Year"
   project-type: "Type"
   platforms: "Platforms"
-  techs: "Techs"
+  support: "Support"

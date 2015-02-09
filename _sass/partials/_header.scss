@@ -9,10 +9,11 @@ $header-cont-height-comp: 36px;
 	padding: 15px;
 
 	box-shadow: 0 0 transparent;
-	background: $c-white;
-	z-index: 1050;
+	background: $c-light-l2;
+	z-index: $z-mid-front;
 	transition: padding $anim-bounce 0.25s,
-							box-shadow $anim-bounce 0.25s;
+							background ease 0.5s,
+							box-shadow ease 0.25s;
 
 	@include clearfix();
 
@@ -94,6 +95,7 @@ $header-cont-height-comp: 36px;
 	&--compressed {
 		padding: 10px 15px;
 
+		background: $c-white;
 		box-shadow: 0 5px 0 $c-shadow-l2;
 	}
 }
