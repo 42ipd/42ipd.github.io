@@ -11,7 +11,8 @@ $header-cont-height-comp: 36px;
 	box-shadow: 0 0 transparent;
 	background: $c-white;
 	z-index: 1050;
-	transition: padding $anim-bounce 0.25s,  box-shadow $anim-bounce 0.25s;
+	transition: padding $anim-bounce 0.25s,
+							box-shadow $anim-bounce 0.25s;
 
 	@include clearfix();
 
@@ -24,7 +25,8 @@ $header-cont-height-comp: 36px;
 		height: $header-cont-height;
 		margin: 0;
     padding: 0;
-		transition: height $anim-bounce 0.25s,  line-height $anim-bounce 0.25s;
+		transition: height $anim-bounce 0.25s,
+								line-height $anim-bounce 0.25s;
 
 		&--right {
 			display: none;
@@ -55,7 +57,8 @@ $header-cont-height-comp: 36px;
 		padding: 0 0 0 10px;
 
 		color: $c-yellow-l1;
-		transition: height $anim-bounce 0.25s, line-height $anim-bounce 0.25s;
+		transition: height $anim-bounce 0.25s,
+								line-height $anim-bounce 0.25s;
 
 		&:hover { color: $c-yellow; }
 
@@ -75,7 +78,9 @@ $header-cont-height-comp: 36px;
 
 		fill: $c-white;
 		background: $c-yellow;
-		transition: width $anim-bounce 0.25s, height $anim-bounce 0.25s, padding $anim-bounce 0.25s;
+		transition: width $anim-bounce 0.25s,
+								height $anim-bounce 0.25s,
+								padding $anim-bounce 0.25s;
 
 		&--compressed {
 			width: $header-cont-height-comp;

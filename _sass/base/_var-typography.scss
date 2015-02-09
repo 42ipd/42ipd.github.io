@@ -25,7 +25,7 @@ $font-family-text:        $font-family-sans-serif;
 
 $font-size-base: 14px;
 
-$font-size-headline: 24px;
+$font-size-headline: 42px;
 $font-size-title: 18px;
 $font-size-subtitle: 16px;
 $font-size-link: 14px;
@@ -34,6 +34,10 @@ $font-size-table: 13px;
 $font-size-sublink: 13px;
 $font-size-legend: 13px;
 $font-size-small: 9px;
+
+
+$font-size-icon: 14px;
+$font-size-icon-big: 24px;
 
 $font-lh-headline: $font-size-headline * 1.4;
 $font-lh-title: $font-size-title * 1.4;
@@ -48,7 +52,8 @@ $font-lh-small: $font-size-small * 1.4;
 
 // Hr border color
 $hr: 1px $c-orange solid;
-$hr-big: 1px $c-gray-d3 solid;
+$hr-neg: 1px $c-white solid;
+$hr-dark: 1px $c-gray-l2 solid;
 
 
 // typography variables

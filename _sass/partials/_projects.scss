@@ -1,225 +1,157 @@
 .projects {
     &__list {
+        list-style-type: none;
+
         margin: 0;
         padding: 0;
+    }
+
+    &__item {
+      margin: 0 0 30px;
+
+      &:last-child { margin: 0 0 50px; }
     }
 }
 
 .project-card {
-    margin: 0 0 30px;
-    padding: 0 0 30px;
+    position: relative;
+    display: block;
+    height: 300px;
 
-    border-bottom: 2px solid $c-yellow-l2;
+    overflow: hidden;
+    transition: background ease 0.5s;
+    cursor: pointer !important;
+    @include gradient($c-orange, $c-yellow);
 
-    &:last-child {
-        margin: 0 0 50px;
-        padding: 0;
+    &:before {
+        content: '';
 
-        border-bottom: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+        border: $hr-neg;
+        transform: scale3d(1, 1, 1);
+        transition: transform $anim-bounce 0.5s;
+        z-index: $z-mid;
     }
 
-    &__capsule {
-        text-align: center;
+    &:hover{
 
-        position: relative;
-        display:  block;
-        height: 175px;
-        margin: 0;
-        padding: 0;
-
-        overflow: hidden;
-    }
-
-    &__title {
-        font-size: 30px;
-        line-height: 1;
-        letter-spacing: 0;
-
-        position: relative;
-        display: block;
-        margin: 50px 0 0;
-
-        color: $c-black;
-        transform: translate3d(0, 0, 0);
-        transition: letter-spacing $anim-bounce 0.25s 0.1s,
-                    color $anim-bounce 0.25s 0.1s,
-                    transform $anim-bounce 0.25s 0.1s;
-    }
-
-    &__subtitle {
-        font-size: 18px;
-        font-family: $font-family-sans-serif;
-        font-style: italic;
-        font-weight: 300;
-        letter-spacing: 0.025em;
-
-        position: relative;
-        display: block;
-        margin: 0;
-
-        color: $c-gray;
-        transform: translate3d(0, 0, 0);
-        transition: letter-spacing $anim-bounce 0.25s 0.1s,
-                    color $anim-bounce 0.25s 0.1s,
-                    transform $anim-bounce 0.25s 0.1s;
-    }
-
-    &__icon-group {
-        display: block;
-        height: auto;
-        margin-top: 10px;
-
-        transition: margin ease 0.25s;
-    }
-
-    &__icon {
-        font-size: 24px;
-
-        position: relative;
-        display: inline-block;
-        margin: 0 3px;
-
-        color: $c-yellow;
-        transform: translate3d(0, 0, 0);
-
-        &--1 {
-          transition: font-size ease 0.15s 0.1s,
-                      margin ease 0.15s 0.1s,
-                      color ease 0.15s 0.1s,
-                      transform ease 0.15s 0.1s;
-       }
-        &--2 {
-          transition: font-size ease 0.15s 0.15s,
-                      margin ease 0.15s 0.15s,
-                      color ease 0.15s 0.15s,
-                      transform ease 0.15s 0.15s;
+      .project-card {
+        &__image {
+          opacity: 0.25;
+          transform: scale3d(1.1,1.1,1);
         }
-        &--3 {
-          transition: font-size ease 0.15s 0.2s,
-                      margin ease 0.15s 0.2s,
-                      color ease 0.15s 0.2s,
-                      transform ease 0.15s 0.2s;
+
+        &__info {
+          height: 0;
+        }
+
+        &__title {
+          color: $c-white;
+          transform: translateY(-130px);
+        }
+
+        &__subtitle {
+          opacity: 1;
+          transform: translateY(-115px) scale3d(1.1, 1.1, 1);
+        }
+
+        &__icon-group {
+          opacity: 1;
+          transform: translateY(-50px);
         }
       }
 
-    &__cover {
-        position: relative;
-        display: block;
-        height: 100%;
-        padding: 0px;
-
-        background: $c-white;
+      &:before {
+        transform: scale3d(0.875, 0.8, 1);
+      }
     }
+
 
     &__info {
-        position: relative;
-        display: block;
-        height: 100%;
-        padding: 0px;
+      text-align: center;
 
-        z-index: 300;
-        transition: background ease 0.25s;
+      position: absolute;
+      display: block;
+      width: 100%;
+      height: 70px;
+      bottom: 0;
+
+      z-index: $z-mid-front;
+      background: $c-white;
+      transition: height ease 0.25s;
     }
 
-    &__bg {
-        position: absolute;
-        display: block;
-        width: 100%;
-        height: 175px;
-        margin: 0;
-        top: 0;
-        left: 0;
+    &__title {
+      font-size: $font-size-headline;
+      text-align: center;
 
-        z-index: 100;
+      position: absolute;
+      width: 100%;
+      margin: 0;
+      bottom: 0;
+      left: 0;
+
+      color: $c-black;
+      transform: translateY(-10px) scale3d(1, 1, 1);
+      transition: transform $anim-bounce 0.5s,
+                  color ease 0.5s;
     }
 
-    &__frame {
-        position: absolute;
-        display: block;
-        width: 100%;
-        height: 100%;
-        margin: 0;
-        top: 0;
-        left: 0;
+    &__subtitle {
+      font-size: $font-size-subtitle;
+      font-style: italic;
+      text-align: center;
 
-        opacity: 0.9;
-        background: $c-white;
-        transition: opacity ease 0.25s;
+      position: absolute;
+      width: 100%;
+      margin: 0;
+      bottom: 0;
+      left: 0;
+
+      color: $c-white;
+      opacity: 0;
+      transform: translateY(0) scale(1, 1, 1);
+      transition: transform $anim-bounce 0.5s 0.025s,
+                  opacity ease 0.5s;
     }
 
-    &__frame-image {
+    &__icon-group {
+      text-align: center;
+
+      position: absolute;
+      width: 100%;
+      bottom: -10px;
+      left: 0;
+
+      opacity: 0;
+      transition: transform $anim-bounce 0.5s 0.1s,
+                  opacity ease 0.5s;
+    }
+
+    &__icon {
+      font-size: $font-size-icon-big;
+
+      margin: 0 5px;
+
+      color: $c-white;
+    }
+
+    &__image {
+        display: block;
         width: 100%;
-        height: auto;
+
+        transition: opacity ease 0.6s,
+                    transform ease 0.6s;
     }
 }
 
 @media (min-width: $media-query-tablet) {
-    .project-card {
-        &__capsule { height: 220px; }
-
-        &__bg { height: 220px; }
-
-        &__title {
-            font-size: 46px;
-
-            margin: 10px 0 10px;
-        }
-
-        &__subtitle { font-size: 18px; }
-
-        &__info { padding: 10px; }
-
-        &__cover { padding: 20px; }
-
-        &__icon-group { margin-top: 25px; }
-    }
 }
 
 @media (min-width: $media-query-desktop) {
-    .project-card {
-        &:hover {
-            text-decoration: none;
-
-            .project-card__title {
-                letter-spacing: 0.125em;
-
-                color: $c-yellow;
-                transform: translate3d(0, 10px, 0);
-            }
-
-            .project-card__subtitle {
-                letter-spacing: 0.125em;
-
-                color: $c-orange-l1;
-                transform: translate3d(0, 0, 0);
-            }
-
-            .project-card__frame { opacity: 0.25; }
-
-            .project-card__info { background: $c-light-d2; }
-
-            .project-card__icon-group { margin-top: 15px; }
-
-            .project-card__icon {
-                font-size: 28px;
-
-                margin: 0 7px;
-
-                color: $c-yellow;
-                transform: translate3d(0, -5px, 0);
-            }
-        }
-
-        &__capsule { height: 300px; }
-
-        &__bg { height: 300px; }
-
-        &__title { font-size: 52px; }
-
-        &__icon { color: $c-gray-l1; }
-
-        &__info { padding: 30px; }
-
-        &__cover { padding: 50px; }
-    }
 }
