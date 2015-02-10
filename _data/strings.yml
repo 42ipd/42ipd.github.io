@@ -1,13 +1,13 @@
 title: "42i"
 email: "contato@42i.com.br"
-facebook: "https://www.facebook.com/somosa42i"
-phone: "+55 11 3337-5448"
-address: "Rua General Jardim, 645, sala 62"
+facebook: "https://www.facebook.com/42ipd"
+phone: "+55 11 3042-0421"
+address: "Rua General Jardim, 645, sala 22"
 github_username: "42i-lab"
 
 pt-br:
   title: "42i - Produtora Digital Independente"
-  description: "Descrição do site"
+  description: "A 42i é uma produtora digital independente localizada no centro de São Paulo."
   search: "Busca"
 
   blog:
@@ -16,7 +16,7 @@ pt-br:
 
 en:
   title: "42i - Independent Digital Producer"
-  description: "Site's description"
+  description: "42i is an indenpendent digital producer located in the heart of São Paulo - SP - Brazil"
   search: "Search"
 
   blog:
