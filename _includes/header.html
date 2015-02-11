@@ -9,30 +9,30 @@
       </li>
 
       {% for menu in site.data.navigation[page.lang] %}
-      {% if menu[1].title != '42i' %}
-      <li class="js-header__list header__item">
-        <a class="js-header__item-link header__item-link" href="{{ site.url }}/{{ menu[1].title | slugify }}" class="header-link" title="{{ menu[1].title }}">{{ menu[1].title }}</a>
-      </li>
-      {% endif %}
+        {% if menu[1].title != '42i' %}
+          <li class="js-header__list header__item">
+            <a class="js-header__link header__link" href="{{ site.url }}{{ menu[1].title | slugify }}" title="{{ menu[1].title }}">{{ menu[1].title }}</a>
+          </li>
+        {% endif %}
       {% endfor %}
     </ul>
 
     <ul class="js-header__list header__list header__list--right">
+      <!--
       <div class="languages">
         {% assign language = site.posts | where:"name", page.name | sort: 'path' %}
 
         {% for post in language %}
         <li class="header__item">
-          <a class="js-header__item-link header__item-link languages__item-link languages__item-link--{{ post.lang }}" href="{{ post.url }}">{{ post.lang }}</a>
+          <a class="js-header__link header__link languages__link languages__link--{{ post.lang }}" href="{{ post.url }}">{{ post.lang }}</a>
         </li>
         {% endfor %}
       </div>
+      -->
 
       <li class="header__item">
-        <a class="js-header__item-link header__item-link header__icon icon icon--facebook" href="{{ site.data.strings.facebook }}" target='_blank' ></a>
+        <a class="js-header__link header__link header__icon icon icon--facebook" href="{{ site.data.strings.facebook }}" target='_blank' ></a>
       </li>
     </ul>
-
-
   </div>
 </header>

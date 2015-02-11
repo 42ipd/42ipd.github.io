@@ -4,6 +4,8 @@
   width: 100%;
   margin-right: auto;
   margin-left: auto;
+  padding-right: ($gutter)/2;
+  padding-left: ($gutter)/2;
 }
 
 .container:before,
@@ -64,10 +66,7 @@
   .container {
     width: $container-tablet;
 
-    &--small {
-      width: $container-tablet - 100px;
-
-    }
+    &--small { width: $container-tablet - 100px; }
   }
 
   .row {
@@ -112,9 +111,7 @@
   .container {
     width: $container-desktop;
 
-    &--small {
-      width: $container-desktop - 100px;
-    }
+    &--small { width: $container-desktop - 100px; }
   }
 
   .col-sm-hidden { display: block; }

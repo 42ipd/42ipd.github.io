@@ -1,0 +1,20 @@
+.pagination {
+    border-radius: 0;
+
+    li a {
+        color: $c-gray-l1;
+        border: none;
+
+        margin-left: 3px;
+
+        &:hover {
+            color: $c-yellow;
+            background: $c-yellow-l2;
+        }
+    }
+
+    li span {
+        color: $c-yellow;
+        background: $c-yellow-l2;
+    }
+}

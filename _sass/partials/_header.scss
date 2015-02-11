@@ -2,14 +2,14 @@ $header-cont-height: 48px;
 $header-cont-height-comp: 36px;
 
 .header {
-	font-family: $font-family-heading;
+	font-family: $ff-heading;
 	position: fixed;
 	display: block;
 	width: 100%;
 	padding: 15px;
 
-	box-shadow: 0 0 transparent;
-	background: $c-light-l2;
+	box-shadow: 0 5px 0 $c-shadow-l2;
+	background: $c-white;
 	z-index: $z-mid-front;
 	transition: padding $anim-bounce 0.25s,
 							background ease 0.5s,
@@ -33,12 +33,6 @@ $header-cont-height-comp: 36px;
 			display: none;
 			float: right;
 		}
-
-		&--compressed {
-			line-height: $header-cont-height-comp;
-
-			height: $header-cont-height-comp;
-		}
 	}
 
 	&__item {
@@ -48,10 +42,13 @@ $header-cont-height-comp: 36px;
 		@include clearfix();
 	}
 
-	&__item-link {
+	&__link {
 		font-size: 14px;
+		font-family: $ff-heading;
+		font-weight: $fw-bold;
 		text-transform: uppercase;
 		line-height: $header-cont-height;
+		letter-spacing: 0.0125em;
 
 		display: block;
 		height: $header-cont-height;
@@ -59,14 +56,15 @@ $header-cont-height-comp: 36px;
 
 		color: $c-yellow-l1;
 		transition: height $anim-bounce 0.25s,
+								color ease 0.25s,
 								line-height $anim-bounce 0.25s;
 
 		&:hover { color: $c-yellow; }
 
-		&--compressed {
-			line-height: $header-cont-height-comp;
+		&--active {
+			color: $c-yellow;
 
-			height: $header-cont-height-comp;
+			&:hover { color: $c-yellow-l1; }
 		}
 	}
 
@@ -82,22 +80,13 @@ $header-cont-height-comp: 36px;
 		transition: width $anim-bounce 0.25s,
 								height $anim-bounce 0.25s,
 								padding $anim-bounce 0.25s;
+	}
 
-		&--compressed {
-			width: $header-cont-height-comp;
-			height: $header-cont-height-comp;
-			padding: 6px;
+	&__icon {
+		font-size: $fs-icon-big;
+
+		margin-right: $gutter/2;
 		}
-	}
-
-	&__icon { font-size: 18px; }
-
-	&--compressed {
-		padding: 10px 15px;
-
-		background: $c-white;
-		box-shadow: 0 5px 0 $c-shadow-l2;
-	}
 }
 
 .languages {
@@ -118,8 +107,36 @@ $header-cont-height-comp: 36px;
 
 @media (min-width: $media-query-tablet) {
 	.header {
+		background: $c-light-l2;
+		box-shadow: 0 0 transparent;
+
 		&__list--right { display: inline-block; }
 
 		&__item-link { font-size: 16px; }
+
+		&__brand--compressed {
+			width: $header-cont-height-comp;
+			height: $header-cont-height-comp;
+			padding: 6px;
+		}
+
+		&__list--compressed {
+			line-height: $header-cont-height-comp;
+
+			height: $header-cont-height-comp;
+		}
+
+		&__link--compressed {
+			line-height: $header-cont-height-comp;
+
+			height: $header-cont-height-comp;
+		}
+
+		&--compressed {
+			padding: 10px 15px;
+
+			background: $c-white;
+			box-shadow: 0 5px 0 $c-shadow-l2;
+		}
 	}
 }

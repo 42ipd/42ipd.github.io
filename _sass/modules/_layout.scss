@@ -1,13 +1,35 @@
+.section {
+  padding: $gutter 0 0;
+
+  &--index,
+  &--project { padding: 0; }
+}
+
+.general-img {
+  display: block;
+  max-width: 100%;
+  margin: 0 0 30px;
+}
+
 .page-wrapper {
-  &--project {
-    padding: 0 !important;
+  min-height: 100%;
+
+  &::after {
+      content: "";
+
+      display: block;
   }
 }
 
-.section {
-  padding: $gutter*2 0 0;
+@media (min-width: $media-query-tablet) {
+  .section {
+    padding: $gutter*2 0 0;
 
-  &--project {
-    padding: 0;
+    &--index,
+    &--project { padding: 0; }
+  }
+
+  .page-wrapper {
+    &--project { padding: 0 !important; }
   }
 }

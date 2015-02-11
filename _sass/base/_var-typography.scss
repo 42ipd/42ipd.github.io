@@ -15,77 +15,75 @@
     font-style: normal;
 }
 
-$font-family-sans-serif:  'foco', Helvetica, Arial, "sans serif";
-$font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
-$font-family-monospace:   Monaco, Menlo, Consolas, "Courier New", monospace !default;
-$font-family-base:        $font-family-sans-serif !default;
+$ff-heading:     'effra', Helvetica, Arial, "sans serif";
+$ff-text:        'foco', Helvetica, Arial, "sans serif";
+$ff-icon:        'icomoon';
 
-$font-family-heading:     'effra', Helvetica, Arial, "sans serif";
-$font-family-text:        $font-family-sans-serif;
+// Font Size
+// ---------
+$fs-base: 20px;
 
-$font-size-base: 20px;
+$fs-headline: 42px;
+$fs-title-big: 28px;
+$fs-title-medium: 24px;
+$fs-title-small: 20px;
+$fs-subtitle: 22px;
 
-$font-size-headline: 42px;
-$font-size-title: 28px;
-$font-size-title-medium: 24px;
-$font-size-title-small: 20px;
-$font-size-subtitle: 22px;
+$fs-dropcap: 36px;
+$fs-text: 20px;
+$fs-text-small: 16px;
+$fs-small: 16px;
+
+$fs-table: 14px;
+
+$fs-icon: 18px;
+$fs-icon-big: 24px;
+
+// Line Height
+// -----------
+$lh-headline: $fs-headline * 1;
+$lh-title-big: $fs-title-big * 1.4;
+$lh-title-medium: $fs-title-medium * 1.4;
+$lh-title-small: $fs-title-small * 1.1;
+$lh-subtitle: $fs-subtitle * 1.4;
+
+$lh-dropcap: $fs-dropcap;
+$lh-text: $fs-text * 1.4;
+$lh-text-small: $fs-text-small * 1.4;
+
+$lh-table: $fs-table * 1.4;
+$lh-small: $fs-small * 1.4;
+
+// Font Weight
+// -----------
+$fw-black:     900;
+$fw-bold:      600;
+$fw-regular:   400;
+$fw-light:     300;
+
+// Font Color
+// -----------
+$fc-headline: 42px;
+$fc-title-big:       $c-black;
+$fc-title-medium:    $c-yellow;
+$fc-title-small:     $c-gray;
+
+$fc-text:            $c-black;
+$fc-text-light:      $c-gray;
+$fc-link:            $c-yellow;
+$fc-link-hover:      $c-yellow-d1;
+
+$fc-bullet:          $c-yellow;
+$fc-dropcap:         $c-yellow;
 
 
-$font-size-dropcap: 36px;
-$font-size-text: $font-size-base;
-$font-size-link: $font-size-base;
-
-$font-size-table: 13px;
-$font-size-sublink: 13px;
-$font-size-legend: 16px;
-$font-size-small: 9px;
+// Spacing
+// -------
+$em-space: $fs-base;
+$en-space: $em-space/2;
 
 
-$font-size-icon: 18px;
-$font-size-icon-big: 24px;
-
-$lh-headline: $font-size-headline * 1;
-$lh-title: $font-size-title * 1.4;
-$lh-subtitle: $font-size-subtitle * 1.4;
-
-
-$lh-dropcap: $font-size-dropcap * 1-.1;
-$lh-link: $font-size-link * 1.4;
-$lh-text: $font-size-text * 1.4;
-
-$lh-table: $font-size-table * 1.4;
-$lh-sublink: $font-size-sublink * 1.4;
-$lh-legend: $font-size-legend * 1.4;
-$lh-small: $font-size-small * 1.4;
-
-
-// Hr border color
+// HR border color
 $hr: 1px $c-yellow-l1 solid;
 $hr-neg: 1px $c-white solid;
 $hr-dark: 1px $c-gray-l2 solid;
-
-
-// typography variables
-// --------------------------------------------------
-
-$em-space: $font-size-base;
-$en-space: $em-space/2;
-
-// general tag adjustments
-// --------------------------------------------------
-
-body { font-kerning: normal; }
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: $font-family-heading;
-    font-weight: 600;
-}
-
-p, span, small { font-family: $font-family-text; }
-
-button {
-  border: none;
-  box-shadow: none;
-  outline: none;
-}

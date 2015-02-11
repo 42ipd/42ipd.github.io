@@ -8,8 +8,8 @@ pt-br:
   projects:
     title: "Projetos"
 
-  blog:
-    title: "Blog"
+  #blog:
+    #title: "Blog"
 
   contact:
     title: "Contato"
