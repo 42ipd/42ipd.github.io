@@ -26,3 +26,12 @@
         "partials/projects",
         "partials/project",
         "partials/contact";
+
+.image-caption {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  margin-bottom: 36px;
+}
