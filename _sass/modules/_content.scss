@@ -1,81 +1,81 @@
 .textblock {
-    font-family: $font-family-text;
+    font-family: $ff-text;
 
     margin: 0 0 $gutter;
 
     color: $c-gray-d2;
 
     h1, h2 {
-        font-size: $font-size-title-big;
-        line-height: $lh-title;
+        font-size: $fs-title-big;
+        line-height: $lh-title-big;
 
         margin: 0 0 20px;
 
-        color: $c-black;
+        color: $fc-title-big;
     }
 
     h3, h4 {
-        font-size: $font-size-title-medium;
-        line-height: $lh-title;
+        font-size: $fs-title-medium;
+        line-height: $lh-title-big;
 
         margin: 0;
 
-        color: $c-yellow;
+        color: $fc-title-medium;
     }
 
     h5, h6 {
-        font-size: $font-size-title-small;
-        font-family: $font-family-text;
-        font-weight: 600;
-        line-height: $lh-title;
+        font-size: $fs-title-small;
+        font-family: $ff-text;
+        font-weight: $fw-bold;
+        line-height: $lh-title-big;
 
         margin: 0;
 
-        color: $c-gray;
+        color: $fc-title-small;
     }
 
     p, span {
-        font-size: $font-size-text;
-        font-weight: 300;
-        line-height: $lh-text;
+        font-size: $fs-text-small;
+        font-weight: $fw-light;
+        line-height: $lh-text-small;
 
         margin: 0 0 20px;
 
-        color: $c-black;
+        color: $fc-text;
 
         br { line-height: $lh-text * 1.5; }
     }
 
     small {
-        font-size: $font-size-legend;
-        font-family: $font-family-text;
-        line-height: $lh-legend;
-        font-weight: 300;
+        font-size: $fs-small;
+        font-family: $ff-text;
+        line-height: $lh-small;
+        font-weight: $fw-light;
     }
 
     a {
-        font-size: $font-size-text;
-        font-family: $font-family-text;
-        font-weight: 300;
+        font-size: $fs-text-small;
+        font-family: $ff-text;
+        font-weight: $fw-light;
 
-        color: $c-yellow;
+        color: $fc-link;
         transition: color ease 0.25s;
 
-        @include hoverActiveFocus { color: $c-yellow-d1; }
+        @include hoverActiveFocus { color: $fc-link-hover; }
     }
 
     ul {
-        font-size: $font-size-text;
-        font-family: $font-family-text;
-        font-weight: 300;
-        line-height: $lh-text;
+        font-size: $fs-text-small;
+        font-family: $ff-text;
+        font-weight: $fw-light;
+        line-height: $lh-text-small;
         font-style: italic;
         list-style-type: none;
 
         margin: 0 0 20px;
         padding-left: $em-space * 2;
 
-        color: $c-black;
+        color: $fc-text;
     }
 
     li:before {
@@ -83,28 +83,59 @@
 
         margin: 0 $em-space 0 0;
 
-        color: $c-yellow;
+        color: $fc-bullet;
     }
 
     .dropcap {
-        font-family: $font-family-heading;
-        font-size: $font-size-dropcap;
-        font-weight: 600;
-        line-height: $lh-dropcap;
+        font-family: $ff-heading;
+        font-size: $fs-dropcap;
+        font-weight: $fw-black;
+        line-height: 46px;
 
         display: inline;
         float: left;
         margin: 0 8px 0 0;
         padding: 8px 10px;
 
-        color: $c-yellow;
-        background: $c-yellow-l3;
-        // border: 1px solid $c-gray-l2;
+        color: $fc-dropcap;
+        border: $hr;
+        transition: color ease 0.25s,
+                    background ease 0.25s,
+                    border ease 0.25s;
     }
 }
 
 @media (min-width: $media-query-tablet) {
   .textblock {
       margin: 0 0 $gutter * 2;
+
+      p, span {
+          font-size: $fs-text;
+          line-height: $lh-text;
+
+          br { line-height: $lh-text * 1.5; }
+      }
+
+      small {
+          font-size: $fs-small;
+          line-height: $lh-small;
+      }
+
+      a { font-size: $fs-text; }
+
+      ul {
+          font-size: $fs-text;
+          line-height: $lh-text;
+      }
+
+      .dropcap {
+        line-height: $lh-dropcap;
+
+        &:hover {
+          color: $c-white;
+          background: $fc-dropcap;
+          border: $hr-neg;
+        }
+      }
   }
 }

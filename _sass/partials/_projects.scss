@@ -86,7 +86,7 @@
     }
 
     &__title {
-      font-size: $font-size-headline;
+      font-size: $fs-headline;
       text-align: center;
 
       position: absolute;
@@ -102,7 +102,7 @@
     }
 
     &__subtitle {
-      font-size: $font-size-legend;
+      font-size: $fs-small;
       font-style: italic;
       text-align: center;
 
@@ -133,7 +133,7 @@
     }
 
     &__icon {
-      font-size: $font-size-icon-big;
+      font-size: $fs-icon-big;
 
       margin: 0 5px;
 

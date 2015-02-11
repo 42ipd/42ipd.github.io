@@ -25,6 +25,7 @@
   .section {
     padding: $gutter*2 0 0;
 
+    &--index,
     &--project { padding: 0; }
   }
 

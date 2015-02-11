@@ -36,9 +36,9 @@
     }
 
     &__title {
-        font-family: $font-family-heading;
+        font-family: $ff-heading;
         font-size: 25px;
-        font-weight: 600;
+        font-weight: $fw-bold;
         line-height: 1;
         text-transform: uppercase;
         letter-spacing: 0;
@@ -51,7 +51,7 @@
 
     &__subtitle {
         font-size: 16px;
-        font-family: $font-family-sans-serif;
+        font-family: $ff-text;
         font-style: italic;
 
         margin: 0;
@@ -98,7 +98,7 @@
 
     &__author,
     &__date {
-        font-family: $font-family-sans-serif;
+        font-family: $ff-text;
 
         display: inline-block;
     }
@@ -107,7 +107,7 @@
 .post {
     &__title {
         font-size: 32px;
-        font-family: $font-family-heading;
+        font-family: $ff-heading;
 
         display: block;
         margin: 0;
@@ -115,7 +115,7 @@
 
     &__subtitle {
         font-size: 20px;
-        font-family: $font-family-sans-serif;
+        font-family: $ff-text;
         font-style: italic;
 
         display: block;

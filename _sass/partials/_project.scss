@@ -55,8 +55,8 @@
     }
 
     &__title {
-        font-size: $font-size-headline * 3;
-        font-family: $font-family-heading;
+        font-size: $fs-headline * 3;
+        font-family: $ff-heading;
         line-height: 0.9;
 
         margin: 0;
@@ -68,8 +68,8 @@
     }
 
     &__subtitle {
-        font-size: $font-size-headline;
-        font-family: $font-family-text;
+        font-size: $fs-headline;
+        font-family: $ff-text;
         font-style: italic;
 
         margin: 0;
@@ -102,7 +102,7 @@
 
     &__title {
         font-size: 20px;
-        font-family: $font-family-heading;
+        font-family: $ff-heading;
         letter-spacing: 0.5px;
 
         margin: 0 0 15px;
@@ -128,7 +128,7 @@
 
     &__text,
     &__link {
-        font-family: $font-family-text;
+        font-family: $ff-text;
 
         display: inline-block;
         margin: 0 0 10px;
@@ -150,7 +150,7 @@
     &__icon-group { margin: 5px 0 10px; }
 
     &__icon {
-        font-size: $font-size-icon;
+        font-size: $fs-icon;
 
         margin: 0 5px 0 0;
 

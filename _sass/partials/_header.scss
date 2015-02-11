@@ -2,7 +2,7 @@ $header-cont-height: 48px;
 $header-cont-height-comp: 36px;
 
 .header {
-	font-family: $font-family-heading;
+	font-family: $ff-heading;
 	position: fixed;
 	display: block;
 	width: 100%;
@@ -44,8 +44,8 @@ $header-cont-height-comp: 36px;
 
 	&__link {
 		font-size: 14px;
-		font-family: $font-family-heading;
-		font-weight: 600;
+		font-family: $ff-heading;
+		font-weight: $fw-bold;
 		text-transform: uppercase;
 		line-height: $header-cont-height;
 		letter-spacing: 0.0125em;
@@ -56,6 +56,7 @@ $header-cont-height-comp: 36px;
 
 		color: $c-yellow-l1;
 		transition: height $anim-bounce 0.25s,
+								color ease 0.25s,
 								line-height $anim-bounce 0.25s;
 
 		&:hover { color: $c-yellow; }
@@ -81,7 +82,11 @@ $header-cont-height-comp: 36px;
 								padding $anim-bounce 0.25s;
 	}
 
-	&__icon { font-size: 18px; }
+	&__icon {
+		font-size: $fs-icon-big;
+
+		margin-right: $gutter/2;
+		}
 }
 
 .languages {
