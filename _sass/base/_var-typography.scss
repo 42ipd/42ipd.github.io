@@ -43,6 +43,8 @@ $fs-icon-big: 24px;
 // -----------
 $lh-headline: $fs-headline * 1;
 $lh-title-big: $fs-title-big * 1.4;
+$lh-title-medium: $fs-title-medium * 1.4;
+$lh-title-small: $fs-title-small * 1.1;
 $lh-subtitle: $fs-subtitle * 1.4;
 
 $lh-dropcap: $fs-dropcap;
@@ -67,6 +69,7 @@ $fc-title-medium:    $c-yellow;
 $fc-title-small:     $c-gray;
 
 $fc-text:            $c-black;
+$fc-text-light:      $c-gray;
 $fc-link:            $c-yellow;
 $fc-link-hover:      $c-yellow-d1;
 
