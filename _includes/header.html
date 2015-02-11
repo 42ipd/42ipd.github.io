@@ -11,7 +11,7 @@
       {% for menu in site.data.navigation[page.lang] %}
         {% if menu[1].title != '42i' %}
           <li class="js-header__list header__item">
-            <a class="js-header__item-link header__item-link" href="{{ site.url }}{{ menu[1].title | slugify }}" class="header-link" title="{{ menu[1].title }}">{{ menu[1].title }}</a>
+            <a class="js-header__item-link header__item-link" href="{{ site.url }}{{ menu[1].title | slugify }}" title="{{ menu[1].title }}">{{ menu[1].title }}</a>
           </li>
         {% endif %}
       {% endfor %}

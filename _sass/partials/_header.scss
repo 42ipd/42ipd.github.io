@@ -50,11 +50,15 @@ $header-cont-height-comp: 36px;
 
 	&__item-link {
 		font-size: 14px;
+		font-family: $font-family-heading;
+		font-weight: 600;
 		text-transform: uppercase;
 		line-height: $header-cont-height;
+		letter-spacing: 0.0125em;
 
 		display: block;
 		height: $header-cont-height;
+		margin: 0 10px 0 0;
 		padding: 0 0 0 10px;
 
 		color: $c-yellow-l1;
@@ -67,6 +71,12 @@ $header-cont-height-comp: 36px;
 			line-height: $header-cont-height-comp;
 
 			height: $header-cont-height-comp;
+		}
+
+		&--active {
+			color: $c-yellow;
+
+			&:hover { color: $c-yellow-l1; }
 		}
 	}
 
