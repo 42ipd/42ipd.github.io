@@ -63,17 +63,7 @@ $-footer-height: 75px;
 }
 
 //sticky-footer
-.page-wrapper {
-    min-height: 100%;
-    margin-bottom: $-footer-height;
-
-    &::after {
-        content: "";
-
-        display: block;
-    }
-}
-
+.page-wrapper { margin-bottom: $-footer-height; }
 
 @media (min-width: $media-query-tablet) {
     .footer {
