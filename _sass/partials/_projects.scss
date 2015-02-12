@@ -33,7 +33,7 @@
         height: 100%;
 
         border: $hr-neg;
-        transform: scale3d(0.98, 0.95, 1);
+        @include vendorize(transform, scale3d(0.98, 0.95, 1));
         transition: transform $anim-bounce 0.5s;
         z-index: $z-mid-back;
     }
@@ -63,7 +63,7 @@
       left: 0;
 
       color: $c-white;
-      transform: translateY(50%);
+      @include vendorize(transform, translateY(50%));
       transition: transform $anim-bounce 0.5s,
                   color ease 0.5s;
     }
@@ -82,7 +82,7 @@
 
       color: $c-white;
       opacity: 0;
-      transform: translateY(0) scale(1, 1, 1);
+      @include vendorize(transform, translateY(0) scale(1, 1, 1));
       transition: transform $anim-bounce 0.5s 0.025s,
                   opacity ease 0.5s;
     }
@@ -95,7 +95,7 @@
       bottom: -10px;
       left: 0;
 
-      opacity: 0;
+      @include vendorize(opacity, 0);
       transition: transform $anim-bounce 0.5s 0.1s,
                   opacity ease 0.5s;
     }
@@ -123,7 +123,7 @@
   .project-card {
     height: 300px;
 
-    &:before { transform: scale3d(1, 1, 1); }
+    &:before {   @include vendorize(transform, scale3d(1, 1, 1)); }
 
     &__info {
       height: 70px;
@@ -137,40 +137,40 @@
       bottom: 0;
 
       color: $fc-title-big;
-      transform: translateY(-10px);
+      @include vendorize(transform, translateY(-10px));
     }
 
     &__subtitle { display: inline-block; }
 
-    &__image { opacity: 1; }
+    &__image {   @include vendorize(opacity, 1); }
 
     &:hover{
       .project-card {
         &__image {
-          opacity: 0.25;
-          transform: scale3d(1.1,1.1,1);
+          @include vendorize(opacity, 0.25);
+          @include vendorize(transform, scale3d(1.1,1.1,1));
         }
 
         &__info { height: 0; }
 
         &__title {
           color: $c-white;
-          transform: translateY(-130px);
+          @include vendorize(transform, translateY(-130px));
         }
 
         &__subtitle {
           opacity: 1;
-          transform: translateY(-115px) scale3d(1.1, 1.1, 1);
+          @include vendorize(transform, translateY(-115px) scale3d(1.1, 1.1, 1));
         }
 
         &__icon-group {
           opacity: 1;
-          transform: translateY(-50px);
+          @include vendorize(transform, translateY(-50px));
         }
       }
 
       &:before {
-        transform: scale3d(0.875, 0.8, 1);
+        @include vendorize(transform, scale3d(0.875, 0.8, 1));
       }
     }
   }
