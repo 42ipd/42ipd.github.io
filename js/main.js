@@ -1,15 +1,15 @@
--//header-resize
--$('.js-page-wrapper').css('padding-top', $('.header').outerHeight());
--$('.js-home-cover').outerHeight($(window).outerHeight() - $('.header').outerHeight() - $('.footer').outerHeight());
--$('.js-project-cover').outerHeight($(window).outerHeight());
--$('.js-project-cover-img').outerHeight($(window).outerHeight());
--
--$(window).resize(function(){
--  $('.js-page-wrapper').css('padding-top', $('.header').outerHeight());
--  $('.js-home-cover').outerHeight($(window).outerHeight() - $('.header').outerHeight() - $('.footer').outerHeight());
--  $('.js-project-cover').outerHeight($(window).outerHeight());
--  $('.js-project-cover-img').outerHeight($(window).outerHeight());
--});
+//header-resize
+$('.js-page-wrapper').css('padding-top', $('.header').outerHeight());
+$('.js-home-cover').outerHeight($(window).outerHeight() - $('.header').outerHeight() - $('.footer').outerHeight());
+$('.js-project-cover').outerHeight($(window).outerHeight());
+$('.js-project-cover-img').outerHeight($(window).outerHeight());
+
+$(window).resize(function(){
+  $('.js-page-wrapper').css('padding-top', $('.header').outerHeight());
+  $('.js-home-cover').outerHeight($(window).outerHeight() - $('.header').outerHeight() - $('.footer').outerHeight());
+  $('.js-project-cover').outerHeight($(window).outerHeight());
+  $('.js-project-cover-img').outerHeight($(window).outerHeight());
+});
 
 // Compressed Header
 var isMenuFixed = false;
