@@ -1,6 +1,6 @@
 baseurl:     "" # the subpath of your site, e.g. /blog/
-url:         "http://127.0.0.1:4000/" # the base hostname & protocol for your site
-#url:         "http://42i.com.br/" # the base hostname & protocol for your site
+# url:         "http://127.0.0.1:4000/" # the base hostname & protocol for your site
+url:         "http://42i.com.br/" # the base hostname & protocol for your site
 imgurl:      "/public/images"
 destination: ./_site
 search:      true

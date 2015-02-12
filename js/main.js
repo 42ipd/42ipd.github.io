@@ -1,39 +1,3 @@
-/* global SVGInjector*/
-(function($, SVGInjector){
-    //SVG Injector
-
-    // Elements to inject
-    var mySVGsToInject = document.querySelectorAll('img.inject-these-svgs');
-
-    SVGInjector(mySVGsToInject,
-    {
-        evalScripts: 'once',
-        pngFallback: 'assets/png',
-        each: function(svg) {
-            // Callback after each SVG is injected
-            console.log('SVG injected: ' + svg.getAttribute('id'));
-      }
-    },
-    function(totalSVGsInjected) {
-        // Callback after all SVGs are injected
-        console.log('We injected ' + totalSVGsInjected + ' SVGs!');
-    });
-}(jQuery, SVGInjector));
-
-//header-resize
-$('.js-page-wrapper').css('padding-top', $('.header').outerHeight());
-$('.js-home-cover').outerHeight($(window).outerHeight() - $('.header').outerHeight() - $('.footer').outerHeight());
-$('.js-project-cover').outerHeight($(window).outerHeight());
-$('.js-project-cover-img').outerHeight($(window).outerHeight());
-
-$(window).resize(function(){
-  $('.js-page-wrapper').css('padding-top', $('.header').outerHeight());
-  $('.js-home-cover').outerHeight($(window).outerHeight() - $('.header').outerHeight() - $('.footer').outerHeight());
-  $('.js-project-cover').outerHeight($(window).outerHeight());
-  $('.js-project-cover-img').outerHeight($(window).outerHeight());
-});
-
-
 // Compressed Header
 var isMenuFixed = false;
 

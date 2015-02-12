@@ -5,7 +5,7 @@
 
     <ul class="js-header__list header__list">
       <li class="header__item">
-        <a class="js-header__brand header__brand" href="{{ site.url }}" title="{{ site.data.strings.title }}"><img class="inject-these-svgs" src="{{ site.imgurl }}/brand.svg"></a>
+        <a class="js-header__brand header__brand" href="{{ site.url }}" title="{{ site.data.strings.title }}">{% include _svg/brand-neg.svg %}</a>
       </li>
 
       {% for menu in site.data.navigation[page.lang] %}
