@@ -83,9 +83,9 @@ $header-cont-height-comp: 36px;
 	}
 
 	&__icon {
-		font-size: $fs-icon-big;
+		font-size: $fs-icon-big !important;
 
-		margin-right: $gutter/2;
+		margin: 0 $gutter/6;
 		}
 }
 
@@ -93,7 +93,7 @@ $header-cont-height-comp: 36px;
 	display: inline-block;
 	float: left;
 
-	&__item-link {
+	&__link {
 		text-transform: uppercase;
 
 		display: block;
@@ -112,7 +112,7 @@ $header-cont-height-comp: 36px;
 
 		&__list--right { display: inline-block; }
 
-		&__item-link { font-size: 16px; }
+		&__link { font-size: $fs-text-small; }
 
 		&__brand--compressed {
 			width: $header-cont-height-comp;

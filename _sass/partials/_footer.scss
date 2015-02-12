@@ -36,7 +36,10 @@ $-footer-height: 75px;
 
     &__item {
         display: inline-block;
+        margin: 0 10px 0 0;
         vertical-align: middle;
+
+        &:last-child { margin: 0; }
     }
 
     &__item-link {
