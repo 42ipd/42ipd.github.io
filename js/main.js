@@ -1,3 +1,16 @@
+-//header-resize
+-$('.js-page-wrapper').css('padding-top', $('.header').outerHeight());
+-$('.js-home-cover').outerHeight($(window).outerHeight() - $('.header').outerHeight() - $('.footer').outerHeight());
+-$('.js-project-cover').outerHeight($(window).outerHeight());
+-$('.js-project-cover-img').outerHeight($(window).outerHeight());
+-
+-$(window).resize(function(){
+-  $('.js-page-wrapper').css('padding-top', $('.header').outerHeight());
+-  $('.js-home-cover').outerHeight($(window).outerHeight() - $('.header').outerHeight() - $('.footer').outerHeight());
+-  $('.js-project-cover').outerHeight($(window).outerHeight());
+-  $('.js-project-cover-img').outerHeight($(window).outerHeight());
+-});
+
 // Compressed Header
 var isMenuFixed = false;
 
@@ -32,16 +45,12 @@ $(window).scroll(function(){
         }
     }
 
-
     if (scroll >= $('.js-tech-specs').offset().top - $('.js-header').outerHeight()) {
         $('.js-tech-specs').addClass('tech-specs--fixed');
     } else {
         $('.js-tech-specs').removeClass('tech-specs--fixed');
     }
 });
-
-
-
 
 // Google Map Styles
 var map;
