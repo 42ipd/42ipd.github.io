@@ -34,6 +34,7 @@ techs:
   - tech-name: "CSS3"
   - tech-name: "Javascript"
   - tech-name: "Wordpress"
+  - tech-name: "PHP"
 
 browsers:
   - browser-name: "chrome"
