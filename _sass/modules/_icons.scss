@@ -10,7 +10,7 @@
 }
 
 [class^="icon-"], [class*=" icon-"] {
-	font-family: 'icomoon';
+	font-family: $ff-icon !important;
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
@@ -21,6 +21,94 @@
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+
+.brand-svg--42i {
+	width: 28px;
+
+	&__part {
+		opacity: 0.35;
+		fill: $c-yellow;
+	}
+
+	&__1 { transition: opacity 0.25s ease 0.025s; }
+	&__2 { transition: opacity 0.25s ease 0.05s; }
+	&__3 { transition: opacity 0.25s ease 0.075s; }
+	&__4 { transition: opacity 0.25s ease 0.1s; }
+	&__5 { transition: opacity 0.25s ease 0.125s; }
+	&__6 { transition: opacity 0.25s ease 0.15s; }
+	&__7 { transition: opacity 0.25s ease 0.175s; }
+	&__8 { transition: opacity 0.25s ease 0.2s; }
+	&__9 { transition: opacity 0.25s ease 0.225s; }
+	&__10 { transition: opacity 0.25s ease 0.25s; }
+	&__11 { transition: opacity 0.25s ease 0.275s; }
+	&__12 { transition: opacity 0.25s ease 0.3s; }
+	&__13 { transition: opacity 0.25s ease 0.325s; }
+	&__14 { transition: opacity 0.25s ease 0.35s; }
+
+	&:hover .brand-svg--42i {
+		&__part {
+			opacity: 1;
+			fill: $c-yellow;
+		}
+
+		&__1 { transition: opacity 0.2s ease 0.025s; }
+		&__2 { transition: opacity 0.2s ease 0.05s; }
+		&__3 { transition: opacity 0.2s ease 0.075s; }
+		&__4 { transition: opacity 0.2s ease 0.1s; }
+		&__5 { transition: opacity 0.2s ease 0.125s; }
+		&__6 { transition: opacity 0.2s ease 0.15s; }
+		&__7 { transition: opacity 0.2s ease 0.175s; }
+		&__8 { transition: opacity 0.2s ease 0.2s; }
+		&__9 { transition: opacity 0.2s ease 0.225s; }
+		&__10 { transition: opacity 0.2s ease 0.25s; }
+		&__11 { transition: opacity 0.2s ease 0.275s; }
+		&__12 { transition: opacity 0.2s ease 0.3s; }
+		&__13 { transition: opacity 0.2s ease 0.325s; }
+		&__14 { transition: opacity 0.2s ease 0.35s; }
+	}
+}
+
+.brand-neg-svg--42i {
+
+	&__part {
+		opacity: 1;
+		fill: $c-white;
+	}
+
+	&__1 { transition: opacity 0.25s ease 0.025s; }
+	&__2 { transition: opacity 0.25s ease 0.05s; }
+	&__3 { transition: opacity 0.25s ease 0.075s; }
+	&__4 { transition: opacity 0.25s ease 0.1s; }
+	&__5 { transition: opacity 0.25s ease 0.125s; }
+	&__6 { transition: opacity 0.25s ease 0.15s; }
+	&__7 { transition: opacity 0.25s ease 0.175s; }
+	&__8 { transition: opacity 0.25s ease 0.2s; }
+	&__9 { transition: opacity 0.25s ease 0.225s; }
+	&__10 { transition: opacity 0.25s ease 0.25s; }
+	&__11 { transition: opacity 0.25s ease 0.275s; }
+	&__12 { transition: opacity 0.25s ease 0.3s; }
+	&__13 { transition: opacity 0.25s ease 0.325s; }
+	&__14 { transition: opacity 0.25s ease 0.35s; }
+
+	&:hover .brand-svg--42i {
+		&__part { opacity: 0.75; }
+
+		&__1 { transition: opacity 0.2s ease 0.025s; }
+		&__2 { transition: opacity 0.2s ease 0.05s; }
+		&__3 { transition: opacity 0.2s ease 0.075s; }
+		&__4 { transition: opacity 0.2s ease 0.1s; }
+		&__5 { transition: opacity 0.2s ease 0.125s; }
+		&__6 { transition: opacity 0.2s ease 0.15s; }
+		&__7 { transition: opacity 0.2s ease 0.175s; }
+		&__8 { transition: opacity 0.2s ease 0.2s; }
+		&__9 { transition: opacity 0.2s ease 0.225s; }
+		&__10 { transition: opacity 0.2s ease 0.25s; }
+		&__11 { transition: opacity 0.2s ease 0.275s; }
+		&__12 { transition: opacity 0.2s ease 0.3s; }
+		&__13 { transition: opacity 0.2s ease 0.325s; }
+		&__14 { transition: opacity 0.2s ease 0.35s; }
+	}
 }
 
 .icon {

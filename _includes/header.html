@@ -5,13 +5,13 @@
 
     <ul class="js-header__list header__list">
       <li class="header__item">
-        <a class="js-header__brand header__brand" href="{{ site.url }}" title="{{ site.data.strings.title }}"><img class="inject-these-svgs" src="{{ site.imgurl }}/brand.svg"></a>
+        <a class="js-header__brand header__brand" href="{{ site.url }}" title="{{ site.data.strings.title }}">{% include _svg/brand-neg.svg %}</a>
       </li>
 
       {% for menu in site.data.navigation[page.lang] %}
         {% if menu[1].title != '42i' %}
           <li class="js-header__list header__item">
-            <a class="js-header__item-link header__item-link" href="{{ site.url }}{{ menu[1].title | slugify }}" class="header-link" title="{{ menu[1].title }}">{{ menu[1].title }}</a>
+            <a class="js-header__link header__link" href="{{ site.url }}{{ menu[1].title | slugify }}" title="{{ menu[1].title }}">{{ menu[1].title }}</a>
           </li>
         {% endif %}
       {% endfor %}
@@ -24,14 +24,18 @@
 
         {% for post in language %}
         <li class="header__item">
-          <a class="js-header__item-link header__item-link languages__item-link languages__item-link--{{ post.lang }}" href="{{ post.url }}">{{ post.lang }}</a>
+          <a class="js-header__link header__link languages__link languages__link--{{ post.lang }}" href="{{ post.url }}">{{ post.lang }}</a>
         </li>
         {% endfor %}
       </div>
       -->
 
       <li class="header__item">
-        <a class="js-header__item-link header__item-link header__icon icon icon--facebook" href="{{ site.data.strings.facebook }}" target='_blank' ></a>
+        <a class="js-header__link header__link header__icon icon icon--github3" href="{{ site.data.strings.github }}" target='_blank' ></a>
+      </li>
+
+      <li class="header__item">
+        <a class="js-header__link header__link header__icon icon icon--facebook" href="{{ site.data.strings.facebook }}" target='_blank' ></a>
       </li>
     </ul>
   </div>

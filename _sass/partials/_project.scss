@@ -55,9 +55,9 @@
     }
 
     &__title {
-        font-size: $font-size-headline * 3;
-        font-family: $font-family-heading;
-        line-height: 0.9;
+        font-size: $fs-headline;
+        font-family: $ff-heading;
+        line-height: $lh-headline;
 
         margin: 0;
 
@@ -68,9 +68,10 @@
     }
 
     &__subtitle {
-        font-size: $font-size-headline;
-        font-family: $font-family-text;
+        font-size: $fs-title-small;
+        font-family: $ff-text;
         font-style: italic;
+        line-height: $lh-title-small;
 
         margin: 0;
 
@@ -101,8 +102,8 @@
     border: $hr;
 
     &__title {
-        font-size: 20px;
-        font-family: $font-family-heading;
+        font-size: $fs-title-small;
+        font-family: $ff-heading;
         letter-spacing: 0.5px;
 
         margin: 0 0 15px;
@@ -110,7 +111,7 @@
         color: $c-yellow;
 
         &--small {
-            font-size: 16px;
+            font-size: $fs-text-small;
 
             margin: 0;
 
@@ -122,18 +123,19 @@
       display: block;
       margin: 0 0 10px;
 
-        .tech-specs__text:after { content: ","; }
-        .tech-specs__text:last-child:after { content: ""; }
+      .tech-specs__text:after { content: ","; }
+      .tech-specs__text:last-child:after { content: ""; }
     }
 
     &__text,
     &__link {
-        font-family: $font-family-text;
+        font-family: $ff-text;
+        font-size: $fs-text-small;
 
         display: inline-block;
         margin: 0 0 10px;
 
-        color: $c-gray;
+        color: $fc-text-light;
     }
 
     &__text--comma { display: inline; }
@@ -143,14 +145,14 @@
       transition: color ease 0.25s;
 
       @include hoverActiveFocus {
-        color: $c-yellow;
+        color: $fc-link-hover;
       }
     }
 
     &__icon-group { margin: 5px 0 10px; }
 
     &__icon {
-        font-size: $font-size-icon;
+        font-size: $fs-icon;
 
         margin: 0 5px 0 0;
 
@@ -161,6 +163,18 @@
 }
 
 @media (min-width: $media-query-tablet) {
+  .cover {
+      &__title {
+          font-size: $fs-headline * 3;
+          line-height: $fs-headline * 2.5;
+      }
+
+      &__subtitle {
+          font-size: $fs-headline;
+          line-height: $lh-headline;
+      }
+  }
+
   .tech-specs {
       &--fixed {
           position: fixed;
@@ -171,7 +185,19 @@
     }
 }
 
-@media (min-width: $media-query-tablet) {
+@media (min-width: $media-query-desktop) {
+  .cover {
+      &__title {
+          font-size: $fs-headline * 3;
+          line-height: $fs-headline * 2.5;
+      }
+
+      &__subtitle {
+          font-size: $fs-headline;
+          line-height: $lh-headline;
+      }
+  }
+
   .tech-specs {
       &--fixed {
           width: 220px;

@@ -10,12 +10,13 @@
         "base/var-colors",
         "base/var-typography",
         "base/var-layout",
-        "base/var-animations",
+        "base/typography",
         "base/grid",
         "base/utils";
 
 @import "modules/icons",
-        "modules/typography",
+        "modules/content",
+        "modules/pagination",
         "modules/layout";
 
 @import "partials/home",
@@ -24,5 +25,13 @@
         "partials/blog",
         "partials/projects",
         "partials/project",
-        "partials/contact",
-        "partials/pages";
+        "partials/contact";
+
+.image-caption {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  margin-bottom: 36px;
+}

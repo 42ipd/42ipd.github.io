@@ -1,25 +1,3 @@
-/* global SVGInjector*/
-(function($, SVGInjector){
-    //SVG Injector
-
-    // Elements to inject
-    var mySVGsToInject = document.querySelectorAll('img.inject-these-svgs');
-
-    SVGInjector(mySVGsToInject,
-    {
-        evalScripts: 'once',
-        pngFallback: 'assets/png',
-        each: function(svg) {
-            // Callback after each SVG is injected
-            console.log('SVG injected: ' + svg.getAttribute('id'));
-      }
-    },
-    function(totalSVGsInjected) {
-        // Callback after all SVGs are injected
-        console.log('We injected ' + totalSVGsInjected + ' SVGs!');
-    });
-}(jQuery, SVGInjector));
-
 //header-resize
 $('.js-page-wrapper').css('padding-top', $('.header').outerHeight());
 $('.js-home-cover').outerHeight($(window).outerHeight() - $('.header').outerHeight() - $('.footer').outerHeight());
@@ -33,7 +11,6 @@ $(window).resize(function(){
   $('.js-project-cover-img').outerHeight($(window).outerHeight());
 });
 
-
 // Compressed Header
 var isMenuFixed = false;
 
@@ -45,7 +22,7 @@ $(window).scroll(function(){
             $('.js-header').removeClass('header--compressed');
             $('.js-header__brand').removeClass('header__brand--compressed');
             $('.js-header__list').removeClass('header__list--compressed');
-            $('.js-header__item-link').removeClass('header__item-link--compressed');
+            $('.js-header__link').removeClass('header__link--compressed');
             isMenuFixed = false;
         }
 
@@ -58,7 +35,7 @@ $(window).scroll(function(){
             $('.js-header').addClass('header--compressed');
             $('.js-header__brand').addClass('header__brand--compressed');
             $('.js-header__list').addClass('header__list--compressed');
-            $('.js-header__item-link').addClass('header__item-link--compressed');
+            $('.js-header__link').addClass('header__link--compressed');
             isMenuFixed = true;
         }
 
@@ -68,16 +45,12 @@ $(window).scroll(function(){
         }
     }
 
-
     if (scroll >= $('.js-tech-specs').offset().top - $('.js-header').outerHeight()) {
         $('.js-tech-specs').addClass('tech-specs--fixed');
     } else {
         $('.js-tech-specs').removeClass('tech-specs--fixed');
     }
 });
-
-
-
 
 // Google Map Styles
 var map;
