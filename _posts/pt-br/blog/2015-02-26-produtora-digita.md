@@ -6,10 +6,10 @@ category: "blog"
 layout: "post"
 permalink: "/blog/o-que-e-uma-produtora-digital/"
 
-img: "2014-09-22-apps/42ipintado.jpg"
+img: "2015-02-26-produtora-digital/o-que-e-produtora.png"
 subtitle: "Um pouco mais sobre o que fazemos"
 author: "42i"
-thumb: "2014-09-22-apps/42ipintado.jpg"
+thumb: "2015-02-26-produtora-digital/o-que-e-produtora.png"
 ---
 
 <span class="dropcap">A</span> 42i é uma produtora digital e como tal ela faz, isso mesmo, produtos digitais. Nisso se inclui a produção de sites, aplicativos, sistemas próprios para gestão (logística, financeira, conhecimento, etc), e-commerces, jogos, sistemas embarcados (instalações interativas) e mais.
