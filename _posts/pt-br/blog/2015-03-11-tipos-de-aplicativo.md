@@ -6,10 +6,10 @@ category: "blog"
 layout: "post"
 permalink: "/blog/saiba-tudo-sobre-aplicativos"
 
-img: "2015-03-11-tipos-de-aplicativo/tipos.png"
+img: "2015-03-11-tipos-de-aplicativo/tipos.jpg"
 subtitle: "Saiba algumas formas de se produzir um app"
 author: "42i"
-thumb: "2015-03-11-tipos-de-aplicativo/tipos.png"
+thumb: "2015-03-11-tipos-de-aplicativo/tipos.jpg"
 ---
 <span class="dropcap">É</span> comum ouvirmos sobre aplicativos quase todos os dias. Eles estão presentes em nossa vida em tantos momentos que é quase impossível ficar indiferente e deixar de aproveitar a praticidade que eles acrescentam ao nosso cotidiano. Essenciais na hora de ouvir música, conversar com as pessoas, controlar sua dieta, publicar fotos ou apenas fazer listas. Existem inúmeras utilidades e categorias para eles – e é sobre as formas de produzir aplicativos móveis dessas diversas categorias que falaremos por aqui hoje.
 
