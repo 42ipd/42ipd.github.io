@@ -2,7 +2,8 @@
   padding: $gutter 0 0;
 
   &--index,
-  &--project { padding: 0; }
+  &--project,
+  &.section-- { padding: 0; }
 }
 
 .general-img {
