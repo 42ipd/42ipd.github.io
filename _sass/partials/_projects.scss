@@ -20,6 +20,8 @@
 
     overflow: hidden;
     transition: background ease 0.5s;
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 10;
     cursor: pointer !important;
     @include gradient($c-orange, $c-yellow);
 
@@ -114,8 +116,8 @@
         min-height: 100%;
 
         opacity: 0.25;
-        transition: opacity ease 0.6s,
-                    transform ease 0.6s;
+        transition: transform ease 0.6s,
+                    opacity ease 0.6s;
     }
 }
 
