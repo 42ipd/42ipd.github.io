@@ -50,11 +50,13 @@
 	}
 
 	&__image {
-		position: relative;
+		position: fixed;
 		min-width: 100%;
 		min-height: 100%;
-		margin-left: -200%;
-		left: 100%;
+		top: 50%;
+        left: 50%;
+
+        transform: translate(-50%, -50%);
 	}
 }
 

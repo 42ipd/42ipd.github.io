@@ -73,16 +73,14 @@
     }
 
     &__image {
-        position: relative;
+        position: fixed;
         width: auto;
         min-width: 100%;
-        max-width: 100%;
-        min-height: 100%;
-        top: 100%;
-        margin-top: -200%;
-        // top: 0;
-        left: 0;
+        height: 100%;
+        top: 50%;
+        left: 50%;
 
+        transform: translate(-50%, -50%);
         z-index: $z-back;
         transition: opacity ease 0.6s,
                     transform ease 0.6s;
