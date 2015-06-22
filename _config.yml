@@ -12,10 +12,7 @@ google_verify: ""
 typekit_id: "oyt7nbz"
 site_name: "42i"
 
-
-
 gems: [octopress-autoprefixer]
-
 
 defaults:
   - scope:
