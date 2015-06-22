@@ -18,5 +18,11 @@ indent_size = 4
 [*.json]
 indent_size = 4
 
+[*.css]
+indent_size = 4
+
+[*.scss]
+indent_size = 4
+
 [.bowerrc]
 indent_size = 4

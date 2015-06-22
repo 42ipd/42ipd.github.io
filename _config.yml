@@ -11,6 +11,12 @@ google_analytics: "UA-41207410-1"
 google_verify: ""
 typekit_id: "oyt7nbz"
 site_name: "42i"
+
+
+
+gems: [octopress-autoprefixer]
+
+
 defaults:
   - scope:
       path:  "_posts/pt-br"

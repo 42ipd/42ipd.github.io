@@ -65,7 +65,7 @@
         float: left;
         width: 100%;
         max-height: 128px;
-        margin: 0;
+        margin: 0 0 10px;
 
         overflow: hidden;
     }
@@ -139,6 +139,16 @@
     }
 }
 
+.image-caption {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    margin-bottom: 36px;
+}
+
+
 @media (min-width: $media-query-tablet) {
     .post-stub {
         &__title {
@@ -152,6 +162,8 @@
 
             color: $c-gray-l1;
         }
+
+        &__thumb-clipper { margin: 0; }
 
         &__credits { text-align: right; }
 

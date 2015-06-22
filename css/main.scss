@@ -4,13 +4,11 @@
 
 @charset "utf-8";
 
-@import "../public/bower_components/normalize.css/normalize.scss";
+@import "../public/bower_components/normalize-scss/normalize.scss";
 
 @import "base/mixins",
-        "base/var-colors",
-        "base/var-typography",
         "base/var-layout",
-        "base/typography",
+        "base/var-typography",
         "base/grid",
         "base/utils";
 
@@ -26,12 +24,3 @@
         "partials/projects",
         "partials/project",
         "partials/contact";
-
-.image-caption {
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-
-  margin-bottom: 36px;
-}
