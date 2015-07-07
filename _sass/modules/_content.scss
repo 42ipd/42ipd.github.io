@@ -23,8 +23,19 @@
         color: $fc-title-medium;
     }
 
-    h5, h6 {
+    h5 {
         font-size: $fs-title-small;
+        font-family: $ff-text;
+        font-weight: $fw-bold;
+        line-height: $lh-title-big;
+
+        margin: 0;
+
+        color: $fc-title-small;
+    }
+
+    h6 {
+        font-size: $fs-title-smallest;
         font-family: $ff-text;
         font-weight: $fw-bold;
         line-height: $lh-title-big;
@@ -73,7 +84,7 @@
         list-style-type: none;
 
         margin: 0 0 20px;
-        padding-left: $em-space * 2;
+        padding-left: $em-space;
 
         color: $fc-text;
     }

@@ -9,9 +9,9 @@ permalink: "/blog/narrativas"
 img: "2015-04-22-narrativas/livro.jpg"
 subtitle: "Como funcionam as narrativas para a comunicação"
 author: "42i"
-thumb: "2015-04-22-narrativas/livro.jpg"
+thumb: "2015-04-22-narrativas/livro-thumb.jpg"
 ---
-<span class="drop-cap">N</span>arrativas são formas de contar histórias. Na publicidade, e recentemente nas redes sociais, elas são o ponto-chave para vender um produto, ao causar empatia no consumidor e tratar aquela história como dele também. O termo possui um similar em inglês, <em>“storytelling”</em>, que está relacionado com a narrativa e sua capacidade de contar histórias relevantes. Mas como as narrativas funcionam, exatamente?
+<span class="dropcap">N</span>arrativas são formas de contar histórias. Na publicidade, e recentemente nas redes sociais, elas são o ponto-chave para vender um produto, ao causar empatia no consumidor e tratar aquela história como dele também. O termo possui um similar em inglês, <em>“storytelling”</em>, que está relacionado com a narrativa e sua capacidade de contar histórias relevantes. Mas como as narrativas funcionam, exatamente?
 
 A narrativa faz uso de palavras ou recursos audiovisuais para transmitir um conteúdo, e na publicidade e no marketing ela tem como principal função promover uma marca sem fazer a venda diretamente.
 
