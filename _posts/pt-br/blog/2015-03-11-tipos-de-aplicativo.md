@@ -9,13 +9,15 @@ permalink: "/blog/saiba-tudo-sobre-aplicativos"
 img: "2015-03-11-tipos-de-aplicativo/tipos.jpg"
 subtitle: "Saiba algumas formas de se produzir um app"
 author: "42i"
-thumb: "2015-03-11-tipos-de-aplicativo/tipos.jpg"
+thumb: "2015-03-11-tipos-de-aplicativo/tipos-thumb.jpg"
 ---
 <span class="dropcap">É</span> comum ouvirmos sobre aplicativos quase todos os dias. Eles estão presentes em nossa vida em tantos momentos que é quase impossível ficar indiferente e deixar de aproveitar a praticidade que eles acrescentam ao nosso cotidiano. Essenciais na hora de ouvir música, conversar com as pessoas, controlar sua dieta, publicar fotos ou apenas fazer listas. Existem inúmeras utilidades e categorias para eles – e é sobre as formas de produzir aplicativos móveis dessas diversas categorias que falaremos por aqui hoje.
 
 Quando falamos de aplicativos voltados para aparelhos móveis hoje, podemos os dividir em duas macro categorias:
-- Aplicativos disponíveis nas lojas dos sistemas dos celulares que usamos (PlayStore, AppStore, Windows Store, etc);
-- Aplicativos disponíveis nos navegadores de internet do celular (web apps);
+<ul>
+  <li>Aplicativos disponíveis nas lojas dos sistemas dos celulares que usamos (PlayStore, AppStore, Windows Store, etc);</li>
+  <li>Aplicativos disponíveis nos navegadores de internet do celular (web apps);</li>
+</ul>
 
 Diante disso, falaremos primeiro dos aplicativos disponíveis em navegadores, pois os usaremos para comparação quando formos falar dos aplicativos disponíveis para celular.
 
@@ -26,20 +28,26 @@ Tradicionalmente, aplicativos eram considerados peças de software feitas para r
 Mas à medida que os sistemas foram evoluindo e seus navegadores se tornaram mais potentes, passou a ser possível usar tecnologias ligadas ao desenvolvimento de sites para criar interfaces que se comportam de forma similar às dos <strong>aplicativos nativos</strong> , inclusive possibilitando "instalar" (na prática isso seria favoritar o site como ícone) o web app direto em seu aparelho.
 
 As principais diferenças entre um site tradicional e um web app são:
-- Web apps podem ser usados offline;
-- Web apps podem usar recursos de hardware do celular como geolocalização e câmera;
+<ul>
+  <li>Web apps podem ser usados offline;</li>
+  <li>Web apps podem usar recursos de hardware do celular como geolocalização e câmera;</li>
+</ul>
 
 As principais diferenças entre um web app e um aplicativo:
-- Web apps têm uma performance inferior à de um aplicativo nativo;
-- Web apps não são baixados das lojas dos sistemas, devem ser favoritados como ícone;
-- Web apps podem ser atualizados sem que haja uma atualização feita pelas lojas de aplicativos;
-- Web apps funcionam em todos os aparelhos com navegadores modernos;
+<ul>
+  <li>Web apps têm uma performance inferior à de um aplicativo nativo;</li>
+  <li>Web apps não são baixados das lojas dos sistemas, devem ser favoritados como ícone;</li>
+  <li>Web apps podem ser atualizados sem que haja uma atualização feita pelas lojas de aplicativos;</li>
+  <li>Web apps funcionam em todos os aparelhos com navegadores modernos;</li>
+</ul>
 
 Dito isso, podemos partir para a segunda parte, que são os aplicativos de loja de sistema, aqueles que você baixa para usar no celular.
 Os aplicativos disponíveis nas lojas do sistema podem ser divididos em três categorias:
-- Aplicativos híbridos I
-- Aplicativos híbridos II
-- Aplicativos nativos
+<ul>
+  <li>Aplicativos híbridos I</li>
+  <li>Aplicativos híbridos II</li>
+  <li>Aplicativos nativos</li>
+</ul>
 
 Antes de falar sobre cada uma dessas categorias, vale mencionar o porquê de haver dois tipos de aplicativos híbridos: o primeiro é muito parecido com um web app, porém com algumas funcionalidades nativas, já o segundo está mais para o lado dos apps nativos do que dos web apps.
 
