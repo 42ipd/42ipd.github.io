@@ -24,8 +24,11 @@ permalink: "/repositorio-de-links/"
 * [CSS Tricks](https://css-tricks.com/)
 
 ### Desenvolvimento
+* [Webaim](http://wave.webaim.org/) – Web accessibility evaluation tool
 * [Eloquent Javscript](http://eloquentjavascript.net/) – Para aprender Javascript
 * [Liquid for Designers](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers)
+* [Sass](http://sass-lang.com/documentation/file.SASS_REFERENCE.html)
+* [Snap.svg](http://snapsvg.io/docs/)
 
 ### Referências Visuais
 * [Brand New](http://www.underconsideration.com/brandnew) – Análises e reviews de branding
@@ -53,6 +56,7 @@ permalink: "/repositorio-de-links/"
 * [Awwwards](http://www.awwwards.com/)
 
 ### Atualidades e tendências
+* [B9](http://www.b9.com.br/)
 * [Idea Fixa](http://www.ideafixa.com/)
 * [Update or Die](http://www.updateordie.com/)
 
@@ -86,6 +90,7 @@ permalink: "/repositorio-de-links/"
 * [Brad Frost](http://bradfrost.com/) – I'm Brad Frost, a web designer, speaker, consultant, musician, and artist.
 * [Joshua Porter](http://bokardo.com/) – I love making interfaces that are easy and pleasurable to use.
 * [Jessica Hische](http://jessicahische.is/) – Letterer, illustrator, and crazy cat lady known for her silly side projects and occasional foul mouth.
+* [Dan Mall](http://danielmall.com/) – Strategist/Teacher
 
 ### Gráficas
 * [Joox](https://www.joox.me/pt/?gclid=CK3VhcHp7MYCFYwYHwod21QPVA)
@@ -93,16 +98,23 @@ permalink: "/repositorio-de-links/"
 ### Eventos
 * [Feira Plana](http://www.feiraplana.org/)
 * [Pupunha Ink](http://www.pupunhaink.com/)
+* [Pixel Show](http://www.pixelshow.com.br/)
 
 ### Empresas daqui
 * [Grafikonstruct](http://www.grafikonstruct.com.br/)
 * [Por que não](http://www.porquenao.mobi/)
+* [d3](http://d3.do/) – Produtora digital
+* [Índice](http://site.indice.in/)
+* [Saiba +](http://www.novo.saiba-mais.com/) – Usabilidade simples
 
 ### Empresas Gringas
 * [SuperFriendly](http://superfriend.ly/) – Produtora com um modelo de negócios bacana
 * [Teehan+Lax](http://www.teehanlax.com/) – Fechou
 * [We ain't plastic](http://weaintplastic.com/)
-* [edenspiekermann_](http://www.edenspiekermann.com/)
+* [edenspiekermann_](http://www.edenspiekermann.com/) – We design brand experiences
+* [Paravel](http://paravelinc.com/work.php) – We design! We code! We love!
+* [Huge inc.](http://www.hugeinc.com/) – We create experiences that transform brands
+* [White Vinyl](http://whitevinyldesign.com/about/)
 
 ### Sites Bacanas
-[Species in pieces](http://species-in-pieces.com/) – Animações em CSS
+* [Species in pieces](http://species-in-pieces.com/) – Animações em CSS
