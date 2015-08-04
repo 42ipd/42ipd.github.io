@@ -2,430 +2,430 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
-      <loc>http://127.0.0.1:4000//repositorio-de-links/</loc>
+      <loc>http://42i.com.br//repositorio-de-links/</loc>
       
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//repositorio-de-links/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//repositorio-de-links/" />
       
       <lastmod>2015-07-21T00:00:00-03:00</lastmod>
       <changefreq>weekly</changefreq>
     </url>
   
     <url>
-      <loc>http://127.0.0.1:4000//blog/ada-lovelace</loc>
+      <loc>http://42i.com.br//blog/ada-lovelace</loc>
       
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//blog/ada-lovelace" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//blog/ada-lovelace" />
       
       <lastmod>2015-07-06T15:16:00-03:00</lastmod>
       <changefreq>weekly</changefreq>
     </url>
   
     <url>
-      <loc>http://127.0.0.1:4000//blog/narrativas</loc>
+      <loc>http://42i.com.br//blog/narrativas</loc>
       
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//blog/narrativas" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//blog/narrativas" />
       
       <lastmod>2015-04-22T15:16:00-03:00</lastmod>
       <changefreq>weekly</changefreq>
     </url>
   
     <url>
-      <loc>http://127.0.0.1:4000//blog/saiba-tudo-sobre-aplicativos</loc>
+      <loc>http://42i.com.br//blog/saiba-tudo-sobre-aplicativos</loc>
       
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//blog/saiba-tudo-sobre-aplicativos" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//blog/saiba-tudo-sobre-aplicativos" />
       
       <lastmod>2015-03-11T10:16:00-03:00</lastmod>
       <changefreq>weekly</changefreq>
     </url>
   
     <url>
-      <loc>http://127.0.0.1:4000//projetos/ficticia/</loc>
+      <loc>http://42i.com.br//projetos/ficticia/</loc>
       
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//projetos/ficticia/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/ficticia/" />
       
       <lastmod>2015-03-04T19:10:02-03:00</lastmod>
       <changefreq>weekly</changefreq>
     </url>
   
     <url>
-      <loc>http://127.0.0.1:4000//blog/o-que-e-uma-produtora-digital/</loc>
+      <loc>http://42i.com.br//blog/o-que-e-uma-produtora-digital/</loc>
       
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//blog/o-que-e-uma-produtora-digital/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//blog/o-que-e-uma-produtora-digital/" />
       
       <lastmod>2015-02-26T10:10:02-03:00</lastmod>
       <changefreq>weekly</changefreq>
     </url>
   
     <url>
-      <loc>http://127.0.0.1:4000//blog/quem-e-a-42i/</loc>
+      <loc>http://42i.com.br//blog/quem-e-a-42i/</loc>
       
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//blog/quem-e-a-42i/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//blog/quem-e-a-42i/" />
       
       <lastmod>2015-02-10T14:10:02-02:00</lastmod>
       <changefreq>weekly</changefreq>
     </url>
   
     <url>
-      <loc>http://127.0.0.1:4000//journal/</loc>
+      <loc>http://42i.com.br//journal/</loc>
       
       
-        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:4000//journal/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//journal/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//blog/" />
-      
-      <lastmod>2014-09-22T00:00:00-03:00</lastmod>
-      <changefreq>weekly</changefreq>
-    </url>
-  
-    <url>
-      <loc>http://127.0.0.1:4000//blog/</loc>
-      
-      
-        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:4000//journal/" />
-      
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//blog/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//blog/" />
       
       <lastmod>2014-09-22T00:00:00-03:00</lastmod>
       <changefreq>weekly</changefreq>
     </url>
   
     <url>
-      <loc>http://127.0.0.1:4000//projetos/</loc>
+      <loc>http://42i.com.br//blog/</loc>
       
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//projetos/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//journal/" />
       
-        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:4000//projects/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//blog/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//" />
+      <lastmod>2014-09-22T00:00:00-03:00</lastmod>
+      <changefreq>weekly</changefreq>
+    </url>
+  
+    <url>
+      <loc>http://42i.com.br//projetos/</loc>
       
-        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:4000//home/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//contato/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/" />
       
-        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:4000//contact/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//projects/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//sobre/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//" />
       
-        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:4000//about/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//home/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//contato/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//contact/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//sobre/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//about/" />
       
       <lastmod>2014-09-19T00:00:00-03:00</lastmod>
       <changefreq>weekly</changefreq>
     </url>
   
     <url>
-      <loc>http://127.0.0.1:4000//projects/</loc>
+      <loc>http://42i.com.br//projects/</loc>
       
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//projetos/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/" />
       
-        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:4000//projects/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//projects/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//" />
       
-        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:4000//home/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//home/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//contato/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//contato/" />
       
-        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:4000//contact/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//contact/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//sobre/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//sobre/" />
       
-        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:4000//about/" />
-      
-      <lastmod>2014-09-19T00:00:00-03:00</lastmod>
-      <changefreq>weekly</changefreq>
-    </url>
-  
-    <url>
-      <loc>http://127.0.0.1:4000//</loc>
-      
-      
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//projetos/" />
-      
-        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:4000//projects/" />
-      
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//" />
-      
-        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:4000//home/" />
-      
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//contato/" />
-      
-        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:4000//contact/" />
-      
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//sobre/" />
-      
-        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:4000//about/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//about/" />
       
       <lastmod>2014-09-19T00:00:00-03:00</lastmod>
       <changefreq>weekly</changefreq>
     </url>
   
     <url>
-      <loc>http://127.0.0.1:4000//home/</loc>
+      <loc>http://42i.com.br//</loc>
       
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//projetos/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/" />
       
-        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:4000//projects/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//projects/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//" />
       
-        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:4000//home/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//home/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//contato/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//contato/" />
       
-        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:4000//contact/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//contact/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//sobre/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//sobre/" />
       
-        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:4000//about/" />
-      
-      <lastmod>2014-09-19T00:00:00-03:00</lastmod>
-      <changefreq>weekly</changefreq>
-    </url>
-  
-    <url>
-      <loc>http://127.0.0.1:4000//contato/</loc>
-      
-      
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//projetos/" />
-      
-        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:4000//projects/" />
-      
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//" />
-      
-        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:4000//home/" />
-      
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//contato/" />
-      
-        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:4000//contact/" />
-      
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//sobre/" />
-      
-        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:4000//about/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//about/" />
       
       <lastmod>2014-09-19T00:00:00-03:00</lastmod>
       <changefreq>weekly</changefreq>
     </url>
   
     <url>
-      <loc>http://127.0.0.1:4000//contact/</loc>
+      <loc>http://42i.com.br//home/</loc>
       
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//projetos/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/" />
       
-        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:4000//projects/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//projects/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//" />
       
-        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:4000//home/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//home/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//contato/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//contato/" />
       
-        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:4000//contact/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//contact/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//sobre/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//sobre/" />
       
-        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:4000//about/" />
-      
-      <lastmod>2014-09-19T00:00:00-03:00</lastmod>
-      <changefreq>weekly</changefreq>
-    </url>
-  
-    <url>
-      <loc>http://127.0.0.1:4000//sobre/</loc>
-      
-      
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//projetos/" />
-      
-        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:4000//projects/" />
-      
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//" />
-      
-        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:4000//home/" />
-      
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//contato/" />
-      
-        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:4000//contact/" />
-      
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//sobre/" />
-      
-        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:4000//about/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//about/" />
       
       <lastmod>2014-09-19T00:00:00-03:00</lastmod>
       <changefreq>weekly</changefreq>
     </url>
   
     <url>
-      <loc>http://127.0.0.1:4000//about/</loc>
+      <loc>http://42i.com.br//contato/</loc>
       
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//projetos/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/" />
       
-        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:4000//projects/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//projects/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//" />
       
-        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:4000//home/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//home/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//contato/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//contato/" />
       
-        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:4000//contact/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//contact/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//sobre/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//sobre/" />
       
-        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:4000//about/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//about/" />
       
       <lastmod>2014-09-19T00:00:00-03:00</lastmod>
       <changefreq>weekly</changefreq>
     </url>
   
     <url>
-      <loc>http://127.0.0.1:4000//projetos/papelpop/</loc>
+      <loc>http://42i.com.br//contact/</loc>
       
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//projetos/papelpop/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/" />
       
-        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:4000//projects/netmiles/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//projects/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//projetos/ipg/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//projetos/gisele/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//home/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//projetos/cba/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//contato/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//projetos/b9/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//contact/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//sobre/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//about/" />
+      
+      <lastmod>2014-09-19T00:00:00-03:00</lastmod>
+      <changefreq>weekly</changefreq>
+    </url>
+  
+    <url>
+      <loc>http://42i.com.br//sobre/</loc>
+      
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//projects/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//home/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//contato/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//contact/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//sobre/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//about/" />
+      
+      <lastmod>2014-09-19T00:00:00-03:00</lastmod>
+      <changefreq>weekly</changefreq>
+    </url>
+  
+    <url>
+      <loc>http://42i.com.br//about/</loc>
+      
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//projects/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//home/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//contato/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//contact/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//sobre/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//about/" />
+      
+      <lastmod>2014-09-19T00:00:00-03:00</lastmod>
+      <changefreq>weekly</changefreq>
+    </url>
+  
+    <url>
+      <loc>http://42i.com.br//projetos/papelpop/</loc>
+      
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/papelpop/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//projects/netmiles/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/ipg/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/gisele/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/cba/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/b9/" />
       
       <lastmod>2014-09-18T19:10:02-03:00</lastmod>
       <changefreq>weekly</changefreq>
     </url>
   
     <url>
-      <loc>http://127.0.0.1:4000//projects/netmiles/</loc>
+      <loc>http://42i.com.br//projects/netmiles/</loc>
       
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//projetos/papelpop/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/papelpop/" />
       
-        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:4000//projects/netmiles/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//projects/netmiles/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//projetos/ipg/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/ipg/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//projetos/gisele/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/gisele/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//projetos/cba/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/cba/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//projetos/b9/" />
-      
-      <lastmod>2014-09-18T19:10:02-03:00</lastmod>
-      <changefreq>weekly</changefreq>
-    </url>
-  
-    <url>
-      <loc>http://127.0.0.1:4000//projetos/ipg/</loc>
-      
-      
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//projetos/papelpop/" />
-      
-        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:4000//projects/netmiles/" />
-      
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//projetos/ipg/" />
-      
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//projetos/gisele/" />
-      
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//projetos/cba/" />
-      
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//projetos/b9/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/b9/" />
       
       <lastmod>2014-09-18T19:10:02-03:00</lastmod>
       <changefreq>weekly</changefreq>
     </url>
   
     <url>
-      <loc>http://127.0.0.1:4000//projetos/gisele/</loc>
+      <loc>http://42i.com.br//projetos/ipg/</loc>
       
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//projetos/papelpop/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/papelpop/" />
       
-        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:4000//projects/netmiles/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//projects/netmiles/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//projetos/ipg/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/ipg/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//projetos/gisele/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/gisele/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//projetos/cba/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/cba/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//projetos/b9/" />
-      
-      <lastmod>2014-09-18T19:10:02-03:00</lastmod>
-      <changefreq>weekly</changefreq>
-    </url>
-  
-    <url>
-      <loc>http://127.0.0.1:4000//projetos/cba/</loc>
-      
-      
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//projetos/papelpop/" />
-      
-        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:4000//projects/netmiles/" />
-      
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//projetos/ipg/" />
-      
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//projetos/gisele/" />
-      
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//projetos/cba/" />
-      
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//projetos/b9/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/b9/" />
       
       <lastmod>2014-09-18T19:10:02-03:00</lastmod>
       <changefreq>weekly</changefreq>
     </url>
   
     <url>
-      <loc>http://127.0.0.1:4000//projetos/b9/</loc>
+      <loc>http://42i.com.br//projetos/gisele/</loc>
       
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//projetos/papelpop/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/papelpop/" />
       
-        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:4000//projects/netmiles/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//projects/netmiles/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//projetos/ipg/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/ipg/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//projetos/gisele/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/gisele/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//projetos/cba/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/cba/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//projetos/b9/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/b9/" />
       
       <lastmod>2014-09-18T19:10:02-03:00</lastmod>
       <changefreq>weekly</changefreq>
     </url>
   
     <url>
-      <loc>http://127.0.0.1:4000//projetos/dia-da-musica/</loc>
+      <loc>http://42i.com.br//projetos/cba/</loc>
       
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//projetos/dia-da-musica/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/papelpop/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//projetos/b9-grand-prix/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//projects/netmiles/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/ipg/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/gisele/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/cba/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/b9/" />
+      
+      <lastmod>2014-09-18T19:10:02-03:00</lastmod>
+      <changefreq>weekly</changefreq>
+    </url>
+  
+    <url>
+      <loc>http://42i.com.br//projetos/b9/</loc>
+      
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/papelpop/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//projects/netmiles/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/ipg/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/gisele/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/cba/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/b9/" />
+      
+      <lastmod>2014-09-18T19:10:02-03:00</lastmod>
+      <changefreq>weekly</changefreq>
+    </url>
+  
+    <url>
+      <loc>http://42i.com.br//projetos/dia-da-musica/</loc>
+      
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/dia-da-musica/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/b9-grand-prix/" />
       
       <lastmod>2014-08-18T19:10:02-03:00</lastmod>
       <changefreq>weekly</changefreq>
     </url>
   
     <url>
-      <loc>http://127.0.0.1:4000//projetos/b9-grand-prix/</loc>
+      <loc>http://42i.com.br//projetos/b9-grand-prix/</loc>
       
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//projetos/dia-da-musica/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/dia-da-musica/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://127.0.0.1:4000//projetos/b9-grand-prix/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/b9-grand-prix/" />
       
       <lastmod>2014-08-18T19:10:02-03:00</lastmod>
       <changefreq>weekly</changefreq>

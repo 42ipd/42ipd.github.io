@@ -2,7 +2,6 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-
 @charset "UTF-8";
 /* ==========================================================================
    Normalize.scss settings
@@ -1413,6 +1412,7 @@ a {
     z-index: 10; }
   .home-cover__title {
     font-size: 28px;
+    font-weight: 900;
     line-height: 32px;
     margin: 0;
     color: #FFF;
@@ -1497,7 +1497,7 @@ a {
   .header__link {
     font-size: 12px;
     font-family: "effra", Helvetica, Arial, "sans serif";
-    font-weight: 600;
+    font-weight: 900;
     text-transform: uppercase;
     line-height: 48px;
     letter-spacing: 0.0125em;
@@ -1782,6 +1782,7 @@ a {
     width: 100%;
     height: 100%;
     bottom: 0;
+    left: 0;
     z-index: 3;
     background: transparent;
     -webkit-transition: height ease 0.25s;
