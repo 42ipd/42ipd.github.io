@@ -26,7 +26,10 @@
 		color: $c-white;
 		text-shadow: -3px 3px 0 $c-shadow-l1;
 
-		&--lowercase { text-transform: lowercase; }
+		&--lowercase {
+			font-family: $ff-heading;
+			text-transform: lowercase;
+		}
 	}
 
 	&__subtitle {
