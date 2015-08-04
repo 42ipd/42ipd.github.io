@@ -25,7 +25,7 @@ $header-cont-height-comp: 36px;
 		float: left;
 		height: $header-cont-height;
 		margin: 0;
-    padding: 0;
+    	padding: 0;
 		transition: height $anim-bounce 0.25s,
 								line-height $anim-bounce 0.25s;
 
@@ -45,7 +45,7 @@ $header-cont-height-comp: 36px;
 	&__link {
 		font-size: 12px;
 		font-family: $ff-heading;
-		font-weight: $fw-bold;
+		font-weight: $fw-black;
 		text-transform: uppercase;
 		line-height: $header-cont-height;
 		letter-spacing: 0.0125em;

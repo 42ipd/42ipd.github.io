@@ -48,6 +48,7 @@
       width: 100%;
       height: 100%;
       bottom: 0;
+      left: 0;
 
       z-index: $z-mid;
       background: transparent;
@@ -146,7 +147,7 @@
 
     &__image { opacity: 1; }
 
-    &:hover{
+    &:hover {
       .project-card {
         &__image {
           opacity: 0.25;
