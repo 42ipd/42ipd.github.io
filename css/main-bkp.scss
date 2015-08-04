@@ -1,0 +1,26 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+@import "../public/bower_components/normalize-scss/normalize.scss";
+
+@import "base/mixins",
+        "base/var-layout",
+        "base/var-typography",
+        "base/grid",
+        "base/utils";
+
+@import "modules/icons",
+        "modules/content",
+        "modules/pagination",
+        "modules/layout";
+
+@import "partials/home",
+        "partials/header",
+        "partials/footer",
+        "partials/blog",
+        "partials/projects",
+        "partials/project",
+        "partials/contact";
