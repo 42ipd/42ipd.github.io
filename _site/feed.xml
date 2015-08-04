@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>42i - Produtora Digital Independente</title>
+    <description></description>
+    <link>http://42i.com.br//</link>
+    <atom:link href="http://42i.com.br//feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 04 Aug 2015 10:42:40 -0300</pubDate>
+    <lastBuildDate>Tue, 04 Aug 2015 10:42:40 -0300</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Repositório de Links</title>
+        <description>&lt;h2 id=&quot;contedo&quot;&gt;Conteúdo&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://arquiteturadeinformacao.com/&quot;&gt;Arquitetura de Informação&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://arquiteturadeinformacao.com/por-onde-comecar-em-ux-design/&quot;&gt;Arquitetura de Informação – Por onde começar em UX Design?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://alistapart.com/&quot;&gt;A list Apart&lt;/a&gt; – A List Apart explores the design, development, and meaning of web content, with a special focus on web standards and best practices&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.zeldman.com/&quot;&gt;Zeldman&lt;/a&gt; – Web design news &amp;amp; information since 1995&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://tympanus.net/codrops/&quot;&gt;codrops&lt;/a&gt; – Tutoriais e experimentos de UX&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.smashingmagazine.com/&quot;&gt;Smashing Magazine&lt;/a&gt; – For professional designers and developers&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://uxdesign.cc/ux-tools/&quot;&gt;UX Design Tools&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://uxdesign.cc/how-to-keep-up-do-date-on-ux-design&quot;&gt;UX Design Links&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://uxdesign.cc/ux-methods-deliverables/&quot;&gt;UX Methods &amp;amp; Deliverables&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://uxdesign.cc/ux-inspiration/&quot;&gt;UX Inspiration&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://uxdesign.cc/ux-books/&quot;&gt;UX Books&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://uxdesign.cc/ux-events&quot;&gt;UX Events&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://css-tricks.com/&quot;&gt;CSS Tricks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;desenvolvimento&quot;&gt;Desenvolvimento&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://wave.webaim.org/&quot;&gt;Webaim&lt;/a&gt; – Web accessibility evaluation tool&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://eloquentjavascript.net/&quot;&gt;Eloquent Javscript&lt;/a&gt; – Para aprender Javascript&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Shopify/liquid/wiki/Liquid-for-Designers&quot;&gt;Liquid for Designers&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://sass-lang.com/documentation/file.SASS_REFERENCE.html&quot;&gt;Sass&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://snapsvg.io/docs/&quot;&gt;Snap.svg&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;referncias-visuais&quot;&gt;Referências Visuais&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.underconsideration.com/brandnew&quot;&gt;Brand New&lt;/a&gt; – Análises e reviews de branding&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.underconsideration.com/fpo/&quot;&gt;For Print Only&lt;/a&gt; – Impressos e produção gráfica&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.underconsideration.com/artofthemenu/&quot;&gt;Art of the menu&lt;/a&gt; – Cardápios Bacanas&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.underconsideration.com/quipsologies/&quot;&gt;Quipsologies&lt;/a&gt; – Seleção diária de projetos variados&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://thefoxisblack.com/&quot;&gt;The fox is black&lt;/a&gt; – An art and design blog that seeks to discover and share the most interesting and inspiring parts of contemporary life and culture&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.notcot.org/&quot;&gt;NotCot&lt;/a&gt; – For ideias + aesthetics + amusement&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://designobserver.com/&quot;&gt;Design Observer&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://art-sponge.com/&quot;&gt;Art Sponge&lt;/a&gt; – Dedicated to showcasing great visual art, photography and design from emerging artists found on the net&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.coudal.com/&quot;&gt;Coudal Partners&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://butdoesitfloat.com/&quot;&gt;But does it float&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.oberholtzer-creative.com/visualculture/&quot;&gt;Visual Culture&lt;/a&gt; – Connect, create, inspire&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.designboom.com/&quot;&gt;Design Boom&lt;/a&gt; – World’s first and most popular digital architecture and design magazine&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://thisisnthappiness.com/&quot;&gt;thisisnthappiness&lt;/a&gt; – Art, photography, design &amp;amp; disappointment&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.aiga.org/&quot;&gt;AIGA&lt;/a&gt; – American Institute of Graphic Arts&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://designenvy.aiga.org/&quot;&gt;Design Envy&lt;/a&gt; – By designers, for designers&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://50watts.com/&quot;&gt;50 watts&lt;/a&gt; – “… quite possibly the richest source of book-related design and illustration in the universe”&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://designismine.blogspot.com.br/&quot;&gt;Design is mine&lt;/a&gt; – Daily images that kick ass&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://grainedit.com/&quot;&gt;grain edit&lt;/a&gt; – Focused on classic design work from the 1950s-1970s and contemporary designers that draw inspiration from that time period.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://ffffound.com/&quot;&gt;FFFFOUND!&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://graphic-porn.com/&quot;&gt;Graphic porn&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.triangulation.jp/&quot;&gt;triangulation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.ignant.de/&quot;&gt;iGNANT&lt;/a&gt; – Berlin-based magazine featuring creatives in the fields of art, design, photography and architecture&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.awwwards.com/&quot;&gt;Awwwards&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;atualidades-e-tendncias&quot;&gt;Atualidades e tendências&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.b9.com.br/&quot;&gt;B9&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.ideafixa.com/&quot;&gt;Idea Fixa&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.updateordie.com/&quot;&gt;Update or Die&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;tipografia&quot;&gt;Tipografia&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://fontsinuse.com/&quot;&gt;Fonts in Use&lt;/a&gt; – An independent archive of typography&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://ilovetypography.com/&quot;&gt;I love typography&lt;/a&gt; – Where do our letters originate? Why do they look the way they do? And what makes for good type and typography?&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://webtypography.net/&quot;&gt;Web Typography&lt;/a&gt; – The Elements of Typographic Style Applied to the Web&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://typographica.org/&quot;&gt;Typographica&lt;/a&gt; – Type reviews, books, commentary&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;packaging&quot;&gt;Packaging&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.thedieline.com/&quot;&gt;The dieline&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://lovelypackage.com/&quot;&gt;Lovely package&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;arquitetura-paisagismo-urbanismo-e-decorao&quot;&gt;Arquitetura, paisagismo, urbanismo e decoração&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://em.elledecoration.se/&quot;&gt;Elle Decoration&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://plastolux.com/&quot;&gt;Plastolux&lt;/a&gt; – Passion for mid century modern and contemporary design found in architecture, interiors, furniture, objects and art&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://placesjournal.org/&quot;&gt;Places&lt;/a&gt; – Architecture, landscape and urbanism&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://printpattern.blogspot.com.br/&quot;&gt;Print Pattern&lt;/a&gt; – a website that celebrates the world of surface pattern design&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;moda&quot;&gt;Moda&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.thesartorialist.com/&quot;&gt;The Sartorialist&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;business&quot;&gt;Business&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.businessology.biz/&quot;&gt;Businessology&lt;/a&gt; – Sobre negócios&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;etc&quot;&gt;Etc&lt;/h2&gt;
+
+&lt;h3 id=&quot;profissionais&quot;&gt;Profissionais&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://bradfrost.com/&quot;&gt;Brad Frost&lt;/a&gt; – I’m Brad Frost, a web designer, speaker, consultant, musician, and artist.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://bokardo.com/&quot;&gt;Joshua Porter&lt;/a&gt; – I love making interfaces that are easy and pleasurable to use.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jessicahische.is/&quot;&gt;Jessica Hische&lt;/a&gt; – Letterer, illustrator, and crazy cat lady known for her silly side projects and occasional foul mouth.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://danielmall.com/&quot;&gt;Dan Mall&lt;/a&gt; – Strategist/Teacher&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;grficas&quot;&gt;Gráficas&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.joox.me/pt/?gclid=CK3VhcHp7MYCFYwYHwod21QPVA&quot;&gt;Joox&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;eventos&quot;&gt;Eventos&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.feiraplana.org/&quot;&gt;Feira Plana&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.pupunhaink.com/&quot;&gt;Pupunha Ink&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.pixelshow.com.br/&quot;&gt;Pixel Show&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;empresas-daqui&quot;&gt;Empresas daqui&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.grafikonstruct.com.br/&quot;&gt;Grafikonstruct&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.porquenao.mobi/&quot;&gt;Por que não&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://d3.do/&quot;&gt;d3&lt;/a&gt; – Produtora digital&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://site.indice.in/&quot;&gt;Índice&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.novo.saiba-mais.com/&quot;&gt;Saiba +&lt;/a&gt; – Usabilidade simples&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;empresas-gringas&quot;&gt;Empresas Gringas&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://superfriend.ly/&quot;&gt;SuperFriendly&lt;/a&gt; – Produtora com um modelo de negócios bacana&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.teehanlax.com/&quot;&gt;Teehan+Lax&lt;/a&gt; – Fechou&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://weaintplastic.com/&quot;&gt;We ain’t plastic&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.edenspiekermann.com/&quot;&gt;edenspiekermann_&lt;/a&gt; – We design brand experiences&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://paravelinc.com/work.php&quot;&gt;Paravel&lt;/a&gt; – We design! We code! We love!&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.hugeinc.com/&quot;&gt;Huge inc.&lt;/a&gt; – We create experiences that transform brands&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://whitevinyldesign.com/about/&quot;&gt;White Vinyl&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;sites-bacanas&quot;&gt;Sites Bacanas&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://species-in-pieces.com/&quot;&gt;Species in pieces&lt;/a&gt; – Animações em CSS&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 21 Jul 2015 00:00:00 -0300</pubDate>
+        <link>http://42i.com.br//repositorio-de-links/</link>
+        <guid isPermaLink="true">http://42i.com.br//repositorio-de-links/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Ada Lovelace</title>
+        <description>&lt;p&gt;&lt;span class=&quot;dropcap&quot;&gt;S&lt;/span&gt;e hoje nossa vida tem tecnologia digital por todos os lados, devemos um pouco a Ada Lovelace. Apesar de hoje o mercado ser amplamente masculino, uma das personagens mais importantes da história do desenvolvimento tecnológico é do sexo feminino. Pioneira, Ada Lovelace é reconhecida internacionalmente como a primeira programadora da história.&lt;/p&gt;
+
+&lt;p&gt;Nascida em 1815 com o nome Augusta Ada Byron e única filha legítima de &lt;a href=&quot;https://pt.wikipedia.org/wiki/Lord_Byron&quot; target=&quot;_blank&quot;&gt;Lord Byron&lt;/a&gt;, Ada teve criação científica desde pequena. Estudiosa de matemática, a mãe de Ada não queria que a filha seguisse o caminho tortuoso do pai na poesia.&lt;/p&gt;
+
+&lt;p&gt;Intitulada Condessa de Lovelace, entre 1842 e 1843 Ada ajudou o colega, &lt;a href=&quot;https://pt.wikipedia.org/wiki/Charles_Babbage&quot; target=&quot;_blank&quot;&gt;Charles Babbage&lt;/a&gt;, no desenvolvimento da primeira máquina de cálculo. Seu trabalho permitiria que a máquina calculasse os &lt;a href=&quot;https://pt.wikipedia.org/wiki/N%C3%BAmeros_de_Bernoulli&quot; target=&quot;_blank&quot;&gt;números de Bernoulli&lt;/a&gt;, onde Ada criava algoritmos para serem processadas pela máquina, o que muitos consideram ser o primeiro software ou o primeiro programa de computador.&lt;/p&gt;
+
+&lt;p&gt;Entre 1842 e 1843, ela criou notas sobre a máquina analítica de Babbage, que foram republicadas mais de cem anos depois. A máquina foi reconhecida como primeiro modelo de computador e as anotações da condessa como o primeiro algoritmo especificamente criado para ser implementado em um computador.&lt;/p&gt;
+
+&lt;p&gt;Todo o estudo e esforço valeu à pena. Ada gravou seu nome na história, ainda que não tenha tido tempo de aproveitar esse sucesso, já que a máquina que ela ajudou a criar não foi construída durante o seu tempo de vida.&lt;/p&gt;
+
+&lt;p&gt;Em 1982, uma linguagem de programação estruturada ganhou o nome &lt;a href=&quot;https://pt.wikipedia.org/wiki/Ada_(linguagem_de_programa%C3%A7%C3%A3o)&quot; target=&quot;_blank&quot;&gt;Ada&lt;/a&gt; como referência a uma das personagens mais representativas da história da tecnologia. Ada Lovelace também tem uma data em sua homenagem: celebrado no dia 15 de outubro, o “Ada Lovelace Day” tem como objetivo destacar os feitos das mulheres nas ciências, tecnologia, engenharia e matemática, e também encorajar novatas neste caminho.&lt;/p&gt;
+
+&lt;p&gt;Lovelace morreu muito jovem, aos 36 anos, mas, por seu trabalho e seu legado, estará para sempre em nosso universo de personagens inspiradores.&lt;/p&gt;
+
+&lt;h6&gt;Saiba mais:&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pt.wikipedia.org/wiki/Ada_Lovelace&quot; target=&quot;_blank&quot;&gt;&lt;small&gt;Ada Lovelace - Wikipedia&lt;/small&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://hypescience.com/google-doodle-homenageia-ada-lovelace-a-primeira-programadora-do-mundo/&quot; target=&quot;_blank&quot;&gt;&lt;small&gt;Ada Lovelace - A Primeira Programadora do Mundo&lt;/small&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=uBbVbqRvqTM&quot; target=&quot;_blank&quot;&gt;&lt;small&gt;Ada Lovelace: Great Minds (em inglês)&lt;/small&gt;
+  &lt;li&gt;&lt;a href=&quot;http://findingada.com/about/who-was-ada/&quot; target=&quot;_blank&quot;&gt;&lt;small&gt;Finding Ada &amp;gt; Who was Ada? (em inglês)&lt;/small&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://sydneypadua.com/2dgoggles/comics/&quot; target=&quot;_blank&quot;&gt;&lt;small&gt;The Thrilling Adventures of Lovelace and Babbage (em inglês)&lt;/small&gt;&lt;/a&gt;&lt;/li&gt;
+
+&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 06 Jul 2015 15:16:00 -0300</pubDate>
+        <link>http://42i.com.br//blog/ada-lovelace</link>
+        <guid isPermaLink="true">http://42i.com.br//blog/ada-lovelace</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Narrativas: O poder de uma boa história</title>
+        <description>&lt;p&gt;&lt;span class=&quot;dropcap&quot;&gt;N&lt;/span&gt;arrativas são formas de contar histórias. Na publicidade, e recentemente nas redes sociais, elas são o ponto-chave para vender um produto, ao causar empatia no consumidor e tratar aquela história como dele também. O termo possui um similar em inglês, &lt;em&gt;“storytelling”&lt;/em&gt;, que está relacionado com a narrativa e sua capacidade de contar histórias relevantes. Mas como as narrativas funcionam, exatamente?&lt;/p&gt;
+
+&lt;p&gt;A narrativa faz uso de palavras ou recursos audiovisuais para transmitir um conteúdo, e na publicidade e no marketing ela tem como principal função promover uma marca sem fazer a venda diretamente.&lt;/p&gt;
+
+&lt;p&gt;Uma forma de compartilhar conhecimento, a arte de contar histórias aproxima as pessoas da empresa e nisso pode ser aplicada para vender produtos, serviços ou ideias. Estabelecemos ligações interpessoais através de uma narrativa. Convivendo diariamente sendo bombardeados com excesso de informação, cativar um potencial cliente com uma história pode ser uma alternativa para quebrar a habitual defesa que as pessoas têm com abordagens tradicionais e abertamente comerciais.&lt;/p&gt;
+
+&lt;p&gt;Ou seja, contar uma história pode ser melhor do que simplesmente jogar um produto diante do cliente e esperar que ele compre. Uma boa história acaba por revelar o benefício que a marca trouxe para a vida do consumidor, o que cria uma aproximação entre cliente e empresa.&lt;/p&gt;
+
+&lt;p&gt;Tudo isso para dizer que as pessoas na sua narrativa precisam querer algo. A história não começa até que se saiba claramente qual é o objetivo do protagonista, pois é com isso que audiência deve se importar. Isso nos leva a outro ponto: narrativas falam a linguagem da audiência. Ao contar uma história, sempre leve em consideração que você precisa se comunicar com seu público, e para isso não deve usar uma linguagem que não esteja ao alcance dele.&lt;/p&gt;
+
+&lt;p&gt;Narrativas ativam emoções e não apenas contam, elas mostram. É preciso mostrar um retrato, uma motivação e fazer o público sentir a história e assim se envolver com a marca que ela representa.&lt;/p&gt;
+
+&lt;p&gt;Ter isso em mente na hora de começar a construir um &lt;em&gt;storytelling&lt;/em&gt; para a sua marca é fundamental.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 22 Apr 2015 15:16:00 -0300</pubDate>
+        <link>http://42i.com.br//blog/narrativas</link>
+        <guid isPermaLink="true">http://42i.com.br//blog/narrativas</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Aplicativos: saiba tudo sobre eles!</title>
+        <description>&lt;p&gt;&lt;span class=&quot;dropcap&quot;&gt;É&lt;/span&gt; comum ouvirmos sobre aplicativos quase todos os dias. Eles estão presentes em nossa vida em tantos momentos que é quase impossível ficar indiferente e deixar de aproveitar a praticidade que eles acrescentam ao nosso cotidiano. Essenciais na hora de ouvir música, conversar com as pessoas, controlar sua dieta, publicar fotos ou apenas fazer listas. Existem inúmeras utilidades e categorias para eles – e é sobre as formas de produzir aplicativos móveis dessas diversas categorias que falaremos por aqui hoje.&lt;/p&gt;
+
+&lt;p&gt;Quando falamos de aplicativos voltados para aparelhos móveis hoje, podemos os dividir em duas macro categorias:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Aplicativos disponíveis nas lojas dos sistemas dos celulares que usamos (PlayStore, AppStore, Windows Store, etc);&lt;/li&gt;
+  &lt;li&gt;Aplicativos disponíveis nos navegadores de internet do celular (web apps);&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Diante disso, falaremos primeiro dos aplicativos disponíveis em navegadores, pois os usaremos para comparação quando formos falar dos aplicativos disponíveis para celular.&lt;/p&gt;
+
+&lt;h2 id=&quot;aplicativos-disponveis-nos-navegadores&quot;&gt;Aplicativos disponíveis nos navegadores&lt;/h2&gt;
+
+&lt;p&gt;Tradicionalmente, aplicativos eram considerados peças de software feitas para rodar em um determinado sistema operacional (iOS, Android, etc). Esses aplicativos, normalmente, devem ser programados em uma linguagem específica para aquele sistema, tornando o reaproveitamento de código muito baixo. Na prática, isso significa um novo projeto para cada sistema que surgir.&lt;/p&gt;
+
+&lt;p&gt;Mas à medida que os sistemas foram evoluindo e seus navegadores se tornaram mais potentes, passou a ser possível usar tecnologias ligadas ao desenvolvimento de sites para criar interfaces que se comportam de forma similar às dos &lt;strong&gt;aplicativos nativos&lt;/strong&gt; , inclusive possibilitando “instalar” (na prática isso seria favoritar o site como ícone) o web app direto em seu aparelho.&lt;/p&gt;
+
+&lt;p&gt;As principais diferenças entre um site tradicional e um web app são:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Web apps podem ser usados offline;&lt;/li&gt;
+  &lt;li&gt;Web apps podem usar recursos de hardware do celular como geolocalização e câmera;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As principais diferenças entre um web app e um aplicativo:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Web apps têm uma performance inferior à de um aplicativo nativo;&lt;/li&gt;
+  &lt;li&gt;Web apps não são baixados das lojas dos sistemas, devem ser favoritados como ícone;&lt;/li&gt;
+  &lt;li&gt;Web apps podem ser atualizados sem que haja uma atualização feita pelas lojas de aplicativos;&lt;/li&gt;
+  &lt;li&gt;Web apps funcionam em todos os aparelhos com navegadores modernos;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Dito isso, podemos partir para a segunda parte, que são os aplicativos de loja de sistema, aqueles que você baixa para usar no celular.
+Os aplicativos disponíveis nas lojas do sistema podem ser divididos em três categorias:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Aplicativos híbridos I&lt;/li&gt;
+  &lt;li&gt;Aplicativos híbridos II&lt;/li&gt;
+  &lt;li&gt;Aplicativos nativos&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Antes de falar sobre cada uma dessas categorias, vale mencionar o porquê de haver dois tipos de aplicativos híbridos: o primeiro é muito parecido com um web app, porém com algumas funcionalidades nativas, já o segundo está mais para o lado dos apps nativos do que dos web apps.&lt;/p&gt;
+
+&lt;h2 id=&quot;aplicativos-hbridos-i&quot;&gt;Aplicativos híbridos I&lt;/h2&gt;
+
+&lt;p&gt;Estes são bem similares aos Web Apps, inclusive no que se diz respeito à tecnologia, ambos são desenvolvidos com tecnologias de web (HTML5, CSS3, JavaScript). As grandes vantagens do aplicativo híbrido I são o fato de o aplicativo poder ser disponibilizado em loja, com acesso a partes do hardware do aparelho, como por exemplo o acelerômetro e tarefas de segundo plano (aquelas que acontecem quando você usa outro aplicativo e o primeiro ainda está aberto, mas escondido). Além disso, o app híbrido I tem acesso ao recebimento de &lt;em&gt;push notifications&lt;/em&gt; e possui uma base de código comum para diversos sistemas operacionais, o que resulta em menor tempo de desenvolvimento caso o aplicativo seja para múltiplas plataformas.&lt;/p&gt;
+
+&lt;p&gt;Como desvantagem em relação aos &lt;strong&gt;aplicativos nativos&lt;/strong&gt; , essa categoria apresenta performance bastante inferior e menor controle sobre o aparelho e seus recursos de hardware e sistema.&lt;/p&gt;
+
+&lt;h2 id=&quot;aplicativos-hbridos-ii&quot;&gt;Aplicativos híbridos II&lt;/h2&gt;
+
+&lt;p&gt;Estes estão mais próximos aos &lt;strong&gt;aplicativos nativos&lt;/strong&gt;  em relação à performance.&lt;/p&gt;
+
+&lt;p&gt;Entre as grandes vantagens dos &lt;strong&gt;aplicativos híbridos II&lt;/strong&gt; estão uma performance mais próxima aos &lt;strong&gt;aplicativos nativos&lt;/strong&gt; , a base de código comum para diversos sistemas, como Android e iOS, por exemplo, o acesso a quase todo o hardware do aparelho e também às &lt;em&gt;push notifications&lt;/em&gt;, além de menor tempo de desenvolvimento em relação ao aplicativo nativo, caso este seja desenvolvido para mais de uma plataforma.&lt;/p&gt;
+
+&lt;p&gt;Como desvantagens em relação aos &lt;strong&gt;aplicativos nativos&lt;/strong&gt; , apresentam menor controle sobre o hardware do aparelho e são limitados no sentido de aplicações que dependem de 3D, animações pesadas ou tarefas intensas de processamento, como por exemplo jogos, não serem viáveis.&lt;/p&gt;
+
+&lt;h2 id=&quot;aplicativos-nativos&quot;&gt;Aplicativos nativos&lt;/h2&gt;
+
+&lt;p&gt;Esta é sempre a melhor opção, caso haja tanto tempo hábil, quanto recursos para o desenvolvimento, pois resultará na melhor experiência possível para o usuário.&lt;/p&gt;
+
+&lt;p&gt;As grandes vantagens dos &lt;strong&gt;aplicativos nativos&lt;/strong&gt;  são o acesso à todo o hardware do aparelho, possibilitando ajuste fino relacionado à otimização, performance e animações.&lt;/p&gt;
+
+&lt;p&gt;Entre as desvantagens em relação às demais opções se pode citar o maior custo e tempo de desenvolvimento e a base de código atrelada ao sistema operacional - o que quer dizer que cada adaptação para um diferente sistema é praticamente um novo projeto.&lt;/p&gt;
+
+&lt;p&gt;Ficou claro? Se ainda tiver dúvidas, &lt;a href=&quot;/contato&quot;&gt;estamos aqui para isso&lt;/a&gt;!&lt;/p&gt;
+</description>
+        <pubDate>Wed, 11 Mar 2015 10:16:00 -0300</pubDate>
+        <link>http://42i.com.br//blog/saiba-tudo-sobre-aplicativos</link>
+        <guid isPermaLink="true">http://42i.com.br//blog/saiba-tudo-sobre-aplicativos</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Fictícia</title>
+        <description>&lt;p&gt;&lt;span class=&quot;dropcap&quot;&gt;D&lt;/span&gt;edicada a levar informações secretas por meio de uma narrativa formada por palavras e desenhos, a editora Fictícia tem sua base na confecção e venda de quadrinhos.&lt;/p&gt;
+
+&lt;p&gt;Em 2013 a 42i foi chamada para ajudar a empresa a estabelecer o seu comércio online de ponta a ponta. Criamos um sistema de e-commerce do começo ao fim, do layout à gestão de produtos.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 04 Mar 2015 19:10:02 -0300</pubDate>
+        <link>http://42i.com.br//projetos/ficticia/</link>
+        <guid isPermaLink="true">http://42i.com.br//projetos/ficticia/</guid>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+      <item>
+        <title>O que é uma produtora digital?</title>
+        <description>&lt;p&gt;&lt;span class=&quot;dropcap&quot;&gt;A&lt;/span&gt; 42i é uma produtora digital e como tal ela faz, isso mesmo, produtos digitais. Nisso se inclui a produção de sites, aplicativos, sistemas próprios para gestão (logística, financeira, conhecimento, etc), e-commerces, jogos, sistemas embarcados (instalações interativas) e mais.&lt;/p&gt;
+
+&lt;p&gt;Ou seja, somos especializados em “coisas que rodam no navegador”, explicando de uma maneira bem simples, e aplicativos. Sendo assim, focamos em sites, aplicativos (nativos ou não) e-commerces e sistemas customizados para gestão, assim como produtos voltados para o consumidor final, como Instagram, Facebook, Twitter, etc.&lt;/p&gt;
+
+&lt;p&gt;Dentro disso, a 42i pode se envolver em todas as pontas do processo, o que normalmente inclui planejamento, criação e programação. Em se tratando de produção digital, podemos, e gostamos de, fazer parte de todo o projeto - mas também não abrimos mão de executar apenas algumas das etapas pontualmente. Seja qual for a necessidade do cliente, procuramos nos adaptar de modo a trabalhar junto com ele e entregar sempre o melhor produto possível.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 26 Feb 2015 10:10:02 -0300</pubDate>
+        <link>http://42i.com.br//blog/o-que-e-uma-produtora-digital/</link>
+        <guid isPermaLink="true">http://42i.com.br//blog/o-que-e-uma-produtora-digital/</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Quem somos nós?</title>
+        <description>&lt;p&gt;&lt;span class=&quot;dropcap&quot;&gt;P&lt;/span&gt;erto do nosso aniversário (em março completamos dois anos), abrimos espaço para contar um pouco mais sobre quem somos e como pensamos. Para começar, a 42i é uma produtora digital independente localizada no centro de São Paulo, onde divide escritório com a 127ml.&lt;/p&gt;
+
+&lt;div class=&quot;image-caption&quot;&gt;
+  &lt;img src=&quot;/public/images/blog/2015-02-11-sobre-a-42i/escritorio.jpg&quot; /&gt;
+  &lt;small&gt;Nosso novo escritório (ainda estamos organizando :-))&lt;/small&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Como o nosso trabalho funciona?&lt;/strong&gt; Gostamos de nos envolver no trabalho como um todo. Claro, em alguns casos nossa função pode ser mesmo apenas programar, mas faz parte da nossa identidade estar sempre envolvidos na parte criativa o máximo possível.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;O que nos caracteriza?&lt;/strong&gt; Entre outras coisas, somos fãs de processos e estamos sempre dispostos a avaliar qual é a melhor estratégia e tecnologia para cada projeto. Nisso, fica bem claro: uma relação próxima ao cliente e feedbacks constantes estão sempre na nossa mira, já que assim conseguimos estar sempre na mesma página.&lt;/p&gt;
+
+&lt;p&gt;Por fim, vale dizer o óbvio: queremos ter uma equipe feliz e satisfeita e por isso acreditamos que a vida fora do trabalho é mais importante do que a dentro. Partimos do princípio de que uma vida pessoal rica contribui para um rendimento maior, principalmente no que toca qualidade. Somos comprometidos com o desenvolvimento profissional de nossa equipe e tentamos sempre apresentar e ensinar coisas novas, em uma troca que acrescenta para nós também.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 10 Feb 2015 14:10:02 -0200</pubDate>
+        <link>http://42i.com.br//blog/quem-e-a-42i/</link>
+        <guid isPermaLink="true">http://42i.com.br//blog/quem-e-a-42i/</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>journal</title>
+        <description>
+</description>
+        <pubDate>Mon, 22 Sep 2014 00:00:00 -0300</pubDate>
+        <link>http://42i.com.br//journal/</link>
+        <guid isPermaLink="true">http://42i.com.br//journal/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Blog</title>
+        <description>
+</description>
+        <pubDate>Mon, 22 Sep 2014 00:00:00 -0300</pubDate>
+        <link>http://42i.com.br//blog/</link>
+        <guid isPermaLink="true">http://42i.com.br//blog/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Projetos</title>
+        <description>
+</description>
+        <pubDate>Fri, 19 Sep 2014 00:00:00 -0300</pubDate>
+        <link>http://42i.com.br//projetos/</link>
+        <guid isPermaLink="true">http://42i.com.br//projetos/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
