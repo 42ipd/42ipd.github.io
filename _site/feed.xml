@@ -5,9 +5,61 @@
     <description></description>
     <link>http://42i.com.br//</link>
     <atom:link href="http://42i.com.br//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 04 Aug 2015 18:25:21 -0300</pubDate>
-    <lastBuildDate>Tue, 04 Aug 2015 18:25:21 -0300</lastBuildDate>
+    <pubDate>Wed, 05 Aug 2015 19:01:38 -0300</pubDate>
+    <lastBuildDate>Wed, 05 Aug 2015 19:01:38 -0300</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Estágio</title>
+        <description>&lt;p&gt;&lt;span class=&quot;dropcap&quot;&gt;A&lt;/span&gt; 42i procura alguém para estagiar com a gente e nos ajudar em projetos de websites responsivos, aplicativos e projetos digitais multidisciplinares.&lt;/p&gt;
+
+&lt;p&gt;Interessados, mandem email pra &lt;a href=&quot;mailto:estagio@42i.com.br&quot;&gt;estagio@42i.com.br&lt;/a&gt;!&lt;/p&gt;
+
+&lt;h5 id=&quot;o-que-esperamos-de-voc&quot;&gt;O que esperamos de você:&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Ser interessado por design gráfico;&lt;/li&gt;
+  &lt;li&gt;Estar cursando o 3º ou o 4º ano da faculdade;&lt;/li&gt;
+  &lt;li&gt;Saber inglês (nível intermediário);&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;o-que-esperamos-de-voc-a-nvel-tcnico&quot;&gt;O que esperamos de você a nível técnico:&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Familiaridade com programas de edição de imagem (Illustrator e/ou Photoshop);&lt;/li&gt;
+  &lt;li&gt;Conseguir estruturar o HTML de uma página;&lt;/li&gt;
+  &lt;li&gt;Saber escolher as tags certas para o tipo de conteúdo certo;&lt;/li&gt;
+  &lt;li&gt;Separar HTML de CSS;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;o-que--legal-voc-saber-mas-se-no-souber-aprende-aqui&quot;&gt;O que é legal você saber, mas se não souber aprende aqui:&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Saber trabalhar em Mac ou Linux;&lt;/li&gt;
+  &lt;li&gt;Aspectos de jQuery como:
+    &lt;ul&gt;
+      &lt;li&gt;$.click, $.hover;&lt;/li&gt;
+      &lt;li&gt;$.hide, $.show, $.fadeIn, $.fadeOut;&lt;/li&gt;
+      &lt;li&gt;$.append, $prepend&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;o-que-vai-impressionar-muito-se-voc-souber-mas-tambm-vai-aprender-aqui&quot;&gt;O que vai impressionar muito se você souber (mas, também vai aprender aqui):&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Ter familiaridade com terminal;&lt;/li&gt;
+  &lt;li&gt;Ter familiaridade com Wordpress;&lt;/li&gt;
+  &lt;li&gt;Ter familiaridade com versionamento (Git);&lt;/li&gt;
+  &lt;li&gt;Ter familiaridade com gerenciadores de pacotes (Bower, npm);&lt;/li&gt;
+  &lt;li&gt;Ter familiaridade com automatizadores de tarefas (Gulp, Grunt, Brunch, etc);&lt;/li&gt;
+  &lt;li&gt;Conceitos de organização de código (BEM, SMACSS) e pré-processadores (SASS);&lt;/li&gt;
+  &lt;li&gt;As funções $.ajax, $.on e $.off do jQuery;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Fri, 04 Sep 2015 00:00:00 -0300</pubDate>
+        <link>http://42i.com.br//vagas/estagio/</link>
+        <guid isPermaLink="true">http://42i.com.br//vagas/estagio/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Repositório de Links</title>
@@ -367,17 +419,6 @@ Os aplicativos disponíveis nas lojas do sistema podem ser divididos em três ca
         <pubDate>Mon, 22 Sep 2014 00:00:00 -0300</pubDate>
         <link>http://42i.com.br//blog/</link>
         <guid isPermaLink="true">http://42i.com.br//blog/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Projetos</title>
-        <description>
-</description>
-        <pubDate>Fri, 19 Sep 2014 00:00:00 -0300</pubDate>
-        <link>http://42i.com.br//projetos/</link>
-        <guid isPermaLink="true">http://42i.com.br//projetos/</guid>
         
         
       </item>
