@@ -5,12 +5,12 @@
     <description></description>
     <link>http://42i.com.br//</link>
     <atom:link href="http://42i.com.br//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 05 Aug 2015 19:01:38 -0300</pubDate>
-    <lastBuildDate>Wed, 05 Aug 2015 19:01:38 -0300</lastBuildDate>
+    <pubDate>Fri, 07 Aug 2015 17:58:20 -0300</pubDate>
+    <lastBuildDate>Fri, 07 Aug 2015 17:58:20 -0300</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
-        <title>Estágio</title>
+        <title></title>
         <description>&lt;p&gt;&lt;span class=&quot;dropcap&quot;&gt;A&lt;/span&gt; 42i procura alguém para estagiar com a gente e nos ajudar em projetos de websites responsivos, aplicativos e projetos digitais multidisciplinares.&lt;/p&gt;
 
 &lt;p&gt;Interessados, mandem email pra &lt;a href=&quot;mailto:estagio@42i.com.br&quot;&gt;estagio@42i.com.br&lt;/a&gt;!&lt;/p&gt;
@@ -58,6 +58,48 @@
         <link>http://42i.com.br//vagas/estagio/</link>
         <guid isPermaLink="true">http://42i.com.br//vagas/estagio/</guid>
         
+        
+      </item>
+    
+      <item>
+        <title>Inteligência Artificial I</title>
+        <description>&lt;p&gt;&lt;span class=&quot;dropcap&quot;&gt;A&lt;/span&gt; ideia de uma sociedade na qual objetos inteligentes interagem de maneira autônoma serve de base para livros, filmes e séries de sucesso. Um tema recorrente em histórias de ficção científica, a Inteligência Artificial, é assustadora e fascinante.&lt;/p&gt;
+
+&lt;p&gt;Desde a década de 1940 a humanidade sonha com os grandes e revolucionários avanços que o avanço científico seria capaz de proporcionar, mas ao invés de carros voadores, o sonho atual é um tanto menos mecânico.&lt;/p&gt;
+
+&lt;p&gt;Pode se dizer que seu desenvolvimento começou logo após a Segunda Guerra Mundial, com o artigo &lt;a href=&quot;http://cogprints.org/499/1/turing.HTML&quot; target=&quot;_blank&quot;&gt;Computing Machinery and Intelligence&lt;/a&gt; de &lt;a href=&quot;https://pt.wikipedia.org/wiki/Alan_Turing&quot; target=&quot;_blank&quot;&gt;Alan Turing&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Por ser um conceito muito abrangente, uma de suas definições mais aceitas é: “executar funções que, caso um ser humano fosse executar, seriam consideradas inteligentes”. &lt;a href=&quot;https://en.wikipedia.org/wiki/John_McCarthy_(computer_scientist)&quot; target=&quot;_blank&quot;&gt;McCarthy&lt;/a&gt;, quem cunhou o termo em 1955, a define como “a ciência e engenharia de produzir máquinas inteligentes”.&lt;/p&gt;
+
+&lt;p&gt;A &lt;strong&gt;IA – inteligência artificial&lt;/strong&gt; (ou em inglês, &lt;em&gt;AI - artificial intelligence&lt;/em&gt;) é a inteligência similar à humana apresentada por mecanismos ou software e um campo de estudo acadêmico.
+O surgimento do computador moderno proporcionou que a inteligência artificial pudesse sair do campo puramente teórico e ganhasse meios e massa crítica para se estabelecer como ciência integral, com suas problemáticas e metodologias próprias.&lt;/p&gt;
+
+&lt;p&gt;Desde então, seu desenvolvimento tem extrapolado os clássicos programas de xadrez e envolvido as mais diversas áreas como: visão computacional, análise e síntese de voz, redes neurais artificiais dentre outras.&lt;/p&gt;
+
+&lt;p&gt;A Inteligência Artificial hoje figura de modo prático na nossa vida cotidiana, muita vezes sendo utilizada despercebida, como no sistema de busca da Google, usado pela esmagadora maioria dos usuários de buscadores, que tem uma inteligência artificial com algoritmos para associar palavras e fornecer resultados rápidos. Ou no sistema de freios dos carros modernos, que é capaz de determinar o momento exato e a intensidade com que o dispositivo deve ser acionado, aumentando a segurança do veículo.&lt;/p&gt;
+
+&lt;p&gt;Apesar de todas as utilidades que seu desenvolvimento pode ter, seu lado ameaçador já começa a atrair holofotes. Elon Musk, Bill Gates, Stephen Hawking, entre outros já começam a imaginar um futuro distópico ocasionado pelo desenvolvimento descontrolado de inteligências artificiais.&lt;/p&gt;
+
+&lt;p&gt;Em um &lt;a href=&quot;https://twitter.com/elonmusk/status/495759307346952192&quot; target=&quot;_blank&quot;&gt;famoso tweet&lt;/a&gt;, Elon Musk já alerta que a inteligência artificial tem potencial para se tornar mais perigosa que armas nucleares.&lt;/p&gt;
+
+&lt;p&gt;O que o futuro nos reserva? Mais na parte II. ;)&lt;/p&gt;
+
+&lt;h6&gt;Saiba mais:&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.nce.ufrj.br/GINAPE/VIDA/ia.htm&quot; target=&quot;_blank&quot;&gt;&lt;small&gt;Inteligência Artificial - Uma Visão Geral&lt;/small&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot; http://www.tecmundo.com.br/inteligencia-artificial/&quot; target=&quot;_blank&quot;&gt;&lt;small&gt;Inteligência Artificial no TecMundo&lt;/small&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Artificial_intelligence&quot; target=&quot;_blank&quot;&gt;&lt;small&gt;Artificial intelligence – Wikipedia (em inglês)&lt;/small&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Intelligent_agent&quot; target=&quot;_blank&quot;&gt;&lt;small&gt;Intelligent agent – Wikipedia (em inglês)&lt;/small&gt;
+  &lt;li&gt;&lt;a href=&quot;http://cogprints.org/499/1/turing.HTML&quot; target=&quot;_blank&quot;&gt;&lt;small&gt;Computing Machinery and Intelligence (em inglês)&lt;/small&gt;&lt;/a&gt;&lt;/li&gt;
+
+&lt;/a&gt;&lt;/li&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 07 Aug 2015 09:53:00 -0300</pubDate>
+        <link>http://42i.com.br//blog/IA-I</link>
+        <guid isPermaLink="true">http://42i.com.br//blog/IA-I</guid>
+        
+        
+        <category>blog</category>
         
       </item>
     
@@ -408,17 +450,6 @@ Os aplicativos disponíveis nas lojas do sistema podem ser divididos em três ca
         <pubDate>Mon, 22 Sep 2014 00:00:00 -0300</pubDate>
         <link>http://42i.com.br//journal/</link>
         <guid isPermaLink="true">http://42i.com.br//journal/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Blog</title>
-        <description>
-</description>
-        <pubDate>Mon, 22 Sep 2014 00:00:00 -0300</pubDate>
-        <link>http://42i.com.br//blog/</link>
-        <guid isPermaLink="true">http://42i.com.br//blog/</guid>
         
         
       </item>

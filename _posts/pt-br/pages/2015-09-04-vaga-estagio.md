@@ -1,5 +1,5 @@
 ---
-title: "Estágio"
+title: ""
 subtitle: ""
 name: "vagas-estagio"
 layout: "general"
