@@ -1,5 +1,5 @@
 ---
-title: "Ada Lovelace"
+title: "❤ Ada Lovelace"
 name: "ada-lovelace"
 date: "2015-07-06 15:16:00"
 category: "blog"

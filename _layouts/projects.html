@@ -10,7 +10,6 @@ layout: default
     <div class="row">
 
     {% for post in posts %}
-      {% if post.title != "Dossiê" %}
       <div class="col-sm-6">
         <li class="projects__item">
           <a class="project-card" href="{{ post.url }}" title="">
@@ -31,7 +30,6 @@ layout: default
           </a>
         </li>
       </div>
-      {% endif %}
     {% endfor %}
 
   </div>

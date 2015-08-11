@@ -57,6 +57,19 @@
         br { line-height: $lh-text * 1.5; }
     }
 
+    blockquote {
+        font-size: 22px;
+        font-style: italic;
+        font-weight: $fw-light;
+
+        display: block;
+        margin-bottom: 30px;
+
+        color: $c-gray;
+
+
+    }
+
     small {
         font-size: $fs-small;
         font-family: $ff-text;

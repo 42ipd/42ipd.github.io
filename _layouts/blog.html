@@ -9,7 +9,6 @@ layout: default
     {% assign posts = site.posts | where:"lang", page.lang | where:"category", "blog" %}
 
     {% for post in posts %}
-    {% if post.title != "Inteligência Artificial I" %}
     <li class="posts__item post-stub">
       <a href="{{ post.url }}" class="post-stub__capsule">
         <div class="row">
@@ -38,7 +37,6 @@ layout: default
         </div>
       </a>
     </li>
-    {% endif %}
     {% endfor %}
   </ul>
 

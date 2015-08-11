@@ -1250,6 +1250,13 @@ th {
     color: #000; }
     .textblock p br, .textblock span br {
       line-height: 42px; }
+  .textblock blockquote {
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 300;
+    display: block;
+    margin-bottom: 30px;
+    color: #9b9b9b; }
   .textblock small {
     font-size: 16px;
     font-family: "foco", Helvetica, Arial, "sans serif";
