@@ -12,6 +12,16 @@
     </url>
   
     <url>
+      <loc>http://42i.com.br//blog/alan-turing</loc>
+      
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//blog/alan-turing" />
+      
+      <lastmod>2015-08-21T15:16:00-03:00</lastmod>
+      <changefreq>weekly</changefreq>
+    </url>
+  
+    <url>
       <loc>http://42i.com.br//blog/IA-I</loc>
       
       
