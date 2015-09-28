@@ -126,12 +126,12 @@
     </url>
   
     <url>
-      <loc>http://42i.com.br//projetos/</loc>
+      <loc>http://42i.com.br//projects/</loc>
       
-      
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/" />
       
         <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//projects/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/" />
       
         <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//" />
       
@@ -150,12 +150,12 @@
     </url>
   
     <url>
-      <loc>http://42i.com.br//projects/</loc>
+      <loc>http://42i.com.br//projetos/</loc>
       
-      
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/" />
       
         <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//projects/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/" />
       
         <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//" />
       
@@ -177,9 +177,9 @@
       <loc>http://42i.com.br//</loc>
       
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/" />
-      
         <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//projects/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/" />
       
         <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//" />
       
@@ -201,9 +201,9 @@
       <loc>http://42i.com.br//home/</loc>
       
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/" />
-      
         <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//projects/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/" />
       
         <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//" />
       
@@ -225,9 +225,9 @@
       <loc>http://42i.com.br//contact/</loc>
       
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/" />
-      
         <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//projects/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/" />
       
         <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//" />
       
@@ -249,9 +249,9 @@
       <loc>http://42i.com.br//contato/</loc>
       
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/" />
-      
         <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//projects/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/" />
       
         <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//" />
       
@@ -273,9 +273,9 @@
       <loc>http://42i.com.br//about/</loc>
       
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/" />
-      
         <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//projects/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/" />
       
         <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//" />
       
@@ -297,9 +297,9 @@
       <loc>http://42i.com.br//sobre/</loc>
       
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/" />
-      
         <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//projects/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/" />
       
         <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//" />
       
@@ -466,6 +466,20 @@
       
       
         <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/dossie-da-violencia-contra-as-mulheres/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/festival-de-clipes-e-bandas/" />
+      
+      <lastmod>2014-08-17T19:10:02-03:00</lastmod>
+      <changefreq>weekly</changefreq>
+    </url>
+  
+    <url>
+      <loc>http://42i.com.br//projetos/festival-de-clipes-e-bandas/</loc>
+      
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/dossie-da-violencia-contra-as-mulheres/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/festival-de-clipes-e-bandas/" />
       
       <lastmod>2014-08-17T19:10:02-03:00</lastmod>
       <changefreq>weekly</changefreq>
