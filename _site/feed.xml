@@ -5,9 +5,62 @@
     <description></description>
     <link>http://42i.com.br//</link>
     <atom:link href="http://42i.com.br//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 28 Sep 2015 12:08:08 -0300</pubDate>
-    <lastBuildDate>Mon, 28 Sep 2015 12:08:08 -0300</lastBuildDate>
+    <pubDate>Mon, 26 Oct 2015 19:23:28 -0200</pubDate>
+    <lastBuildDate>Mon, 26 Oct 2015 19:23:28 -0200</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>❤ Yukihiro Matsumoto [Matz]</title>
+        <description>&lt;blockquote&gt;
+&quot;Eu acredito que o propósito da vida é, ao menos em parte, ser feliz. Com base nessa crença, o Ruby é projetado para tornar a programação não só fácil, mas também divertida. Ele permite que você se concentre no lado criativo da programação, com menos stress.&quot;
+&lt;small style=&quot;display: block&quot;&gt;Yukihiro Matsumoto&lt;/small&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;span class=&quot;dropcap&quot;&gt;Y&lt;/span&gt;ukihiro Matsumoto, também conhecido como Matz, nasceu no Japão em 14 de abril de 1965 e é um cientista da computação e programador de software mais conhecido como criador da linguagem de programação Ruby. Seu interesse por programação surgiu quando ele era estudante do ensino médio, o que o levou a estudar Ciência da Computação na Universidade de Tsukuba, tenho vindo a trabalhar como programador.&lt;/p&gt;
+
+&lt;p&gt;Desde 1993 Matz se dedica a projetar e desenvolver a linguagem de programação Ruby. De código aberto, o Ruby se tornou uma linguagem de programação muito popular em todo o mundo, e é amplamente utilizado em muitos campos, incluindo a Web.&lt;/p&gt;
+
+&lt;p&gt;Aqui, uma lista de curiosidades sobre Matz:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li style=&quot;margin-bottom: 10px&quot;&gt;Até o final do ensino médio, Matz era um programador autodidata. Depois de formado, se juntou ao departamento de linguagens de programação e compiladores de pesquisa de sua faculdade;&lt;/li&gt;
+  &lt;li style=&quot;margin-bottom: 10px&quot;&gt;Como programador profissional, trabalhou para a empresa japonesa de código aberto, netlab.jp;&lt;/li&gt;
+  &lt;li style=&quot;margin-bottom: 10px&quot;&gt;Conhecido como um dos mais ferrenhos evangelistas de código aberto no Japão, lançou vários produtos incluindo o cMail, escrito inteiramente em Emacs Lisp;&lt;/li&gt;
+  &lt;li style=&quot;margin-bottom: 10px&quot;&gt;Ruby é a sua primeira peça de software que se tornou conhecido fora do Japão;&lt;/li&gt;
+  &lt;li style=&quot;margin-bottom: 10px&quot;&gt;O nome de Matz pode ser escrito usando kanji: 松本行弘, mas é normalmente escrito usando hiragana: まつもとゆきひろ;&lt;/li&gt;
+  &lt;li style=&quot;margin-bottom: 10px&quot;&gt;Ele é autor de dois livros: Ruby in a Nutshell e The Ruby Programming Language;&lt;/li&gt;
+  &lt;li style=&quot;margin-bottom: 10px&quot;&gt;Para criar o Ruby, Matz uniu partes das suas linguagens favoritas (Perl, Smalltalk, Eiffel, Ada, e Lisp) formando uma nova linguagem que equilibra a programação funcional com a programação imperativa;&lt;/li&gt;
+  &lt;li style=&quot;margin-bottom: 10px&quot;&gt;Matz sempre diz em suas entrevistas que sua intenção é &quot;tornar o Ruby natural, não simples&quot;, de uma forma que reflita a vida. E sobre isso, acrescenta: &quot;o Ruby é simples na aparência, mas muito complexo no interior, tal como o corpo humano&quot;;&lt;/li&gt;
+  &lt;li style=&quot;margin-bottom: 10px&quot;&gt;Ele é casado e pai de quatro filhos;&lt;/li&gt;
+  &lt;li style=&quot;margin-bottom: 10px&quot;&gt;Mórmom, Matz já atuou alguns anos como missionário;&lt;/li&gt;
+  &lt;li style=&quot;margin-bottom: 10px&quot;&gt;Ele é um dos autores de &quot;Beautiful Code&quot;, que ele considera um grande livro, mesmo que &quot;se pule o meu capítulo, se preferir&quot;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Em entrevista recente, Matz afirmou que entre seus planos para o futuro estão trazer ainda mais melhorias para o Ruby, ao mesmo tempo em que repete a seguinte sequência:&lt;/p&gt;
+
+&lt;p&gt;&lt;code style=&quot;display: block&quot;&gt;loop do&lt;/code&gt;
+&lt;code style=&quot;display: block; margin-left: 15px&quot;&gt;read and reply mails&lt;/code&gt;
+&lt;code style=&quot;display: block; margin-left: 15px&quot;&gt;write code&lt;/code&gt;
+&lt;code style=&quot;display: block; margin-left: 15px&quot;&gt;write document/article/book&lt;/code&gt;
+&lt;code style=&quot;display: block; margin-left: 15px&quot;&gt;write code&lt;/code&gt;
+&lt;code style=&quot;display: block&quot;&gt;end&lt;/code&gt;&lt;/p&gt;
+
+&lt;h6&gt;Saiba mais:&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/2773&quot; target=&quot;_blank&quot;&gt;&lt;small&gt;Matz, falando na lista de correio Ruby-Talk&lt;/small&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.linuxdevcenter.com/pub/a/linux/2001/11/29/ruby.html&quot; target=&quot;_blank&quot;&gt;&lt;small&gt;An Interview with the Creator of Ruby&lt;/small&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.artima.com/intv/closures2.html&quot; target=&quot;_blank&quot;&gt;&lt;small&gt;Blocks and Closures in Ruby&lt;/small&gt;
+
+&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 26 Oct 2015 15:16:00 -0200</pubDate>
+        <link>http://42i.com.br//blog/matz</link>
+        <guid isPermaLink="true">http://42i.com.br//blog/matz</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title></title>
@@ -444,30 +497,6 @@ Os aplicativos disponíveis nas lojas do sistema podem ser divididos em três ca
         <pubDate>Thu, 26 Feb 2015 10:10:02 -0300</pubDate>
         <link>http://42i.com.br//blog/o-que-e-uma-produtora-digital/</link>
         <guid isPermaLink="true">http://42i.com.br//blog/o-que-e-uma-produtora-digital/</guid>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>Quem somos nós?</title>
-        <description>&lt;p&gt;&lt;span class=&quot;dropcap&quot;&gt;P&lt;/span&gt;erto do nosso aniversário (em março completamos dois anos), abrimos espaço para contar um pouco mais sobre quem somos e como pensamos. Para começar, a 42i é uma produtora digital independente localizada no centro de São Paulo, onde divide escritório com a 127ml.&lt;/p&gt;
-
-&lt;div class=&quot;image-caption&quot;&gt;
-  &lt;img src=&quot;/public/images/blog/2015-02-11-sobre-a-42i/escritorio.jpg&quot; /&gt;
-  &lt;small&gt;Nosso novo escritório (ainda estamos organizando :-))&lt;/small&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Como o nosso trabalho funciona?&lt;/strong&gt; Gostamos de nos envolver no trabalho como um todo. Claro, em alguns casos nossa função pode ser mesmo apenas programar, mas faz parte da nossa identidade estar sempre envolvidos na parte criativa o máximo possível.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;O que nos caracteriza?&lt;/strong&gt; Entre outras coisas, somos fãs de processos e estamos sempre dispostos a avaliar qual é a melhor estratégia e tecnologia para cada projeto. Nisso, fica bem claro: uma relação próxima ao cliente e feedbacks constantes estão sempre na nossa mira, já que assim conseguimos estar sempre na mesma página.&lt;/p&gt;
-
-&lt;p&gt;Por fim, vale dizer o óbvio: queremos ter uma equipe feliz e satisfeita e por isso acreditamos que a vida fora do trabalho é mais importante do que a dentro. Partimos do princípio de que uma vida pessoal rica contribui para um rendimento maior, principalmente no que toca qualidade. Somos comprometidos com o desenvolvimento profissional de nossa equipe e tentamos sempre apresentar e ensinar coisas novas, em uma troca que acrescenta para nós também.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 10 Feb 2015 14:10:02 -0200</pubDate>
-        <link>http://42i.com.br//blog/quem-e-a-42i/</link>
-        <guid isPermaLink="true">http://42i.com.br//blog/quem-e-a-42i/</guid>
         
         
         <category>blog</category>
