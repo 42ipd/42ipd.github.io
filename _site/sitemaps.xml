@@ -2,6 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
+      <loc>http://42i.com.br//blog/computacao-quantica</loc>
+      
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//blog/computacao-quantica" />
+      
+      <lastmod>2015-11-03T15:16:00-02:00</lastmod>
+      <changefreq>weekly</changefreq>
+    </url>
+  
+    <url>
       <loc>http://42i.com.br//blog/matz</loc>
       
       
@@ -147,13 +157,13 @@
       
         <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//home/" />
       
-        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//contact/" />
-      
         <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//contato/" />
       
-        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//about/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//contact/" />
       
         <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//sobre/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//about/" />
       
       <lastmod>2014-09-19T00:00:00-03:00</lastmod>
       <changefreq>weekly</changefreq>
@@ -171,13 +181,13 @@
       
         <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//home/" />
       
-        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//contact/" />
-      
         <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//contato/" />
       
-        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//about/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//contact/" />
       
         <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//sobre/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//about/" />
       
       <lastmod>2014-09-19T00:00:00-03:00</lastmod>
       <changefreq>weekly</changefreq>
@@ -195,13 +205,13 @@
       
         <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//home/" />
       
-        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//contact/" />
-      
         <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//contato/" />
       
-        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//about/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//contact/" />
       
         <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//sobre/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//about/" />
       
       <lastmod>2014-09-19T00:00:00-03:00</lastmod>
       <changefreq>weekly</changefreq>
@@ -219,37 +229,13 @@
       
         <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//home/" />
       
-        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//contact/" />
-      
         <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//contato/" />
-      
-        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//about/" />
-      
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//sobre/" />
-      
-      <lastmod>2014-09-19T00:00:00-03:00</lastmod>
-      <changefreq>weekly</changefreq>
-    </url>
-  
-    <url>
-      <loc>http://42i.com.br//contact/</loc>
-      
-      
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/" />
-      
-        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//projects/" />
-      
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//" />
-      
-        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//home/" />
       
         <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//contact/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//contato/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//sobre/" />
       
         <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//about/" />
-      
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//sobre/" />
       
       <lastmod>2014-09-19T00:00:00-03:00</lastmod>
       <changefreq>weekly</changefreq>
@@ -267,20 +253,20 @@
       
         <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//home/" />
       
-        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//contact/" />
-      
         <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//contato/" />
       
-        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//about/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//contact/" />
       
         <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//sobre/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//about/" />
       
       <lastmod>2014-09-19T00:00:00-03:00</lastmod>
       <changefreq>weekly</changefreq>
     </url>
   
     <url>
-      <loc>http://42i.com.br//about/</loc>
+      <loc>http://42i.com.br//contact/</loc>
       
       
         <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/" />
@@ -291,13 +277,13 @@
       
         <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//home/" />
       
-        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//contact/" />
-      
         <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//contato/" />
       
-        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//about/" />
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//contact/" />
       
         <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//sobre/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//about/" />
       
       <lastmod>2014-09-19T00:00:00-03:00</lastmod>
       <changefreq>weekly</changefreq>
@@ -315,13 +301,37 @@
       
         <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//home/" />
       
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//contato/" />
+      
         <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//contact/" />
       
-        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//contato/" />
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//sobre/" />
       
         <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//about/" />
       
+      <lastmod>2014-09-19T00:00:00-03:00</lastmod>
+      <changefreq>weekly</changefreq>
+    </url>
+  
+    <url>
+      <loc>http://42i.com.br//about/</loc>
+      
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//projetos/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//projects/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//home/" />
+      
+        <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//contato/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//contact/" />
+      
         <xhtml:link rel="alternate" hreflang="pt-br" href="http://42i.com.br//sobre/" />
+      
+        <xhtml:link rel="alternate" hreflang="en" href="http://42i.com.br//about/" />
       
       <lastmod>2014-09-19T00:00:00-03:00</lastmod>
       <changefreq>weekly</changefreq>

@@ -5,15 +5,56 @@
     <description></description>
     <link>http://42i.com.br//</link>
     <atom:link href="http://42i.com.br//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 26 Oct 2015 19:23:28 -0200</pubDate>
-    <lastBuildDate>Mon, 26 Oct 2015 19:23:28 -0200</lastBuildDate>
+    <pubDate>Tue, 03 Nov 2015 19:30:44 -0200</pubDate>
+    <lastBuildDate>Tue, 03 Nov 2015 19:30:44 -0200</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>☞ O futuro na computação quântica</title>
+        <description>&lt;blockquote&gt;
+&quot;Há muito tempo atrás, no lendário planeta de Magrathea, uma raça de seres hiperinteligentes ficou de tão saco cheio de tentar achar a resposta para o Vida, o Universo e Tudo Mais, que resolveu construir um super computador capaz de calcular uma resposta definitiva para essa pergunta. E a esse computador chamaram de Pensador Profundo.&lt;br /&gt;
+7,5 milhões de anos depois, o Pensador afirma que a resposta é 42, mas que eles ainda não conheciam a pergunta e afirma que deveria ser construído um megacomputador que seria capaz de calcular a pergunta. E a esse planeta eles deveriam chamar de Terra.&quot;
+&lt;small style=&quot;display: block; margin-top: 10px;&quot;&gt;Guia do Mochileiro das Galáxias sobre Pensador Profundo&lt;/small&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;span class=&quot;dropcap&quot;&gt;I&lt;/span&gt;magine as possibilidades que uma computação quatro vezes mais avançada do que a atual nos traria. Aviões mais seguros, eleições mais confiáveis, doenças diagnosticadas com antecedência e precisão… Futuro distante? Não por completo, a boa notícia é que já estão pensando nisso.&lt;/p&gt;
+
+&lt;p&gt;Quando observamos a inteligência artificial e o desenvolvimento da informática como um todo, vemos que a evolução tecnológica vem em um crescendo sem fim. Com isso, é de se perguntar se teremos máquinas capazes de acompanhar esse ritmo de progresso. Não é difícil perceber que os computadores atuais possuem limitações e com isso surgiu a necessidade da criação de um computador diferente dos comuns, que acompanhasse a evolução que buscamos. Nesse sentido, muitos especialistas acreditam que a resposta está na computação quântica. Mas, o que é isso afinal?&lt;/p&gt;
+
+&lt;p&gt;Primeiro precisamos entender que na computação tradicional, os dados são armazenados em bits que guardam uma resposta 0 ou 1 de informação. Já na computação quântica são utilizados os qubits, que podem conter esses dois valores sobrepostos ao mesmo tempo. Isso significa que esses computadores são capazes de realizar múltiplas operações simultâneas e com maior velocidade. Entretanto, essa evolução pode atingir um certo limite onde não será possível aumentar essa velocidade. E é aí que entra a computação quântica para ajudar a superar esses obstáculos através de uma revolução na computação em si e na forma como ela é pensada.&lt;/p&gt;
+
+&lt;p&gt;Só que essa revolução tem ainda muitos desafios – em termos práticos, teóricos e físicos – para resolver. Alguns dados interessantes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li style=&quot;margin-bottom: 10px&quot;&gt;A pesquisa para o desenvolvimento da computação quântica teve início nos anos 50;&lt;/li&gt;
+  &lt;li style=&quot;margin-bottom: 10px&quot;&gt;Em 2011, a D-Wave lançou o primeiro computador quântico para comercialização, o D-Wave One, que possui um processador de 128 qubits. Porém, essa máquina ainda não é totalmente independente, precisa ser usada em conjunto com computadores convencionais;&lt;/li&gt;
+  &lt;li style=&quot;margin-bottom: 10px&quot;&gt;Apesar dessas iniciativas, ainda não existe hoje um computador inteiramente quântico funcionando. E busca dele, a própria D-Wave, entre outras, tem feito promessas, que se forem cumpridas, anunciarão um novo horizonte para a realidade e o mercado de computadores;&lt;/li&gt;
+  &lt;li style=&quot;margin-bottom: 10px&quot;&gt;A dificuldade de se criar um computador quântico está no fato de que os processos computacionais passam a ser no universo atômico, que carece de tecnologias de manipulação ainda. Um dos principais problemas, por exemplo, é a alta taxa de erros causada pelo meio ambiente, devido a extrema sensibilidade da tecnologia.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Vale lembrar que para a maioria das aplicações convencionais os computadores atuais são eficientes. Porém para aplicações que requerem um processamento intenso o computador quântico é a opção mais promissora. Segundo o físico Ivan Oliveira, do Centro de Pesquisas Físicas (CBPF), &lt;em&gt;“Na teoria, computadores baseados em Qubits poderiam resolver problemas, que hoje levariam bilhões de anos, em questão de minutos.”&lt;/em&gt; Entre as inúmeras maneiras que a computação quântica tem para mudar a nossa vida, é de se esperar o que o futuro (e a tecnologia) nos reserva.&lt;/p&gt;
+
+&lt;h6&gt;Saiba mais:&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://dfis.uefs.br/caderno/vol10n12/a4MattielCQuantica.pdf&quot; target=&quot;_blank&quot;&gt;&lt;small&gt;Decifrando a computação quântica&lt;/small&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://revistapesquisa.fapesp.br/wp-content/uploads/2012/03/052-0571.pdf&quot; target=&quot;_blank&quot;&gt;&lt;small&gt;A nova onda dos Qubits&lt;/small&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=T2DXrs0OpHU&quot; target=&quot;_blank&quot;&gt;&lt;small&gt;Computação quântica animada [vídeo em inglês]&lt;/small&gt;
+
+&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 03 Nov 2015 15:16:00 -0200</pubDate>
+        <link>http://42i.com.br//blog/computacao-quantica</link>
+        <guid isPermaLink="true">http://42i.com.br//blog/computacao-quantica</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>❤ Yukihiro Matsumoto [Matz]</title>
         <description>&lt;blockquote&gt;
 &quot;Eu acredito que o propósito da vida é, ao menos em parte, ser feliz. Com base nessa crença, o Ruby é projetado para tornar a programação não só fácil, mas também divertida. Ele permite que você se concentre no lado criativo da programação, com menos stress.&quot;
-&lt;small style=&quot;display: block&quot;&gt;Yukihiro Matsumoto&lt;/small&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;&lt;span class=&quot;dropcap&quot;&gt;Y&lt;/span&gt;ukihiro Matsumoto, também conhecido como Matz, nasceu no Japão em 14 de abril de 1965 e é um cientista da computação e programador de software mais conhecido como criador da linguagem de programação Ruby. Seu interesse por programação surgiu quando ele era estudante do ensino médio, o que o levou a estudar Ciência da Computação na Universidade de Tsukuba, tenho vindo a trabalhar como programador.&lt;/p&gt;
@@ -483,23 +524,6 @@ Os aplicativos disponíveis nas lojas do sistema podem ser divididos em três ca
         
         
         <category>project</category>
-        
-      </item>
-    
-      <item>
-        <title>O que é uma produtora digital?</title>
-        <description>&lt;p&gt;&lt;span class=&quot;dropcap&quot;&gt;A&lt;/span&gt; 42i é uma produtora digital e como tal ela faz, isso mesmo, produtos digitais. Nisso se inclui a produção de sites, aplicativos, sistemas próprios para gestão (logística, financeira, conhecimento, etc), e-commerces, jogos, sistemas embarcados (instalações interativas) e mais.&lt;/p&gt;
-
-&lt;p&gt;Ou seja, somos especializados em “coisas que rodam no navegador”, explicando de uma maneira bem simples, e aplicativos. Sendo assim, focamos em sites, aplicativos (nativos ou não) e-commerces e sistemas customizados para gestão, assim como produtos voltados para o consumidor final, como Instagram, Facebook, Twitter, etc.&lt;/p&gt;
-
-&lt;p&gt;Dentro disso, a 42i pode se envolver em todas as pontas do processo, o que normalmente inclui planejamento, criação e programação. Em se tratando de produção digital, podemos, e gostamos de, fazer parte de todo o projeto - mas também não abrimos mão de executar apenas algumas das etapas pontualmente. Seja qual for a necessidade do cliente, procuramos nos adaptar de modo a trabalhar junto com ele e entregar sempre o melhor produto possível.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 26 Feb 2015 10:10:02 -0300</pubDate>
-        <link>http://42i.com.br//blog/o-que-e-uma-produtora-digital/</link>
-        <guid isPermaLink="true">http://42i.com.br//blog/o-que-e-uma-produtora-digital/</guid>
-        
-        
-        <category>blog</category>
         
       </item>
     
