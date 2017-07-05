@@ -68,7 +68,7 @@
             Olá! Se você veio até aqui procurando pela 42i, saiba que ainda estamos aqui. Só que crescemos para conseguir produzir digital + motion sob um mesmo teto.
         </p>
 
-        <p>Se quiser ver as coisas novas que estão rolando, siga a gente no <a href="https://www.facebook.com/levanteprodutoradigital/" target="_blank">Facebook</a> e <a href="https://www.instagram.com/levante.cx/" target="_blank">Instagram</a>. E se quiser marcar um papo com a gente, é só escrever para <a href="mailto:ola@levante.cx">ola@levante.cx</a></p>
+        <p>Se quiser ver as coisas novas que estão rolando, siga a gente no <a class="js-facebook-link" href="https://www.facebook.com/levanteprodutoradigital/" target="_blank">Facebook</a> e <a class="js-instagram-link" href="https://www.instagram.com/levante.cx/" target="_blank">Instagram</a>. E se quiser marcar um papo com a gente, é só escrever para <a class="js-email-link" href="mailto:ola@levante.cx">ola@levante.cx</a></p>
 
         <p>
           Enquanto a nossa nova casa vai ficando pronta, você ainda pode conferir nossos trabalhos como produtora digital aqui mesmo!
@@ -82,8 +82,11 @@
 
 <script type="text/javascript">
   (function() {
-    const mosdalEl = document.querySelector('.js-modal-tampao');
-    const mosdalTrigger = document.querySelector('.js-continuar');
+    var mosdalEl = document.querySelector('.js-modal-tampao');
+    var facebookLink = document.querySelector('.js-facebook-link');
+    var instagramLink = document.querySelector('.js-instagram-link');
+    var emailLink = document.querySelector('.js-email-link');
+    var mosdalTrigger = document.querySelector('.js-continuar');
 
     function closeModal(e) {
       e.preventDefault();
@@ -97,6 +100,27 @@
     }
 
     mosdalTrigger.addEventListener("click", closeModal);
+
+    function handleOutboundLinkClicksFacebook(event) {
+      console.log('facebook link');
+      ga('send', 'event', 'Link', 'click', 'Tampão click no link do facebook, site 42i');
+    }
+
+    facebookLink.addEventListener("click", handleOutboundLinkClicksFacebook);
+
+    function handleOutboundLinkClicksInstagram(event) {
+      console.log('instagram link');
+      ga('send', 'event', 'Link', 'click', 'Tampão click no link do instagram, site 42i');
+    }
+
+    instagramLink.addEventListener("click", handleOutboundLinkClicksInstagram);
+
+    function handleOutboundLinkClicksEmail(event) {
+      console.log('email link');
+      ga('send', 'event', 'Link', 'click', 'Tampão click no link de email, site 42i');
+    }
+
+    emailLink.addEventListener("click", handleOutboundLinkClicksEmail);
 
     (function checkSeen() {
       // sessionStorage.removeItem("seen");
