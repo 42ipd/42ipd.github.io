@@ -182,8 +182,8 @@ figure {
  * Address differences between Firefox and other browsers.
  */
 hr {
-  -moz-box-sizing: content-box;
-       box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
   height: 0; }
 
 /**
@@ -291,8 +291,8 @@ input {
  */
 input[type="checkbox"],
 input[type="radio"] {
-  -moz-box-sizing: border-box;
-       box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   /* 1 */
   padding: 0;
   /* 2 */ }
@@ -313,8 +313,8 @@ input[type="number"]::-webkit-outer-spin-button {
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
-  -moz-box-sizing: content-box;
-       box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
   /* 2 */ }
 
 /**
@@ -409,12 +409,12 @@ th {
   .row:after {
     clear: both; }
   .row * {
-    -moz-box-sizing: border-box;
-         box-sizing: border-box; }
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
   .row *:before,
   .row *:after {
-    -moz-box-sizing: border-box;
-         box-sizing: border-box; }
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
 
 [class*="col-"] {
   float: left;
@@ -775,181 +775,181 @@ th {
     fill: #ffa004; }
   .brand-svg--42i__1 {
     -webkit-transition: opacity 0.25s ease 0.025s;
-            transition: opacity 0.25s ease 0.025s; }
+    transition: opacity 0.25s ease 0.025s; }
   .brand-svg--42i__2 {
     -webkit-transition: opacity 0.25s ease 0.05s;
-            transition: opacity 0.25s ease 0.05s; }
+    transition: opacity 0.25s ease 0.05s; }
   .brand-svg--42i__3 {
     -webkit-transition: opacity 0.25s ease 0.075s;
-            transition: opacity 0.25s ease 0.075s; }
+    transition: opacity 0.25s ease 0.075s; }
   .brand-svg--42i__4 {
     -webkit-transition: opacity 0.25s ease 0.1s;
-            transition: opacity 0.25s ease 0.1s; }
+    transition: opacity 0.25s ease 0.1s; }
   .brand-svg--42i__5 {
     -webkit-transition: opacity 0.25s ease 0.125s;
-            transition: opacity 0.25s ease 0.125s; }
+    transition: opacity 0.25s ease 0.125s; }
   .brand-svg--42i__6 {
     -webkit-transition: opacity 0.25s ease 0.15s;
-            transition: opacity 0.25s ease 0.15s; }
+    transition: opacity 0.25s ease 0.15s; }
   .brand-svg--42i__7 {
     -webkit-transition: opacity 0.25s ease 0.175s;
-            transition: opacity 0.25s ease 0.175s; }
+    transition: opacity 0.25s ease 0.175s; }
   .brand-svg--42i__8 {
     -webkit-transition: opacity 0.25s ease 0.2s;
-            transition: opacity 0.25s ease 0.2s; }
+    transition: opacity 0.25s ease 0.2s; }
   .brand-svg--42i__9 {
     -webkit-transition: opacity 0.25s ease 0.225s;
-            transition: opacity 0.25s ease 0.225s; }
+    transition: opacity 0.25s ease 0.225s; }
   .brand-svg--42i__10 {
     -webkit-transition: opacity 0.25s ease 0.25s;
-            transition: opacity 0.25s ease 0.25s; }
+    transition: opacity 0.25s ease 0.25s; }
   .brand-svg--42i__11 {
     -webkit-transition: opacity 0.25s ease 0.275s;
-            transition: opacity 0.25s ease 0.275s; }
+    transition: opacity 0.25s ease 0.275s; }
   .brand-svg--42i__12 {
     -webkit-transition: opacity 0.25s ease 0.3s;
-            transition: opacity 0.25s ease 0.3s; }
+    transition: opacity 0.25s ease 0.3s; }
   .brand-svg--42i__13 {
     -webkit-transition: opacity 0.25s ease 0.325s;
-            transition: opacity 0.25s ease 0.325s; }
+    transition: opacity 0.25s ease 0.325s; }
   .brand-svg--42i__14 {
     -webkit-transition: opacity 0.25s ease 0.35s;
-            transition: opacity 0.25s ease 0.35s; }
+    transition: opacity 0.25s ease 0.35s; }
   .brand-svg--42i:hover .brand-svg--42i__part {
     opacity: 1;
     fill: #ffa004; }
   .brand-svg--42i:hover .brand-svg--42i__1 {
     -webkit-transition: opacity 0.2s ease 0.025s;
-            transition: opacity 0.2s ease 0.025s; }
+    transition: opacity 0.2s ease 0.025s; }
   .brand-svg--42i:hover .brand-svg--42i__2 {
     -webkit-transition: opacity 0.2s ease 0.05s;
-            transition: opacity 0.2s ease 0.05s; }
+    transition: opacity 0.2s ease 0.05s; }
   .brand-svg--42i:hover .brand-svg--42i__3 {
     -webkit-transition: opacity 0.2s ease 0.075s;
-            transition: opacity 0.2s ease 0.075s; }
+    transition: opacity 0.2s ease 0.075s; }
   .brand-svg--42i:hover .brand-svg--42i__4 {
     -webkit-transition: opacity 0.2s ease 0.1s;
-            transition: opacity 0.2s ease 0.1s; }
+    transition: opacity 0.2s ease 0.1s; }
   .brand-svg--42i:hover .brand-svg--42i__5 {
     -webkit-transition: opacity 0.2s ease 0.125s;
-            transition: opacity 0.2s ease 0.125s; }
+    transition: opacity 0.2s ease 0.125s; }
   .brand-svg--42i:hover .brand-svg--42i__6 {
     -webkit-transition: opacity 0.2s ease 0.15s;
-            transition: opacity 0.2s ease 0.15s; }
+    transition: opacity 0.2s ease 0.15s; }
   .brand-svg--42i:hover .brand-svg--42i__7 {
     -webkit-transition: opacity 0.2s ease 0.175s;
-            transition: opacity 0.2s ease 0.175s; }
+    transition: opacity 0.2s ease 0.175s; }
   .brand-svg--42i:hover .brand-svg--42i__8 {
     -webkit-transition: opacity 0.2s ease 0.2s;
-            transition: opacity 0.2s ease 0.2s; }
+    transition: opacity 0.2s ease 0.2s; }
   .brand-svg--42i:hover .brand-svg--42i__9 {
     -webkit-transition: opacity 0.2s ease 0.225s;
-            transition: opacity 0.2s ease 0.225s; }
+    transition: opacity 0.2s ease 0.225s; }
   .brand-svg--42i:hover .brand-svg--42i__10 {
     -webkit-transition: opacity 0.2s ease 0.25s;
-            transition: opacity 0.2s ease 0.25s; }
+    transition: opacity 0.2s ease 0.25s; }
   .brand-svg--42i:hover .brand-svg--42i__11 {
     -webkit-transition: opacity 0.2s ease 0.275s;
-            transition: opacity 0.2s ease 0.275s; }
+    transition: opacity 0.2s ease 0.275s; }
   .brand-svg--42i:hover .brand-svg--42i__12 {
     -webkit-transition: opacity 0.2s ease 0.3s;
-            transition: opacity 0.2s ease 0.3s; }
+    transition: opacity 0.2s ease 0.3s; }
   .brand-svg--42i:hover .brand-svg--42i__13 {
     -webkit-transition: opacity 0.2s ease 0.325s;
-            transition: opacity 0.2s ease 0.325s; }
+    transition: opacity 0.2s ease 0.325s; }
   .brand-svg--42i:hover .brand-svg--42i__14 {
     -webkit-transition: opacity 0.2s ease 0.35s;
-            transition: opacity 0.2s ease 0.35s; }
+    transition: opacity 0.2s ease 0.35s; }
 
 .brand-neg-svg--42i__part {
   opacity: 1;
   fill: #FFF; }
 .brand-neg-svg--42i__1 {
   -webkit-transition: opacity 0.25s ease 0.025s;
-          transition: opacity 0.25s ease 0.025s; }
+  transition: opacity 0.25s ease 0.025s; }
 .brand-neg-svg--42i__2 {
   -webkit-transition: opacity 0.25s ease 0.05s;
-          transition: opacity 0.25s ease 0.05s; }
+  transition: opacity 0.25s ease 0.05s; }
 .brand-neg-svg--42i__3 {
   -webkit-transition: opacity 0.25s ease 0.075s;
-          transition: opacity 0.25s ease 0.075s; }
+  transition: opacity 0.25s ease 0.075s; }
 .brand-neg-svg--42i__4 {
   -webkit-transition: opacity 0.25s ease 0.1s;
-          transition: opacity 0.25s ease 0.1s; }
+  transition: opacity 0.25s ease 0.1s; }
 .brand-neg-svg--42i__5 {
   -webkit-transition: opacity 0.25s ease 0.125s;
-          transition: opacity 0.25s ease 0.125s; }
+  transition: opacity 0.25s ease 0.125s; }
 .brand-neg-svg--42i__6 {
   -webkit-transition: opacity 0.25s ease 0.15s;
-          transition: opacity 0.25s ease 0.15s; }
+  transition: opacity 0.25s ease 0.15s; }
 .brand-neg-svg--42i__7 {
   -webkit-transition: opacity 0.25s ease 0.175s;
-          transition: opacity 0.25s ease 0.175s; }
+  transition: opacity 0.25s ease 0.175s; }
 .brand-neg-svg--42i__8 {
   -webkit-transition: opacity 0.25s ease 0.2s;
-          transition: opacity 0.25s ease 0.2s; }
+  transition: opacity 0.25s ease 0.2s; }
 .brand-neg-svg--42i__9 {
   -webkit-transition: opacity 0.25s ease 0.225s;
-          transition: opacity 0.25s ease 0.225s; }
+  transition: opacity 0.25s ease 0.225s; }
 .brand-neg-svg--42i__10 {
   -webkit-transition: opacity 0.25s ease 0.25s;
-          transition: opacity 0.25s ease 0.25s; }
+  transition: opacity 0.25s ease 0.25s; }
 .brand-neg-svg--42i__11 {
   -webkit-transition: opacity 0.25s ease 0.275s;
-          transition: opacity 0.25s ease 0.275s; }
+  transition: opacity 0.25s ease 0.275s; }
 .brand-neg-svg--42i__12 {
   -webkit-transition: opacity 0.25s ease 0.3s;
-          transition: opacity 0.25s ease 0.3s; }
+  transition: opacity 0.25s ease 0.3s; }
 .brand-neg-svg--42i__13 {
   -webkit-transition: opacity 0.25s ease 0.325s;
-          transition: opacity 0.25s ease 0.325s; }
+  transition: opacity 0.25s ease 0.325s; }
 .brand-neg-svg--42i__14 {
   -webkit-transition: opacity 0.25s ease 0.35s;
-          transition: opacity 0.25s ease 0.35s; }
+  transition: opacity 0.25s ease 0.35s; }
 .brand-neg-svg--42i:hover .brand-svg--42i__part {
   opacity: 0.75; }
 .brand-neg-svg--42i:hover .brand-svg--42i__1 {
   -webkit-transition: opacity 0.2s ease 0.025s;
-          transition: opacity 0.2s ease 0.025s; }
+  transition: opacity 0.2s ease 0.025s; }
 .brand-neg-svg--42i:hover .brand-svg--42i__2 {
   -webkit-transition: opacity 0.2s ease 0.05s;
-          transition: opacity 0.2s ease 0.05s; }
+  transition: opacity 0.2s ease 0.05s; }
 .brand-neg-svg--42i:hover .brand-svg--42i__3 {
   -webkit-transition: opacity 0.2s ease 0.075s;
-          transition: opacity 0.2s ease 0.075s; }
+  transition: opacity 0.2s ease 0.075s; }
 .brand-neg-svg--42i:hover .brand-svg--42i__4 {
   -webkit-transition: opacity 0.2s ease 0.1s;
-          transition: opacity 0.2s ease 0.1s; }
+  transition: opacity 0.2s ease 0.1s; }
 .brand-neg-svg--42i:hover .brand-svg--42i__5 {
   -webkit-transition: opacity 0.2s ease 0.125s;
-          transition: opacity 0.2s ease 0.125s; }
+  transition: opacity 0.2s ease 0.125s; }
 .brand-neg-svg--42i:hover .brand-svg--42i__6 {
   -webkit-transition: opacity 0.2s ease 0.15s;
-          transition: opacity 0.2s ease 0.15s; }
+  transition: opacity 0.2s ease 0.15s; }
 .brand-neg-svg--42i:hover .brand-svg--42i__7 {
   -webkit-transition: opacity 0.2s ease 0.175s;
-          transition: opacity 0.2s ease 0.175s; }
+  transition: opacity 0.2s ease 0.175s; }
 .brand-neg-svg--42i:hover .brand-svg--42i__8 {
   -webkit-transition: opacity 0.2s ease 0.2s;
-          transition: opacity 0.2s ease 0.2s; }
+  transition: opacity 0.2s ease 0.2s; }
 .brand-neg-svg--42i:hover .brand-svg--42i__9 {
   -webkit-transition: opacity 0.2s ease 0.225s;
-          transition: opacity 0.2s ease 0.225s; }
+  transition: opacity 0.2s ease 0.225s; }
 .brand-neg-svg--42i:hover .brand-svg--42i__10 {
   -webkit-transition: opacity 0.2s ease 0.25s;
-          transition: opacity 0.2s ease 0.25s; }
+  transition: opacity 0.2s ease 0.25s; }
 .brand-neg-svg--42i:hover .brand-svg--42i__11 {
   -webkit-transition: opacity 0.2s ease 0.275s;
-          transition: opacity 0.2s ease 0.275s; }
+  transition: opacity 0.2s ease 0.275s; }
 .brand-neg-svg--42i:hover .brand-svg--42i__12 {
   -webkit-transition: opacity 0.2s ease 0.3s;
-          transition: opacity 0.2s ease 0.3s; }
+  transition: opacity 0.2s ease 0.3s; }
 .brand-neg-svg--42i:hover .brand-svg--42i__13 {
   -webkit-transition: opacity 0.2s ease 0.325s;
-          transition: opacity 0.2s ease 0.325s; }
+  transition: opacity 0.2s ease 0.325s; }
 .brand-neg-svg--42i:hover .brand-svg--42i__14 {
   -webkit-transition: opacity 0.2s ease 0.35s;
-          transition: opacity 0.2s ease 0.35s; }
+  transition: opacity 0.2s ease 0.35s; }
 
 .icon--pinterest:before {
   content: "\e600"; }
@@ -1268,7 +1268,7 @@ th {
     font-weight: 300;
     color: #ffa004;
     -webkit-transition: color ease 0.25s;
-            transition: color ease 0.25s; }
+    transition: color ease 0.25s; }
     .textblock a:hover, .textblock a:active, .textblock a:focus {
       color: #d48602; }
   .textblock ul {
@@ -1297,7 +1297,7 @@ th {
     color: #ffa004;
     border: 1px #ffcf75 solid;
     -webkit-transition: color ease 0.25s, background ease 0.25s, border ease 0.25s;
-            transition: color ease 0.25s, background ease 0.25s, border ease 0.25s; }
+    transition: color ease 0.25s, background ease 0.25s, border ease 0.25s; }
 
 @media (min-width: 879px) {
   .textblock {
@@ -1338,12 +1338,11 @@ html {
   position: relative;
   min-height: 100%; }
   html * {
-    -moz-box-sizing: border-box;
-         box-sizing: border-box; }
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
 
 body {
   -webkit-font-kerning: normal;
-     -moz-font-kerning: normal;
           font-kerning: normal; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -1356,7 +1355,8 @@ p, span, small {
 
 button {
   border: none;
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
   outline: none; }
 
 a {
@@ -1458,7 +1458,6 @@ a {
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%); } }
 .header {
   font-family: "effra", Helvetica, Arial, "sans serif";
@@ -1466,11 +1465,14 @@ a {
   display: block;
   width: 100%;
   padding: 15px;
-  box-shadow: 0 5px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 5px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 5px 0 rgba(0, 0, 0, 0.1);
   background: #FFF;
   z-index: 4;
-  -webkit-transition: padding cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.25s, background ease 0.5s, box-shadow ease 0.25s;
-          transition: padding cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.25s, background ease 0.5s, box-shadow ease 0.25s; }
+  -webkit-transition: padding cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.25s, background ease 0.5s, -webkit-box-shadow ease 0.25s;
+  transition: padding cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.25s, background ease 0.5s, -webkit-box-shadow ease 0.25s;
+  transition: padding cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.25s, background ease 0.5s, box-shadow ease 0.25s;
+  transition: padding cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.25s, background ease 0.5s, box-shadow ease 0.25s, -webkit-box-shadow ease 0.25s; }
   .header:before, .header:after {
     content: " ";
     display: table; }
@@ -1485,7 +1487,7 @@ a {
     margin: 0;
     padding: 0;
     -webkit-transition: height cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.25s, line-height cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.25s;
-            transition: height cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.25s, line-height cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.25s; }
+    transition: height cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.25s, line-height cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.25s; }
     .header__list--right {
       display: none;
       float: right; }
@@ -1509,7 +1511,7 @@ a {
     padding: 0 0 0 10px;
     color: #ffcf75;
     -webkit-transition: height cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.25s, color ease 0.25s, line-height cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.25s;
-            transition: height cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.25s, color ease 0.25s, line-height cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.25s; }
+    transition: height cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.25s, color ease 0.25s, line-height cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.25s; }
     .header__link:hover {
       color: #ffa004; }
     .header__link--active {
@@ -1525,7 +1527,7 @@ a {
     fill: #FFF;
     background: #ffa004;
     -webkit-transition: width cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.25s, height cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.25s, padding cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.25s;
-            transition: width cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.25s, height cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.25s, padding cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.25s; }
+    transition: width cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.25s, height cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.25s, padding cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.25s; }
   .header__icon {
     font-size: 24px !important;
     margin: 0 5px; }
@@ -1543,7 +1545,8 @@ a {
 @media (min-width: 879px) {
   .header {
     background: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 0 transparent; }
+    -webkit-box-shadow: 0 0 transparent;
+            box-shadow: 0 0 transparent; }
     .header__list--right {
       display: inline-block; }
     .header__link {
@@ -1561,7 +1564,8 @@ a {
     .header--compressed {
       padding: 10px 15px;
       background: #FFF;
-      box-shadow: 0 5px 0 rgba(0, 0, 0, 0.1); } }
+      -webkit-box-shadow: 0 5px 0 rgba(0, 0, 0, 0.1);
+              box-shadow: 0 5px 0 rgba(0, 0, 0, 0.1); } }
 .footer {
   text-align: center;
   position: absolute;
@@ -1631,7 +1635,7 @@ a {
   margin: 0;
   overflow: hidden;
   -webkit-transition: color cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.5s 0.1s;
-          transition: color cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.5s 0.1s; }
+  transition: color cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.5s 0.1s; }
   .post-stub__capsule:before, .post-stub__capsule:after {
     content: " ";
     display: table; }
@@ -1653,7 +1657,7 @@ a {
     margin: 0;
     color: #000;
     -webkit-transition: color ease 0.25s;
-            transition: color ease 0.25s; }
+    transition: color ease 0.25s; }
   .post-stub__subtitle {
     font-size: 16px;
     font-family: "foco", Helvetica, Arial, "sans serif";
@@ -1661,7 +1665,7 @@ a {
     margin: 0;
     color: #818181;
     -webkit-transition: ease 0.25s;
-            transition: ease 0.25s; }
+    transition: ease 0.25s; }
   .post-stub__thumb-clipper {
     display: block;
     float: left;
@@ -1680,7 +1684,7 @@ a {
     margin: 0 0 5px;
     color: #818181;
     -webkit-transition: ease 0.25s;
-            transition: ease 0.25s; }
+    transition: ease 0.25s; }
   .post-stub__text {
     display: inline-block;
     margin: 5px 0 2px;
@@ -1748,16 +1752,14 @@ a {
   height: 200px;
   overflow: hidden;
   -webkit-transition: background ease 0.5s;
-          transition: background ease 0.5s;
+  transition: background ease 0.5s;
   -webkit-backface-visibility: hidden;
   -webkit-perspective: 10;
   cursor: pointer !important;
   background: #ff5b02;
   /* Old browsers */
   /* FF3.6+ */
-  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #ff5b02), color-stop(100%, #ffa004));
   /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(45deg, #ff5b02 0%, #ffa004 100%);
   /* Chrome10+,Safari5.1+ */
   /* Opera 11.10+ */
   /* IE10+ */
@@ -1776,7 +1778,9 @@ a {
     -webkit-transform: scale3d(0.98, 0.95, 1);
             transform: scale3d(0.98, 0.95, 1);
     -webkit-transition: -webkit-transform cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.5s;
-            transition: transform cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.5s;
+    transition: -webkit-transform cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.5s;
+    transition: transform cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.5s;
+    transition: transform cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.5s, -webkit-transform cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.5s;
     z-index: 2; }
   .project-card__info {
     text-align: center;
@@ -1789,7 +1793,7 @@ a {
     z-index: 3;
     background: transparent;
     -webkit-transition: height ease 0.25s;
-            transition: height ease 0.25s; }
+    transition: height ease 0.25s; }
   .project-card__title {
     font-size: 28px;
     text-align: center;
@@ -1800,10 +1804,11 @@ a {
     left: 0;
     color: #FFF;
     -webkit-transform: translateY(50%);
-        -ms-transform: translateY(50%);
             transform: translateY(50%);
-    -webkit-transition: -webkit-transform cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.5s, color ease 0.5s;
-            transition: transform cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.5s, color ease 0.5s; }
+    -webkit-transition: color ease 0.5s, -webkit-transform cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.5s;
+    transition: color ease 0.5s, -webkit-transform cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.5s;
+    transition: transform cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.5s, color ease 0.5s;
+    transition: transform cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.5s, color ease 0.5s, -webkit-transform cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.5s; }
   .project-card__subtitle {
     font-size: 16px;
     font-style: italic;
@@ -1817,10 +1822,11 @@ a {
     color: #FFF;
     opacity: 0;
     -webkit-transform: translateY(0) scale(1, 1, 1);
-        -ms-transform: translateY(0) scale(1, 1, 1);
             transform: translateY(0) scale(1, 1, 1);
-    -webkit-transition: -webkit-transform cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.5s 0.025s, opacity ease 0.5s;
-            transition: transform cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.5s 0.025s, opacity ease 0.5s; }
+    -webkit-transition: opacity ease 0.5s, -webkit-transform cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.5s 0.025s;
+    transition: opacity ease 0.5s, -webkit-transform cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.5s 0.025s;
+    transition: transform cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.5s 0.025s, opacity ease 0.5s;
+    transition: transform cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.5s 0.025s, opacity ease 0.5s, -webkit-transform cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.5s 0.025s; }
   .project-card__icon-group {
     text-align: center;
     position: absolute;
@@ -1828,8 +1834,10 @@ a {
     bottom: -10px;
     left: 0;
     opacity: 0;
-    -webkit-transition: -webkit-transform cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.5s 0.1s, opacity ease 0.5s;
-            transition: transform cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.5s 0.1s, opacity ease 0.5s; }
+    -webkit-transition: opacity ease 0.5s, -webkit-transform cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.5s 0.1s;
+    transition: opacity ease 0.5s, -webkit-transform cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.5s 0.1s;
+    transition: transform cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.5s 0.1s, opacity ease 0.5s;
+    transition: transform cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.5s 0.1s, opacity ease 0.5s, -webkit-transform cubic-bezier(0.8, -0.375, 0.275, 1.455) 0.5s 0.1s; }
   .project-card__icon {
     font-size: 24px;
     margin: 0 5px;
@@ -1839,8 +1847,10 @@ a {
     width: 100%;
     min-height: 100%;
     opacity: 0.25;
-    -webkit-transition: -webkit-transform ease 0.6s, opacity ease 0.6s;
-            transition: transform ease 0.6s, opacity ease 0.6s; }
+    -webkit-transition: opacity ease 0.6s, -webkit-transform ease 0.6s;
+    transition: opacity ease 0.6s, -webkit-transform ease 0.6s;
+    transition: transform ease 0.6s, opacity ease 0.6s;
+    transition: transform ease 0.6s, opacity ease 0.6s, -webkit-transform ease 0.6s; }
 
 @media (min-width: 879px) {
   .project-card {
@@ -1856,7 +1866,6 @@ a {
       bottom: 0;
       color: #000;
       -webkit-transform: translateY(-10px);
-          -ms-transform: translateY(-10px);
               transform: translateY(-10px); }
     .project-card__subtitle {
       display: inline-block; }
@@ -1871,7 +1880,6 @@ a {
     .project-card:hover .project-card__title {
       color: #FFF;
       -webkit-transform: translateY(-130px);
-          -ms-transform: translateY(-130px);
               transform: translateY(-130px); }
     .project-card:hover .project-card__subtitle {
       opacity: 1;
@@ -1880,7 +1888,6 @@ a {
     .project-card:hover .project-card__icon-group {
       opacity: 1;
       -webkit-transform: translateY(-50px);
-          -ms-transform: translateY(-50px);
               transform: translateY(-50px); }
     .project-card:hover:before {
       -webkit-transform: scale3d(0.875, 0.8, 1);
@@ -1932,7 +1939,7 @@ a {
     z-index: 2;
     background: #FFF;
     -webkit-transition: width 0.6s ease;
-            transition: width 0.6s ease; }
+    transition: width 0.6s ease; }
   .cover:after {
     content: "";
     position: absolute;
@@ -1943,7 +1950,7 @@ a {
     z-index: 2;
     border: 0 solid #FFF;
     -webkit-transition: border 0.6s ease;
-            transition: border 0.6s ease; }
+    transition: border 0.6s ease; }
   .cover__image-clipper {
     position: absolute;
     width: 100%;
@@ -1952,9 +1959,7 @@ a {
     background: #ff5b02;
     /* Old browsers */
     /* FF3.6+ */
-    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #ff5b02), color-stop(100%, #ffa004));
     /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(45deg, #ff5b02 0%, #ffa004 100%);
     /* Chrome10+,Safari5.1+ */
     /* Opera 11.10+ */
     /* IE10+ */
@@ -1975,7 +1980,6 @@ a {
     top: 50%;
     z-index: 2;
     -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
             transform: translateY(-50%); }
   .cover__title {
     font-size: 42px;
@@ -1985,13 +1989,13 @@ a {
     color: #FFF;
     text-shadow: 0 5px 0 rgba(0, 0, 0, 0.25);
     -webkit-transform: translateX(0);
-        -ms-transform: translateX(0);
             transform: translateX(0);
     -webkit-transform: translateY(0);
-        -ms-transform: translateY(0);
             transform: translateY(0);
     -webkit-transition: color ease 0.6s, -webkit-transform ease 0.6s;
-            transition: color ease 0.6s, transform ease 0.6s; }
+    transition: color ease 0.6s, -webkit-transform ease 0.6s;
+    transition: color ease 0.6s, transform ease 0.6s;
+    transition: color ease 0.6s, transform ease 0.6s, -webkit-transform ease 0.6s; }
   .cover__subtitle {
     font-size: 20px;
     font-family: "foco", Helvetica, Arial, "sans serif";
@@ -2001,13 +2005,13 @@ a {
     color: #FFF;
     text-shadow: 0 5px 0 rgba(0, 0, 0, 0.1);
     -webkit-transform: translateX(0);
-        -ms-transform: translateX(0);
             transform: translateX(0);
     -webkit-transform: translateY(0);
-        -ms-transform: translateY(0);
             transform: translateY(0);
     -webkit-transition: color ease 0.6s, -webkit-transform ease 0.6s;
-            transition: color ease 0.6s, transform ease 0.6s; }
+    transition: color ease 0.6s, -webkit-transform ease 0.6s;
+    transition: color ease 0.6s, transform ease 0.6s;
+    transition: color ease 0.6s, transform ease 0.6s, -webkit-transform ease 0.6s; }
 
 .project__intro {
   margin: 0; }
@@ -2049,7 +2053,7 @@ a {
   .tech-specs__link {
     display: block;
     -webkit-transition: color ease 0.25s;
-            transition: color ease 0.25s; }
+    transition: color ease 0.25s; }
     .tech-specs__link:hover, .tech-specs__link:active, .tech-specs__link:focus {
       color: #d48602; }
   .tech-specs__icon-group {
@@ -2086,10 +2090,11 @@ a {
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
     -webkit-transition: opacity ease 0.6s, -webkit-transform ease 0.6s;
-            transition: opacity ease 0.6s, transform ease 0.6s; }
+    transition: opacity ease 0.6s, -webkit-transform ease 0.6s;
+    transition: opacity ease 0.6s, transform ease 0.6s;
+    transition: opacity ease 0.6s, transform ease 0.6s, -webkit-transform ease 0.6s; }
 
   .tech-specs--fixed {
     width: 220px; } }
@@ -2114,6 +2119,6 @@ a {
   color: #414141; }
   .address__text--link {
     -webkit-transition: color ease 0.25s;
-            transition: color ease 0.25s; }
+    transition: color ease 0.25s; }
     .address__text--link:hover {
       color: #ffa004; }

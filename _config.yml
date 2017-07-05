@@ -7,7 +7,7 @@ search:      true
 permalink:   /:title/
 markdown: kramdown
 highlighter: pygments
-google_analytics: "UA-41207410-1"
+google_analytics: "UA-102064293-1"
 google_verify: ""
 typekit_id: "oyt7nbz"
 site_name: "42i"

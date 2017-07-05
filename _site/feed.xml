@@ -5,9 +5,9 @@
     <description></description>
     <link>http://42i.com.br//</link>
     <atom:link href="http://42i.com.br//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 03 Nov 2015 19:30:44 -0200</pubDate>
-    <lastBuildDate>Tue, 03 Nov 2015 19:30:44 -0200</lastBuildDate>
-    <generator>Jekyll v2.4.0</generator>
+    <pubDate>Wed, 05 Jul 2017 12:04:32 -0300</pubDate>
+    <lastBuildDate>Wed, 05 Jul 2017 12:04:32 -0300</lastBuildDate>
+    <generator>Jekyll v3.4.3</generator>
     
       <item>
         <title>☞ O futuro na computação quântica</title>
@@ -38,8 +38,8 @@
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://dfis.uefs.br/caderno/vol10n12/a4MattielCQuantica.pdf&quot; target=&quot;_blank&quot;&gt;&lt;small&gt;Decifrando a computação quântica&lt;/small&gt;&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://revistapesquisa.fapesp.br/wp-content/uploads/2012/03/052-0571.pdf&quot; target=&quot;_blank&quot;&gt;&lt;small&gt;A nova onda dos Qubits&lt;/small&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=T2DXrs0OpHU&quot; target=&quot;_blank&quot;&gt;&lt;small&gt;Computação quântica animada [vídeo em inglês]&lt;/small&gt;
-
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=T2DXrs0OpHU&quot; target=&quot;_blank&quot;&gt;&lt;small&gt;Computação quântica animada [vídeo em inglês]&lt;/small&gt;&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
 &lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 </description>
         <pubDate>Tue, 03 Nov 2015 15:16:00 -0200</pubDate>
@@ -90,8 +90,8 @@
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/2773&quot; target=&quot;_blank&quot;&gt;&lt;small&gt;Matz, falando na lista de correio Ruby-Talk&lt;/small&gt;&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.linuxdevcenter.com/pub/a/linux/2001/11/29/ruby.html&quot; target=&quot;_blank&quot;&gt;&lt;small&gt;An Interview with the Creator of Ruby&lt;/small&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.artima.com/intv/closures2.html&quot; target=&quot;_blank&quot;&gt;&lt;small&gt;Blocks and Closures in Ruby&lt;/small&gt;
-
+  &lt;li&gt;&lt;a href=&quot;http://www.artima.com/intv/closures2.html&quot; target=&quot;_blank&quot;&gt;&lt;small&gt;Blocks and Closures in Ruby&lt;/small&gt;&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
 &lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 </description>
         <pubDate>Mon, 26 Oct 2015 15:16:00 -0200</pubDate>
@@ -109,14 +109,14 @@
 
 &lt;p&gt;Interessados, mandem email pra &lt;a href=&quot;mailto:estagio@42i.com.br&quot;&gt;estagio@42i.com.br&lt;/a&gt;!&lt;/p&gt;
 
-&lt;h5 id=&quot;o-que-esperamos-de-voc&quot;&gt;O que esperamos de você:&lt;/h5&gt;
+&lt;h5 id=&quot;o-que-esperamos-de-você&quot;&gt;O que esperamos de você:&lt;/h5&gt;
 &lt;ul&gt;
   &lt;li&gt;Ser interessado por design gráfico;&lt;/li&gt;
   &lt;li&gt;Estar cursando o 3º ou o 4º ano da faculdade;&lt;/li&gt;
   &lt;li&gt;Saber inglês (nível intermediário);&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h5 id=&quot;o-que-esperamos-de-voc-a-nvel-tcnico&quot;&gt;O que esperamos de você a nível técnico:&lt;/h5&gt;
+&lt;h5 id=&quot;o-que-esperamos-de-você-a-nível-técnico&quot;&gt;O que esperamos de você a nível técnico:&lt;/h5&gt;
 &lt;ul&gt;
   &lt;li&gt;Familiaridade com programas de edição de imagem (Illustrator e/ou Photoshop);&lt;/li&gt;
   &lt;li&gt;Conseguir estruturar o HTML de uma página;&lt;/li&gt;
@@ -124,7 +124,7 @@
   &lt;li&gt;Separar HTML de CSS;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h5 id=&quot;o-que--legal-voc-saber-mas-se-no-souber-aprende-aqui&quot;&gt;O que é legal você saber, mas se não souber aprende aqui:&lt;/h5&gt;
+&lt;h5 id=&quot;o-que-é-legal-você-saber-mas-se-não-souber-aprende-aqui&quot;&gt;O que é legal você saber, mas se não souber aprende aqui:&lt;/h5&gt;
 &lt;ul&gt;
   &lt;li&gt;Saber trabalhar em Mac ou Linux;&lt;/li&gt;
   &lt;li&gt;Aspectos de jQuery como:
@@ -136,7 +136,7 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h5 id=&quot;o-que-vai-impressionar-muito-se-voc-souber-mas-tambm-vai-aprender-aqui&quot;&gt;O que vai impressionar muito se você souber (mas, também vai aprender aqui):&lt;/h5&gt;
+&lt;h5 id=&quot;o-que-vai-impressionar-muito-se-você-souber-mas-também-vai-aprender-aqui&quot;&gt;O que vai impressionar muito se você souber (mas, também vai aprender aqui):&lt;/h5&gt;
 &lt;ul&gt;
   &lt;li&gt;Ter familiaridade com terminal;&lt;/li&gt;
   &lt;li&gt;Ter familiaridade com Wordpress;&lt;/li&gt;
@@ -173,8 +173,8 @@ Estamos falando de Alan Turing, matemático, filósofo e pioneiro da computaçã
   &lt;li&gt;&lt;a href=&quot;https://pt.wikipedia.org/wiki/Alan_Turing&quot; target=&quot;_blank&quot;&gt;&lt;small&gt;Alan Turing - Wikipedia&lt;/small&gt;&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.turing.org.uk&quot; target=&quot;_blank&quot;&gt;&lt;small&gt;Alan Turing: The Enigma (em inglês)&lt;/small&gt;&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://theimitationgamemovie.com&quot; target=&quot;_blank&quot;&gt;&lt;small&gt;The Imitation Game: movie
- (em inglês)&lt;/small&gt;
-
+ (em inglês)&lt;/small&gt;&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
 &lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 </description>
         <pubDate>Fri, 21 Aug 2015 15:16:00 -0300</pubDate>
@@ -213,10 +213,10 @@ O surgimento do computador moderno proporcionou que a inteligência artificial p
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.nce.ufrj.br/GINAPE/VIDA/ia.htm&quot; target=&quot;_blank&quot;&gt;&lt;small&gt;Inteligência Artificial - Uma Visão Geral&lt;/small&gt;&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot; http://www.tecmundo.com.br/inteligencia-artificial/&quot; target=&quot;_blank&quot;&gt;&lt;small&gt;Inteligência Artificial no TecMundo&lt;/small&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Artificial_intelligence&quot; target=&quot;_blank&quot;&gt;&lt;small&gt;Artificial intelligence – Wikipedia (em inglês)&lt;/small&gt;
-  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Intelligent_agent&quot; target=&quot;_blank&quot;&gt;&lt;small&gt;Intelligent agent – Wikipedia (em inglês)&lt;/small&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Artificial_intelligence&quot; target=&quot;_blank&quot;&gt;&lt;small&gt;Artificial intelligence – Wikipedia (em inglês)&lt;/small&gt;&amp;lt;/li&amp;gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Intelligent_agent&quot; target=&quot;_blank&quot;&gt;&lt;small&gt;Intelligent agent – Wikipedia (em inglês)&lt;/small&gt;&amp;lt;/li&amp;gt;
   &lt;li&gt;&lt;a href=&quot;http://cogprints.org/499/1/turing.HTML&quot; target=&quot;_blank&quot;&gt;&lt;small&gt;Computing Machinery and Intelligence (em inglês)&lt;/small&gt;&lt;/a&gt;&lt;/li&gt;
-
+&amp;lt;/ul&amp;gt;
 &lt;/a&gt;&lt;/li&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 </description>
         <pubDate>Fri, 07 Aug 2015 09:53:00 -0300</pubDate>
@@ -230,7 +230,7 @@ O surgimento do computador moderno proporcionou que a inteligência artificial p
     
       <item>
         <title>Repositório de Links</title>
-        <description>&lt;h2 id=&quot;contedo&quot;&gt;Conteúdo&lt;/h2&gt;
+        <description>&lt;h2 id=&quot;conteúdo&quot;&gt;Conteúdo&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://arquiteturadeinformacao.com/&quot;&gt;Arquitetura de Informação&lt;/a&gt;&lt;/li&gt;
@@ -257,7 +257,7 @@ O surgimento do computador moderno proporcionou que a inteligência artificial p
   &lt;li&gt;&lt;a href=&quot;http://snapsvg.io/docs/&quot;&gt;Snap.svg&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;referncias-visuais&quot;&gt;Referências Visuais&lt;/h3&gt;
+&lt;h3 id=&quot;referências-visuais&quot;&gt;Referências Visuais&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.underconsideration.com/brandnew&quot;&gt;Brand New&lt;/a&gt; – Análises e reviews de branding&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.underconsideration.com/fpo/&quot;&gt;For Print Only&lt;/a&gt; – Impressos e produção gráfica&lt;/li&gt;
@@ -284,7 +284,7 @@ O surgimento do computador moderno proporcionou que a inteligência artificial p
   &lt;li&gt;&lt;a href=&quot;http://www.awwwards.com/&quot;&gt;Awwwards&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;atualidades-e-tendncias&quot;&gt;Atualidades e tendências&lt;/h3&gt;
+&lt;h3 id=&quot;atualidades-e-tendências&quot;&gt;Atualidades e tendências&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.b9.com.br/&quot;&gt;B9&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.ideafixa.com/&quot;&gt;Idea Fixa&lt;/a&gt;&lt;/li&gt;
@@ -305,7 +305,7 @@ O surgimento do computador moderno proporcionou que a inteligência artificial p
   &lt;li&gt;&lt;a href=&quot;http://lovelypackage.com/&quot;&gt;Lovely package&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;arquitetura-paisagismo-urbanismo-e-decorao&quot;&gt;Arquitetura, paisagismo, urbanismo e decoração&lt;/h3&gt;
+&lt;h3 id=&quot;arquitetura-paisagismo-urbanismo-e-decoração&quot;&gt;Arquitetura, paisagismo, urbanismo e decoração&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://em.elledecoration.se/&quot;&gt;Elle Decoration&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://plastolux.com/&quot;&gt;Plastolux&lt;/a&gt; – Passion for mid century modern and contemporary design found in architecture, interiors, furniture, objects and art&lt;/li&gt;
@@ -333,7 +333,7 @@ O surgimento do computador moderno proporcionou que a inteligência artificial p
   &lt;li&gt;&lt;a href=&quot;http://danielmall.com/&quot;&gt;Dan Mall&lt;/a&gt; – Strategist/Teacher&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;grficas&quot;&gt;Gráficas&lt;/h3&gt;
+&lt;h3 id=&quot;gráficas&quot;&gt;Gráficas&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.joox.me/pt/?gclid=CK3VhcHp7MYCFYwYHwod21QPVA&quot;&gt;Joox&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -397,10 +397,10 @@ O surgimento do computador moderno proporcionou que a inteligência artificial p
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://pt.wikipedia.org/wiki/Ada_Lovelace&quot; target=&quot;_blank&quot;&gt;&lt;small&gt;Ada Lovelace - Wikipedia&lt;/small&gt;&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://hypescience.com/google-doodle-homenageia-ada-lovelace-a-primeira-programadora-do-mundo/&quot; target=&quot;_blank&quot;&gt;&lt;small&gt;Ada Lovelace - A Primeira Programadora do Mundo&lt;/small&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=uBbVbqRvqTM&quot; target=&quot;_blank&quot;&gt;&lt;small&gt;Ada Lovelace: Great Minds (em inglês)&lt;/small&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=uBbVbqRvqTM&quot; target=&quot;_blank&quot;&gt;&lt;small&gt;Ada Lovelace: Great Minds (em inglês)&lt;/small&gt;&amp;lt;/li&amp;gt;
   &lt;li&gt;&lt;a href=&quot;http://findingada.com/about/who-was-ada/&quot; target=&quot;_blank&quot;&gt;&lt;small&gt;Finding Ada &amp;gt; Who was Ada? (em inglês)&lt;/small&gt;&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://sydneypadua.com/2dgoggles/comics/&quot; target=&quot;_blank&quot;&gt;&lt;small&gt;The Thrilling Adventures of Lovelace and Babbage (em inglês)&lt;/small&gt;&lt;/a&gt;&lt;/li&gt;
-
+&amp;lt;/ul&amp;gt;
 &lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 </description>
         <pubDate>Mon, 06 Jul 2015 15:16:00 -0300</pubDate>
@@ -449,7 +449,7 @@ O surgimento do computador moderno proporcionou que a inteligência artificial p
 
 &lt;p&gt;Diante disso, falaremos primeiro dos aplicativos disponíveis em navegadores, pois os usaremos para comparação quando formos falar dos aplicativos disponíveis para celular.&lt;/p&gt;
 
-&lt;h2 id=&quot;aplicativos-disponveis-nos-navegadores&quot;&gt;Aplicativos disponíveis nos navegadores&lt;/h2&gt;
+&lt;h2 id=&quot;aplicativos-disponíveis-nos-navegadores&quot;&gt;Aplicativos disponíveis nos navegadores&lt;/h2&gt;
 
 &lt;p&gt;Tradicionalmente, aplicativos eram considerados peças de software feitas para rodar em um determinado sistema operacional (iOS, Android, etc). Esses aplicativos, normalmente, devem ser programados em uma linguagem específica para aquele sistema, tornando o reaproveitamento de código muito baixo. Na prática, isso significa um novo projeto para cada sistema que surgir.&lt;/p&gt;
 
@@ -479,13 +479,13 @@ Os aplicativos disponíveis nas lojas do sistema podem ser divididos em três ca
 
 &lt;p&gt;Antes de falar sobre cada uma dessas categorias, vale mencionar o porquê de haver dois tipos de aplicativos híbridos: o primeiro é muito parecido com um web app, porém com algumas funcionalidades nativas, já o segundo está mais para o lado dos apps nativos do que dos web apps.&lt;/p&gt;
 
-&lt;h2 id=&quot;aplicativos-hbridos-i&quot;&gt;Aplicativos híbridos I&lt;/h2&gt;
+&lt;h2 id=&quot;aplicativos-híbridos-i&quot;&gt;Aplicativos híbridos I&lt;/h2&gt;
 
 &lt;p&gt;Estes são bem similares aos Web Apps, inclusive no que se diz respeito à tecnologia, ambos são desenvolvidos com tecnologias de web (HTML5, CSS3, JavaScript). As grandes vantagens do aplicativo híbrido I são o fato de o aplicativo poder ser disponibilizado em loja, com acesso a partes do hardware do aparelho, como por exemplo o acelerômetro e tarefas de segundo plano (aquelas que acontecem quando você usa outro aplicativo e o primeiro ainda está aberto, mas escondido). Além disso, o app híbrido I tem acesso ao recebimento de &lt;em&gt;push notifications&lt;/em&gt; e possui uma base de código comum para diversos sistemas operacionais, o que resulta em menor tempo de desenvolvimento caso o aplicativo seja para múltiplas plataformas.&lt;/p&gt;
 
 &lt;p&gt;Como desvantagem em relação aos &lt;strong&gt;aplicativos nativos&lt;/strong&gt; , essa categoria apresenta performance bastante inferior e menor controle sobre o aparelho e seus recursos de hardware e sistema.&lt;/p&gt;
 
-&lt;h2 id=&quot;aplicativos-hbridos-ii&quot;&gt;Aplicativos híbridos II&lt;/h2&gt;
+&lt;h2 id=&quot;aplicativos-híbridos-ii&quot;&gt;Aplicativos híbridos II&lt;/h2&gt;
 
 &lt;p&gt;Estes estão mais próximos aos &lt;strong&gt;aplicativos nativos&lt;/strong&gt;  em relação à performance.&lt;/p&gt;
 

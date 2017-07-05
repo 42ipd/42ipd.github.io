@@ -27,7 +27,11 @@
       })(document);
     </script>
 
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+
     <link rel="stylesheet" href="http://42i.com.br/css/main.css">
+    <link rel="stylesheet" href="http://42i.com.br/css/levante-modal.css">
     <link rel="canonical" href="http://42i.com.br//blog/saiba-tudo-sobre-aplicativos">
 
     <script>
@@ -36,7 +40,7 @@
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-      ga('create', 'UA-41207410-1', 'auto');
+      ga('create', 'UA-102064293-1', 'auto');
       ga('send', 'pageview');
     </script>
 </head>
@@ -44,7 +48,73 @@
 
   <body class="body">
 
-    <header class="header js-header">
+    <div class="o-modal-tampao js-modal-tampao">
+  <div class="u-centralize-content">
+    <div class="o-modal-tampao__video-content">
+      <img src="./tampao-assets/images/levante-splash.gif" alt="Logo Levante">
+    </div>
+    <div class="o-modal-tampao__body">
+      <div class="c-brand__content">
+        <img class="c-brand" src="./tampao-assets/images/logotipo.png" alt="Logo Levante">
+      </div>
+
+      <div class="c-text-content">
+        <h1 class="c-title">
+          <div class="c-title__pre">Bem vindo à soma</div>
+          de dois universos
+        </h1>
+
+        <p>
+            Olá! Se você veio até aqui procurando pela 42i, saiba que ainda estamos aqui. Só que crescemos para conseguir produzir digital + motion sob um mesmo teto.
+        </p>
+
+        <p>Se quiser ver as coisas novas que estão rolando, siga a gente no <a href="https://www.facebook.com/levanteprodutoradigital/" target="_blank">Facebook</a> e <a href="https://www.instagram.com/levante.cx/" target="_blank">Instagram</a>. E se quiser marcar um papo com a gente, é só escrever para <a href="mailto:ola@levante.cx">ola@levante.cx</a></p>
+
+        <p>
+          Enquanto a nossa nova casa vai ficando pronta, você ainda pode conferir nossos trabalhos como produtora digital aqui mesmo!
+        </p>
+
+        <a class="c-btn-continuar js-continuar" href="#">Continuar</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  (function() {
+    const mosdalEl = document.querySelector('.js-modal-tampao');
+    const mosdalTrigger = document.querySelector('.js-continuar');
+
+    function closeModal(e) {
+      e.preventDefault();
+      ga('send', 'event', 'Link', 'click', 'Tampão click no continuar, site 42i');
+
+      if (mosdalEl.classList.contains('o-modal-tampao--active')) {
+        // The box that we clicked has a class of bad so let's remove it and add the good class
+       mosdalEl.classList.remove('o-modal-tampao--active');
+       document.querySelector('body').style.overflowY = 'auto';
+      }
+    }
+
+    mosdalTrigger.addEventListener("click", closeModal);
+
+    (function checkSeen() {
+      // sessionStorage.removeItem("seen");
+      if (!sessionStorage.getItem("seen")) {
+        setTimeout(function(){
+          console.log(window.innerWidth);
+          document.querySelector('body').style.overflow = 'hidden';
+
+          window.onload = mosdalEl.classList.add('o-modal-tampao--active');
+          sessionStorage.setItem("seen", true);
+        }, 800);
+      }
+    })();
+
+  })();
+</script>
+
+<header class="header js-header">
   <div class="header__menu">
 
     
@@ -147,7 +217,7 @@
 
 <p>Diante disso, falaremos primeiro dos aplicativos disponíveis em navegadores, pois os usaremos para comparação quando formos falar dos aplicativos disponíveis para celular.</p>
 
-<h2 id="aplicativos-disponveis-nos-navegadores">Aplicativos disponíveis nos navegadores</h2>
+<h2 id="aplicativos-disponíveis-nos-navegadores">Aplicativos disponíveis nos navegadores</h2>
 
 <p>Tradicionalmente, aplicativos eram considerados peças de software feitas para rodar em um determinado sistema operacional (iOS, Android, etc). Esses aplicativos, normalmente, devem ser programados em uma linguagem específica para aquele sistema, tornando o reaproveitamento de código muito baixo. Na prática, isso significa um novo projeto para cada sistema que surgir.</p>
 
@@ -177,13 +247,13 @@ Os aplicativos disponíveis nas lojas do sistema podem ser divididos em três ca
 
 <p>Antes de falar sobre cada uma dessas categorias, vale mencionar o porquê de haver dois tipos de aplicativos híbridos: o primeiro é muito parecido com um web app, porém com algumas funcionalidades nativas, já o segundo está mais para o lado dos apps nativos do que dos web apps.</p>
 
-<h2 id="aplicativos-hbridos-i">Aplicativos híbridos I</h2>
+<h2 id="aplicativos-híbridos-i">Aplicativos híbridos I</h2>
 
 <p>Estes são bem similares aos Web Apps, inclusive no que se diz respeito à tecnologia, ambos são desenvolvidos com tecnologias de web (HTML5, CSS3, JavaScript). As grandes vantagens do aplicativo híbrido I são o fato de o aplicativo poder ser disponibilizado em loja, com acesso a partes do hardware do aparelho, como por exemplo o acelerômetro e tarefas de segundo plano (aquelas que acontecem quando você usa outro aplicativo e o primeiro ainda está aberto, mas escondido). Além disso, o app híbrido I tem acesso ao recebimento de <em>push notifications</em> e possui uma base de código comum para diversos sistemas operacionais, o que resulta em menor tempo de desenvolvimento caso o aplicativo seja para múltiplas plataformas.</p>
 
 <p>Como desvantagem em relação aos <strong>aplicativos nativos</strong> , essa categoria apresenta performance bastante inferior e menor controle sobre o aparelho e seus recursos de hardware e sistema.</p>
 
-<h2 id="aplicativos-hbridos-ii">Aplicativos híbridos II</h2>
+<h2 id="aplicativos-híbridos-ii">Aplicativos híbridos II</h2>
 
 <p>Estes estão mais próximos aos <strong>aplicativos nativos</strong>  em relação à performance.</p>
 
