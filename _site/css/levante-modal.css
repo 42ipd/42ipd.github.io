@@ -52,6 +52,18 @@
     z-index: 9999999;
 }
 
+.o-modal-tampao ::-moz-selection {
+  color: #fff;
+  background: #C01871; }
+
+.o-modal-tampao ::selection {
+  color: #fff;
+  background: #C01871; }
+
+.o-modal-tampao ::-moz-selection {
+  color: #fff;
+  background: #C01871; }
+
 .o-modal-tampao--active {
     visibility: visible;
     opacity: 1;

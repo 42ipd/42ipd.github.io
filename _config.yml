@@ -6,7 +6,7 @@ destination: ./_site
 search:      true
 permalink:   /:title/
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 google_analytics: "UA-102064293-1"
 google_verify: ""
 typekit_id: "oyt7nbz"
