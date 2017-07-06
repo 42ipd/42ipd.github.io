@@ -1,11 +1,15 @@
+<a href="#" class="o-float-levante js-open-modal">
+  <img src="{{ site.url }}/tampao-assets/images/logo-hor.png" alt="logo levante">
+</a>
+
 <div class="o-modal-tampao js-modal-tampao">
   <div class="u-centralize-content">
     <div class="o-modal-tampao__video-content">
-      <img src="./tampao-assets/images/levante-splash.gif" alt="Logo Levante">
+      <img src="{{ site.url }}/tampao-assets/images/levante-splash.gif" alt="Logo Levante">
     </div>
     <div class="o-modal-tampao__body">
       <div class="c-brand__content">
-        <img class="c-brand" src="./tampao-assets/images/logotipo.png" alt="Logo Levante">
+        <img class="c-brand" src="{{ site.url }}/tampao-assets/images/logotipo.png" alt="Logo Levante">
       </div>
 
       <div class="c-text-content">
@@ -37,6 +41,20 @@
     var instagramLink = document.querySelector('.js-instagram-link');
     var emailLink = document.querySelector('.js-email-link');
     var mosdalTrigger = document.querySelector('.js-continuar');
+    var mosdalOpenTrigger = document.querySelector('.js-open-modal');
+
+    function openModal(e) {
+      e.preventDefault();
+      ga('send', 'event', 'Link', 'click', 'Tampão click em abrir tampão, site 42i');
+
+      if (!mosdalEl.classList.contains('o-modal-tampao--active')) {
+        // The box that we clicked has a class of bad so let's remove it and add the good class
+       mosdalEl.classList.add('o-modal-tampao--active');
+       document.querySelector('body').style.overflow = 'hidden';
+      }
+    }
+
+    mosdalOpenTrigger.addEventListener("click", openModal);
 
     function closeModal(e) {
       e.preventDefault();
@@ -52,21 +70,18 @@
     mosdalTrigger.addEventListener("click", closeModal);
 
     function handleOutboundLinkClicksFacebook(event) {
-      console.log('facebook link');
       ga('send', 'event', 'Link', 'click', 'Tampão click no link do facebook, site 42i');
     }
 
     facebookLink.addEventListener("click", handleOutboundLinkClicksFacebook);
 
     function handleOutboundLinkClicksInstagram(event) {
-      console.log('instagram link');
       ga('send', 'event', 'Link', 'click', 'Tampão click no link do instagram, site 42i');
     }
 
     instagramLink.addEventListener("click", handleOutboundLinkClicksInstagram);
 
     function handleOutboundLinkClicksEmail(event) {
-      console.log('email link');
       ga('send', 'event', 'Link', 'click', 'Tampão click no link de email, site 42i');
     }
 
@@ -82,6 +97,9 @@
           window.onload = mosdalEl.classList.add('o-modal-tampao--active');
           sessionStorage.setItem("seen", true);
         }, 800);
+      }  else {
+        document.querySelector('body').style.overflow = 'hidden';
+        document.querySelector('body').style.overflowY = 'auto';
       }
     })();
 
